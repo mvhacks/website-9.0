@@ -6,8 +6,32 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
+ 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+#footer {
+  text-align: center;
+}
+#alert {
+  height: 39px;
+  background-color: #81807F;
+  font-size: 14.9;
+  font-family: "Montserrat", sans-serif;
+  padding-left: 30px;
+}
+
+#devpost {
+  width: 250px;
+  background-color: blueviolet;
+}
+#contactUs {
+  width: 250px;
+  background-color: blueviolet;
+}
+#arrow {
+  margin-right: -10px;
+  margin-left: 27px;
+}
+
