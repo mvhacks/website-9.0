@@ -1,24 +1,29 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Button from "@mui/joy/Button";
+import arrow from "./images/arrow.png";
+import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <style>
+        @import
+        url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+      </style>
+      <div>
+      <Button
+        sx={{ borderRadius: "25px" }}
+        id="alert"
+        component="a"
+        href="https://docs.google.com/forms/d/e/1FAIpQLSefTr6730BXSMYYdAnDXS5hFu_NZ5FHyzNYkv2MYqZoxvkgyQ/viewform"
+      >
+        ALERT ME
+        <img src={arrow} height="25" width="25" id="arrow"/>
+      </Button>
+      </div>
+      <br />
+      <br />
+      <Footer></Footer>
     </div>
   );
 }
