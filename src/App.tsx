@@ -45,9 +45,17 @@ function App() {
         url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
       </style>
       <Navbar onOptionSelect={handleOptionChange}/>
-      <div>
       <div className="home" ref={home}>
         <h2>HOME</h2>
+        <Button
+          sx={{ borderRadius: "25px" }}
+          id="alert"
+          component="a"
+          href="https://docs.google.com/forms/d/e/1FAIpQLSefTr6730BXSMYYdAnDXS5hFu_NZ5FHyzNYkv2MYqZoxvkgyQ/viewform"
+        >
+          ALERT ME
+          <img src={arrow} height="25" width="25" id="arrow"/>
+        </Button>
       </div>
       <div className="info" ref={info}>
         <h2>INFO</h2>
@@ -63,16 +71,6 @@ function App() {
       </div>
       <div className="team" ref={team}>
         <h2>TEAM</h2>
-      </div>
-      <Button
-        sx={{ borderRadius: "25px" }}
-        id="alert"
-        component="a"
-        href="https://docs.google.com/forms/d/e/1FAIpQLSefTr6730BXSMYYdAnDXS5hFu_NZ5FHyzNYkv2MYqZoxvkgyQ/viewform"
-      >
-        ALERT ME
-        <img src={arrow} height="25" width="25" id="arrow"/>
-      </Button>
       </div>
       <br />
       <br />
