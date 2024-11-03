@@ -1,6 +1,7 @@
 import "./App.css";
 import Button from "@mui/joy/Button";
 import arrow from "./images/arrow.png";
+import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
         @import
         url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
       </style>
+      <Navbar />
       <div>
       <Button
         sx={{ borderRadius: "25px" }}
