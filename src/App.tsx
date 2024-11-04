@@ -2,6 +2,7 @@ import "./App.css";
 import Button from "@mui/joy/Button";
 import arrow from "./images/arrow.png";
 import Footer from "./components/Footer";
+import Faqs from "./components/Faqs";
 
 function App() {
   return (
@@ -21,6 +22,9 @@ function App() {
         <img src={arrow} height="25" width="25" id="arrow"/>
       </Button>
       </div>
+      <br />
+      <br />
+      <Faqs></Faqs>
       <br />
       <br />
       <Footer></Footer>
