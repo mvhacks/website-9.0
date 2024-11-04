@@ -44,7 +44,7 @@ h2 {
 
 .home {
   height: 600px;
-  background-color:blanchedalmond;
+  background-color:coral;
 }
 
 .info {
@@ -54,7 +54,7 @@ h2 {
 
 .schedule {
   height: 600px;
-  background-color:azure
+  background-color:forestgreen
 }
 
 .sponsor {
@@ -64,7 +64,7 @@ h2 {
 
 .faqs {
   height: 600px;
-  background-color:aliceblue
+  background-color:firebrick;
 }
 
 .team {

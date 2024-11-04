@@ -6,7 +6,7 @@ import React from 'react';
 
 export default function Navbar({ onOptionSelect }: any) {
   return (
-    <div style={{position: "fixed", backgroundColor: "black"}}>
+    <div style={{width: "100%", backgroundColor: "black", zIndex: "10"}}>
       <div style={{display: "flex", paddingLeft: "9%", paddingTop: "3%"}}>
         <img src={logo} width="60" height="60" />
         <Link overlay underline="none" sx={{ display: 'flex', flexDirection: 'column', alignItems: 'start'}} onClick = {() => onOptionSelect('home')}>
