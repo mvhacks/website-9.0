@@ -19,7 +19,7 @@ function App() {
         href="https://docs.google.com/forms/d/e/1FAIpQLSefTr6730BXSMYYdAnDXS5hFu_NZ5FHyzNYkv2MYqZoxvkgyQ/viewform"
       >
         ALERT ME
-        <img src={arrow} height="25" width="25" id="arrow"/>
+        <img src={arrow} alt="arrow" height="25" width="25" id="arrow"/>
       </Button>
       </div>
       <br />
