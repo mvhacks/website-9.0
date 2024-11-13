@@ -3,89 +3,186 @@ import Accordion from '@mui/joy/Accordion';
 import AccordionDetails from '@mui/joy/AccordionDetails';
 import AccordionGroup from '@mui/joy/AccordionGroup';
 import AccordionSummary from '@mui/joy/AccordionSummary';
-
+import Typography from '@mui/joy/Typography';
+  
 export default function Faqs() {
     return (
-        <div>
-            <h1>Frequently Asked Questions</h1>
-            <AccordionGroup>
+        <div style={{ padding: '20px'}}>
+            <Typography level="h1" sx={{ color: '#ffffff', marginBottom: 2, textAlign: "center" }}>
+                FREQUENTLY ASKED QUESTIONS
+            </Typography>
+            <AccordionGroup
+                sx={{
+                    backgroundColor: 'transparent',
+                    color: 'white !important',
+                    marginLeft: 20,
+                    marginRight: 20,
+                    '& .MuiAccordion-root': {
+                        backgroundColor: 'transparent',
+                    },
+                    '& button:hover': {
+                        backgroundColor: '#221a46 !important',
+                    },
+                }}
+            >
                 <Accordion>
-                    <AccordionSummary>
-                        FAQ 1
+                    <AccordionSummary
+                        sx={{
+                            backgroundColor: 'transparent',
+                            color: 'white !important',
+                            '& .MuiAccordion-root': {
+                                backgroundColor: 'transparent',
+                            },
+                            '& button:hover': {
+                                backgroundColor: '#221a46 !important',
+                            },
+                        }}                              
+                    >
+                        <Typography
+                            textColor = "common.white"
+                            sx={{
+                                fontWeight: "normal"
+                            }}
+                        >
+                            FAQ 1
+                        </Typography>
                     </AccordionSummary>
-                    <AccordionDetails>
+                    <AccordionDetails sx={{ color: '#c6add4' }}>
                         Answer 1
                     </AccordionDetails>
                 </Accordion>
                 <Accordion>
                     <AccordionSummary>
-                        FAQ 2
+                        <Typography
+                            textColor = "common.white"
+                            sx={{
+                                fontWeight: "normal"
+                            }}
+                        >
+                            FAQ 2
+                        </Typography>
                     </AccordionSummary>
-                    <AccordionDetails>
+                    <AccordionDetails sx={{ color: '#c6add4' }}>
                         Answer 2
                     </AccordionDetails>
                 </Accordion>
                 <Accordion>
                     <AccordionSummary>
-                        FAQ 3
+                        <Typography
+                            textColor = "common.white"
+                            sx={{
+                                fontWeight: "normal"
+                            }}
+                        >
+                            FAQ 3
+                        </Typography>
                     </AccordionSummary>
-                    <AccordionDetails>
+                    <AccordionDetails sx={{ color: '#c6add4' }}>
                         Answer 3
                     </AccordionDetails>
                 </Accordion>
                 <Accordion>
                     <AccordionSummary>
-                        FAQ 4
+                        <Typography
+                            textColor = "common.white"
+                            sx={{
+                                fontWeight: "normal"
+                            }}
+                        >
+                            FAQ 4
+                        </Typography>
                     </AccordionSummary>
-                    <AccordionDetails>
+                    <AccordionDetails sx={{ color: '#c6add4' }}>
                         Answer 4
                     </AccordionDetails>
                 </Accordion>
                 <Accordion>
                     <AccordionSummary>
-                        FAQ 5
+                        <Typography
+                            textColor = "common.white"
+                            sx={{
+                                fontWeight: "normal"
+                            }}
+                        >
+                            FAQ 5
+                        </Typography>
                     </AccordionSummary>
-                    <AccordionDetails>
+                    <AccordionDetails sx={{ color: '#c6add4' }}>
                         Answer 5
                     </AccordionDetails>
                 </Accordion>
                 <Accordion>
                     <AccordionSummary>
-                        FAQ 6
+                        <Typography
+                            textColor = "common.white"
+                            sx={{
+                                fontWeight: "normal"
+                            }}
+                        >
+                            FAQ 6
+                        </Typography>
                     </AccordionSummary>
-                    <AccordionDetails>
+                    <AccordionDetails sx={{ color: '#c6add4' }}>
                         Answer 6
                     </AccordionDetails>
                 </Accordion>
                 <Accordion>
                     <AccordionSummary>
-                        FAQ 7
+                        <Typography
+                            textColor = "common.white"
+                            sx={{
+                                fontWeight: "normal"
+                            }}
+                        >
+                            FAQ 7
+                        </Typography>
                     </AccordionSummary>
-                    <AccordionDetails>
+                    <AccordionDetails sx={{ color: '#c6add4' }}>
                         Answer 7
                     </AccordionDetails>
                 </Accordion>
                 <Accordion>
                     <AccordionSummary>
-                        FAQ 8
+                        <Typography
+                            textColor = "common.white"
+                            sx={{
+                                fontWeight: "normal"
+                            }}
+                        >
+                            FAQ 8
+                        </Typography>
                     </AccordionSummary>
-                    <AccordionDetails>
+                    <AccordionDetails sx={{ color: '#c6add4' }}>
                         Answer 8
                     </AccordionDetails>
                 </Accordion>
                 <Accordion>
                     <AccordionSummary>
-                        FAQ 9
+                        <Typography
+                            textColor = "common.white"
+                            sx={{
+                                fontWeight: "normal"
+                            }}
+                        >
+                            FAQ 9
+                        </Typography>
                     </AccordionSummary>
-                    <AccordionDetails>
+                    <AccordionDetails sx={{ color: '#c6add4' }}>
                         Answer 9
                     </AccordionDetails>
                 </Accordion>
                 <Accordion>
                     <AccordionSummary>
-                        FAQ 10
+                        <Typography
+                            textColor = "common.white"
+                            sx={{
+                                fontWeight: "normal"
+                            }}
+                        >
+                            FAQ 10
+                        </Typography>
                     </AccordionSummary>
-                    <AccordionDetails>
+                    <AccordionDetails sx={{ color: '#c6add4' }}>
                         Answer 10
                     </AccordionDetails>
                 </Accordion>
