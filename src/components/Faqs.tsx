@@ -7,16 +7,24 @@ import Typography from '@mui/joy/Typography';
   
 export default function Faqs() {
     return (
-        <div style={{ padding: '20px'}}>
-            <Typography level="h1" sx={{ color: '#ffffff', marginBottom: 2, textAlign: "center" }}>
+        <div style={{ padding: '2%'}}>
+            <Typography level="h2" 
+                sx={{ 
+                    color: '#ffffff', 
+                    marginBottom: '0.2%', 
+                    marginRight: '0.7%',
+                    marginLeft: '0.7%',
+                    textAlign: "center" 
+                }}
+            >
                 FREQUENTLY ASKED QUESTIONS
             </Typography>
             <AccordionGroup
                 sx={{
                     backgroundColor: 'transparent',
                     color: 'white !important',
-                    marginLeft: 20,
-                    marginRight: 20,
+                    marginLeft: "10%",
+                    marginRight: "10%",
                     '& .MuiAccordion-root': {
                         backgroundColor: 'transparent',
                     },
