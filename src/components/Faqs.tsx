@@ -11,7 +11,7 @@ export default function Faqs() {
             <Typography level="h2" 
                 sx={{ 
                     color: '#ffffff', 
-                    marginBottom: '0.2%', 
+                    marginBottom: '2%', 
                     marginRight: '0.7%',
                     marginLeft: '0.7%',
                     textAlign: "center" 
