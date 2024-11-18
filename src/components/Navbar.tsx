@@ -1,5 +1,5 @@
 import "../App.css";
-import logo from "../images/mvhackslogo.png";
+import logo from "../images/MVH8LogoOld.png";
 import Typography from '@mui/joy/Typography';
 import Link from '@mui/joy/Link';
 import Drawer from '@mui/joy/Drawer';
@@ -52,7 +52,7 @@ export default function Navbar({ onOptionSelect }: any) {
           <Typography sx={{color: "white", paddingLeft: "10%"}} level="h2" noWrap={true}>HACKS 8.0</Typography>
         </Link>
         {!isVisible && (<div>
-          <IconButton variant="outlined" color="neutral" size="lg" sx={{marginLeft: "70%", marginTop: "20%"}} onClick={() => setDrawerOpen(true)}>
+          <IconButton variant="soft" color="neutral" size="lg" sx={{marginLeft: "70%", marginTop: "20%"}} onClick={() => setDrawerOpen(true)}>
             <Menu />
           </IconButton>
           <Drawer open={drawerOpen} onClose={toggleDrawer(true)}>
@@ -65,7 +65,7 @@ export default function Navbar({ onOptionSelect }: any) {
               '& > div': { justifyContent: 'center' },
             }}>
               <ListItemButton sx={{ fontWeight: 'lg', color: 'black'}} onClick = {() => handleDrawerOption('home')}>Home</ListItemButton>
-              <ListItemButton sx= {{color: "black"}} href="https://docs.google.com/forms/d/e/1FAIpQLSefTr6730BXSMYYdAnDXS5hFu_NZ5FHyzNYkv2MYqZoxvkgyQ/viewform">Apply</ListItemButton>
+              <Link href="https://docs.google.com/forms/d/e/1FAIpQLSefTr6730BXSMYYdAnDXS5hFu_NZ5FHyzNYkv2MYqZoxvkgyQ/viewform" sx= {{color: "black", justifyContent: 'center'}} level="body-lg">APPLY</Link>
               <ListItemButton sx= {{color: "black"}} onClick = {() => handleDrawerOption('info')}>Info</ListItemButton>
               <ListItemButton sx= {{color: "black"}} onClick = {() => handleDrawerOption('schedule')}>Schedule</ListItemButton>
               <ListItemButton sx= {{color: "black"}} onClick = {() => handleDrawerOption('sponsor')}>Sponsors</ListItemButton>
