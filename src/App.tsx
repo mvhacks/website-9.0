@@ -1,4 +1,4 @@
-import react, { useState, useRef } from 'react';
+import { useRef } from 'react';
 import "./App.css";
 import Button from "@mui/joy/Button";
 import arrow from "./images/arrow.png";
@@ -6,7 +6,6 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 
 function App() {
-  const [selectedScrollOption, setSelectedScrollOption] = useState("");
   const home = useRef(null);
   const info = useRef(null);
   const schedule = useRef(null);
@@ -22,7 +21,6 @@ function App() {
   };
 
   const handleOptionChange = (option: any) => {
-    setSelectedScrollOption(option);
     if (option === 'home') {
       scroll(home);
     } else if (option === "info") {
@@ -55,7 +53,7 @@ function App() {
             href="https://docs.google.com/forms/d/e/1FAIpQLSefTr6730BXSMYYdAnDXS5hFu_NZ5FHyzNYkv2MYqZoxvkgyQ/viewform"
           >
             ALERT ME
-            <img src={arrow} height="25" width="25" id="arrow"/>
+            <img src={arrow} height="25" width="25" id="arrow" alt="arrow-icon"/>
           </Button>
         </div>
         <div className="info" ref={info}>
