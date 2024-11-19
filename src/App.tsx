@@ -54,6 +54,7 @@ function App() {
           >
             ALERT ME
             <img src={arrow} height="25" width="25" id="arrow" alt="arrow-icon"/>
+            <img src={arrow} height="25" width="25" id="arrow" alt="arrow-icon"/>
           </Button>
         </div>
         <div className="info" ref={info}>
