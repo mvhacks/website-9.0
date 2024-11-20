@@ -44,12 +44,12 @@ export default function Navbar({ onOptionSelect }: any) {
   }
 
   return (
-    <div style={{width: "100%", backgroundColor: "black", zIndex: "10"}}>
-      <div style={{display: "flex", paddingLeft: "9%", paddingTop: "3%"}}>
+    <div style={{width: "100%", backgroundColor: "black", zIndex: "10", padding:"0px", margin:"0px"}}>
+      <div style={{display: "flex", paddingLeft: "9%", paddingTop: "20px", margin:"0px"}}>
         <img src={logo} alt="mvhackslogo" width="60" height="60" />
         <Link overlay underline="none" sx={{ display: 'flex', flexDirection: 'column', alignItems: 'start'}} onClick = {() => onOptionSelect('home')}>
-          <Typography sx={{color: "white", paddingLeft: "10%"}} level="h2">MV</Typography>
-          <Typography sx={{color: "white", paddingLeft: "10%"}} level="h2" noWrap={true}>HACKS 8.0</Typography>
+          <Typography sx={{color: "white", paddingLeft: "10%"}} level="h3">MV</Typography>
+          <Typography sx={{color: "white", paddingLeft: "10%"}} level="h3" noWrap={true}>HACKS 8.0</Typography>
         </Link>
         {!isVisible && (<div>
           <IconButton variant="soft" color="neutral" size="lg" sx={{marginLeft: "70%", marginTop: "20%"}} onClick={() => setDrawerOpen(true)}>
@@ -75,14 +75,14 @@ export default function Navbar({ onOptionSelect }: any) {
           </Drawer>
         </div>)}
       </div>
-      {isVisible && (<div style={{paddingLeft: "9.5%", paddingTop: "2%"  }}>
-        <Link style = {{margin: 10, color: "white", paddingLeft: 10}} component="button" color="neutral" level="h2" underline="none" variant="plain"  onClick = {() => onOptionSelect('home')}>HOME</Link>
-        <Link style = {{margin: 10, color: "white", paddingLeft: 10}} href="https://docs.google.com/forms/d/e/1FAIpQLSefTr6730BXSMYYdAnDXS5hFu_NZ5FHyzNYkv2MYqZoxvkgyQ/viewform" color="neutral" level="h2" underline="none" variant="plain">APPLY</Link>
-        <Link style = {{margin: 10, color: "white", paddingLeft: 10}} component="button" color="neutral" level="h2" underline="none" variant="plain" onClick = {() => onOptionSelect('info')}>INFO</Link>
-        <Link style = {{margin: 10, color: "white", paddingLeft: 10}} component="button" color="neutral" level="h2" underline="none" variant="plain" onClick = {() => onOptionSelect('schedule')}>SCHEDULE</Link>
-        <Link style = {{margin: 10, color: "white", paddingLeft: 10}} component="button" color="neutral" level="h2" underline="none" variant="plain" onClick = {() => onOptionSelect('sponsor')}>SPONSORS</Link>
-        <Link style = {{margin: 10, color: "white", paddingLeft: 10}} component="button" color="neutral" level="h2" underline="none" variant="plain" onClick = {() => onOptionSelect('faqs')}>FAQS</Link>
-        <Link style = {{margin: 10, color: "white", paddingLeft: 10}} component="button" color="neutral" level="h2" underline="none" variant="plain" onClick = {() => onOptionSelect('team')}>TEAM</Link>
+      {isVisible && (<div style={{paddingLeft: "9.5%", paddingTop: "10px"  }}>
+        <Link style = {{margin: 10, color: "white", paddingLeft: 10}} component="button" color="neutral" level="h4" underline="none" variant="plain"  onClick = {() => onOptionSelect('home')}>HOME</Link>
+        <Link style = {{margin: 10, color: "white", paddingLeft: 10}} href="https://docs.google.com/forms/d/e/1FAIpQLSefTr6730BXSMYYdAnDXS5hFu_NZ5FHyzNYkv2MYqZoxvkgyQ/viewform" color="neutral" level="h4" underline="none" variant="plain">APPLY</Link>
+        <Link style = {{margin: 10, color: "white", paddingLeft: 10}} component="button" color="neutral" level="h4" underline="none" variant="plain" onClick = {() => onOptionSelect('info')}>INFO</Link>
+        <Link style = {{margin: 10, color: "white", paddingLeft: 10}} component="button" color="neutral" level="h4" underline="none" variant="plain" onClick = {() => onOptionSelect('schedule')}>SCHEDULE</Link>
+        <Link style = {{margin: 10, color: "white", paddingLeft: 10}} component="button" color="neutral" level="h4" underline="none" variant="plain" onClick = {() => onOptionSelect('sponsor')}>SPONSORS</Link>
+        <Link style = {{margin: 10, color: "white", paddingLeft: 10}} component="button" color="neutral" level="h4" underline="none" variant="plain" onClick = {() => onOptionSelect('faqs')}>FAQS</Link>
+        <Link style = {{margin: 10, color: "white", paddingLeft: 10}} component="button" color="neutral" level="h4" underline="none" variant="plain" onClick = {() => onOptionSelect('team')}>TEAM</Link>
       </div>)}
     </div>
   );

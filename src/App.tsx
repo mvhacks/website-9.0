@@ -4,6 +4,7 @@ import Button from "@mui/joy/Button";
 import arrow from "./images/arrow.png";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import Title from "./components/Title";
 
 function App() {
   const home = useRef(null);
@@ -44,18 +45,8 @@ function App() {
           @import
           url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
         </style>
-        <div className="home" ref={home}>
-          <h2>HOME</h2>
-          <Button
-            sx={{ borderRadius: "25px" }}
-            id="alert"
-            component="a"
-            href="https://docs.google.com/forms/d/e/1FAIpQLSefTr6730BXSMYYdAnDXS5hFu_NZ5FHyzNYkv2MYqZoxvkgyQ/viewform"
-          >
-            ALERT ME
-            <img src={arrow} height="25" width="25" id="arrow" alt="arrow-icon"/>
-            <img src={arrow} height="25" width="25" id="arrow" alt="arrow-icon"/>
-          </Button>
+        <div className="home" ref={home} style={{padding:"0px",margin:"0px"}}>
+          <Title></Title>
         </div>
         <div className="info" ref={info}>
           <h2>INFO</h2>

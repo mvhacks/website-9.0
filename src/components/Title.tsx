@@ -1,5 +1,7 @@
 import React from 'react';
 import Box from '@mui/joy/Box';
+import Button from "@mui/joy/Button";
+import arrow from "../images/arrow.png";
 import Typography from '@mui/joy/Typography';
 import circle from "../images/circle.gif";
 
@@ -7,7 +9,7 @@ export default function Title() {
     const random = Math.floor(Math.random() * 10000);
 
     return (
-        <Box>
+        <Box sx={{margin:'0px', padding:"0px"}}>
             <div id="title">
                 <Typography 
                     level="h1"
@@ -17,7 +19,7 @@ export default function Title() {
                         fontSize: {xs: "6rem", md: "8rem"},
                         marginLeft: "10%",
                         lineHeight: "7rem",
-                        marginTop: "10%"
+                        marginTop: "10px"
                     }}>
                     MV HACKS<br />
                     <span style={{ color: "rgb(200,172,212)" }}>
@@ -63,9 +65,20 @@ export default function Title() {
                             }}>
                             EVERYONE
                         </Typography>
+                        
                     </Box>
                 </Typography>
             </div>
+            <Button
+            sx={{ borderRadius: "25px" , marginLeft: "10%"}}
+            id="alert"
+            component="a"
+            href="https://docs.google.com/forms/d/e/1FAIpQLSefTr6730BXSMYYdAnDXS5hFu_NZ5FHyzNYkv2MYqZoxvkgyQ/viewform"
+          >
+            ALERT ME
+            <img src={arrow} height="25" width="25" id="arrow" alt="arrow-icon"/>
+          </Button>
+
         </Box>
     );
 }
