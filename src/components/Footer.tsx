@@ -1,6 +1,5 @@
 import React from "react";
 import Button from "@mui/joy/Button";
-import arrow from "../images/arrow.png";
 import insta_logo from "../images/insta_logo.png";
 import { keyframes } from "@mui/system";
 
@@ -41,7 +40,7 @@ export default function Footer() {
       <br />
       <br />
       <a id="instagram" href="https://www.instagram.com/mvhacks/">
-        <img src={insta_logo} width={50} height={50} />
+        <img src={insta_logo} alt="Instagram logo" width={50} height={50} />
       </a>
     </div>
   );

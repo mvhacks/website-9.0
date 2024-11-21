@@ -1,32 +1,74 @@
+import { useRef } from 'react';
 import "./App.css";
-import Button from "@mui/joy/Button";
-import arrow from "./images/arrow.png";
+import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Prospectus from "./components/Prospectus"
+import Faqs from "./components/Faqs";
+import Title from "./components/Title";
+import Schedule from "./components/Schedule";
+
 function App() {
-    return (<div>
+  const home = useRef(null);
+  const info = useRef(null);
+  const schedule = useRef(null);
+  const sponsor = useRef(null);
+  const faqs = useRef(null);
+  const team = useRef(null);
+
+  const scroll = (elementRef: any) => {
+    window.scrollTo({
+      top: elementRef.current.offsetTop,
+      behavior: 'smooth'
+    });
+  };
+
+  const handleOptionChange = (option: any) => {
+    if (option === 'home') {
+      scroll(home);
+    } else if (option === "info") {
+      scroll(info);
+    } else if (option === "schedule") {
+      scroll(schedule);
+    } else if (option === "sponsor") {
+      scroll(sponsor);
+    } else if (option === "faqs") {
+      scroll(faqs);
+    } else if (option === "team") {
+      scroll(team);
+    }
+  };
+
+  return (
+    <div>
+      <Navbar onOptionSelect={handleOptionChange} />
+      <div>
         <style>
-            @import
-                    url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+          @import
+          url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
         </style>
-        <div>
-            <Prospectus></Prospectus>
-            <Button sx={
-                    {borderRadius: "25px"}
-                }
-                id="alert"
-                component="a"
-                href="https://docs.google.com/forms/d/e/1FAIpQLSefTr6730BXSMYYdAnDXS5hFu_NZ5FHyzNYkv2MYqZoxvkgyQ/viewform">
-                ALERT ME
-                <img src={arrow}
-                    height="25"
-                    width="25"
-                    id="arrow"/>
-            </Button>
+        <div className="home" ref={home}>
+          <Title></Title>
         </div>
-        <br/>
-        <br/>
-            <Footer></Footer>
-        </div>);
+        <div className="info" ref={info}>
+          <h2>INFO</h2>
+        </div>
+        <div className="schedule" ref={schedule}>
+          <Schedule></Schedule>
+        </div>
+        <div className="sponsor" ref={sponsor}>
+            <Prospectus></Prospectus>
+        </div>
+        <div className="faqs" ref={faqs}>
+          <Faqs></Faqs>
+        </div>
+        <div className="team" ref={team}>
+          <h2>TEAM</h2>
+        </div>
+      </div>
+      <br />
+      <br />
+      <Footer></Footer>
+    </div>
+  );
 }
 export default App;

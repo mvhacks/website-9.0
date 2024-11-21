@@ -36,3 +36,38 @@
     transform: rotate(360deg);
   }
 }
+
+h2 {
+  color: whitesmoke;
+  padding: auto;
+}
+
+.home {
+  /* height: 600px; */
+  /* background-color:coral; */
+}
+
+.info {
+  height: 600px;
+  background-color:#61dafb;
+}
+
+.schedule {
+  /* height: 600px; */
+  /* background-color:forestgreen */
+}
+
+.sponsor {
+  height: 600px;
+  background-color:cadetblue
+}
+
+.faqs {
+  /* height: 600px; */
+  /* background-color:firebrick; */
+}
+
+.team {
+  height: 600px;
+  background-color:darkkhaki;
+}
