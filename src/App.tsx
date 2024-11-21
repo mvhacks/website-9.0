@@ -55,11 +55,11 @@ function App() {
         <div className="schedule" ref={schedule}>
           <Schedule></Schedule>
         </div>
-        <div className="sponsor" ref={sponsor}>
-            <Prospectus></Prospectus>
-        </div>
         <div className="faqs" ref={faqs}>
           <Faqs></Faqs>
+        </div>
+        <div className="sponsor" ref={sponsor}>
+            <Prospectus></Prospectus>
         </div>
         <div className="team" ref={team}>
           <h2>TEAM</h2>

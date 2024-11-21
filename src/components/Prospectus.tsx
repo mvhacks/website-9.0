@@ -10,6 +10,7 @@ export default function Prospectus() {
             <a id="downloadProspectus" href="about:blank">Download the Sponsorship Prospectus</a>
         </div>
         <img src={prospectusImage}
+            alt="prospectus"
             id="prospectusImage"
             width="80%"
             height="auto"/>
