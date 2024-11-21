@@ -43,8 +43,8 @@ h2 {
 }
 
 .home {
-  height: 600px;
-  background-color:coral;
+  /* height: 600px; */
+  /* background-color:coral; */
 }
 
 .info {
@@ -53,8 +53,8 @@ h2 {
 }
 
 .schedule {
-  height: 600px;
-  background-color:forestgreen
+  /* height: 600px; */
+  /* background-color:forestgreen */
 }
 
 .sponsor {
@@ -63,8 +63,8 @@ h2 {
 }
 
 .faqs {
-  height: 600px;
-  background-color:firebrick;
+  /* height: 600px; */
+  /* background-color:firebrick; */
 }
 
 .team {

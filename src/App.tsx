@@ -1,9 +1,10 @@
 import { useRef } from 'react';
 import "./App.css";
-import Button from "@mui/joy/Button";
-import arrow from "./images/arrow.png";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import Faqs from "./components/Faqs";
+import Title from "./components/Title";
+import Schedule from "./components/Schedule";
 
 function App() {
   const home = useRef(null);
@@ -45,28 +46,19 @@ function App() {
           url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
         </style>
         <div className="home" ref={home}>
-          <h2>HOME</h2>
-          <Button
-            sx={{ borderRadius: "25px" }}
-            id="alert"
-            component="a"
-            href="https://docs.google.com/forms/d/e/1FAIpQLSefTr6730BXSMYYdAnDXS5hFu_NZ5FHyzNYkv2MYqZoxvkgyQ/viewform"
-          >
-            ALERT ME
-            <img src={arrow} height="25" width="25" id="arrow" alt="arrow-icon"/>
-          </Button>
+          <Title></Title>
         </div>
         <div className="info" ref={info}>
           <h2>INFO</h2>
         </div>
         <div className="schedule" ref={schedule}>
-          <h2>SCHEDULE</h2>
+          <Schedule></Schedule>
         </div>
         <div className="sponsor" ref={sponsor}>
           <h2>SPONSOR</h2>
         </div>
         <div className="faqs" ref={faqs}>
-          <h2>FAQS</h2>
+          <Faqs></Faqs>
         </div>
         <div className="team" ref={team}>
           <h2>TEAM</h2>
