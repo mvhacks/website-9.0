@@ -1,38 +1,63 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  background-color: black;
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+		'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+		sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	background-color: black;
 }
- 
+
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+		monospace;
 }
+
 #footer {
-  text-align: center;
+	text-align: center;
 }
+
 #alert {
-  height: 39px;
-  background-color: #81807F;
-  font-size: 14.9;
-  font-family: "Montserrat", sans-serif;
-  padding-left: 30px;
+	height: 39px;
+	background-color: #81807F;
+	font-size: 14.9;
+	font-family: "Montserrat", sans-serif;
+	padding-left: 30px;
 }
 
 #devpost {
-  width: 250px;
-  background-color: blueviolet;
-}
-#contactUs {
-  width: 250px;
-  background-color: blueviolet;
-}
-#arrow {
-  margin-right: -10px;
-  margin-left: 27px;
+	width: 250px;
+	background-color: blueviolet;
 }
 
+#contactUs {
+	width: 250px;
+	background-color: blueviolet;
+}
+
+#arrow {
+	margin-right: -10px;
+	margin-left: 27px;
+}
+
+#blurbSponsors {
+	color: white;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-bottom: 25px;
+}
+
+#email {
+	color: rgb(147, 147, 230)
+}
+
+#downloadProspectus {
+	color: rgb(147, 147, 230)
+}
+
+#prospectusImage {
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-bottom: 20px;
+
+}

@@ -2,6 +2,7 @@ import { useRef } from 'react';
 import "./App.css";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import Prospectus from "./components/Prospectus"
 import Faqs from "./components/Faqs";
 import Title from "./components/Title";
 import Schedule from "./components/Schedule";
@@ -54,11 +55,11 @@ function App() {
         <div className="schedule" ref={schedule}>
           <Schedule></Schedule>
         </div>
-        <div className="sponsor" ref={sponsor}>
-          <h2>SPONSOR</h2>
-        </div>
         <div className="faqs" ref={faqs}>
           <Faqs></Faqs>
+        </div>
+        <div className="sponsor" ref={sponsor}>
+            <Prospectus></Prospectus>
         </div>
         <div className="team" ref={team}>
           <h2>TEAM</h2>
@@ -70,5 +71,4 @@ function App() {
     </div>
   );
 }
-
 export default App;
