@@ -14,13 +14,7 @@ export default function Title() {
         <Typography
           level="h1"
           textColor="common.white"
-          sx={{
-            fontWeight: "bold",
-            fontSize: { xs: "6rem", md: "8rem" },
-            marginLeft: "10%",
-            lineHeight: "7rem",
-            marginTop: "10%",
-          }}
+          sx={{ fontWeight: "bold", fontSize: { xs: "14vw", sm: "10vw", md: "9vw", lg: "7vw" }, marginLeft: "10%", lineHeight: "80%", marginTop: "1%"}}
         >
           MV HACKS
           <br />
@@ -32,38 +26,24 @@ export default function Title() {
         <Typography
           level="h3"
           textColor="common.white"
-          sx={{
-            lineHeight: "5rem",
-            fontWeight: "normal",
-            marginLeft: "10%",
-          }}
+          sx={{ lineHeight: "5rem", fontWeight: "normal", marginLeft: "10%" }}
         >
           THE HACKATHON FOR{" "}
           <Box
             position="relative"
             display="inline-block"
-            style={{
-              justifyContent: "center",
-              width: "fit-content",
-              alignItems: "center",
-            }}
+            style={{ justifyContent: "center", width: "fit-content", alignItems: "center" }}
           >
             <img
               alt="circle"
               src={`${circle}?refresh=${random}`}
-              style={{
-                position: "absolute",
-                width: "115%",
-                height: "100%",
-              }}
+              style={{ position: "absolute", width: "110%", height: "100%" }}
             />
 
             <Typography
               level="h3"
               textColor="common.white"
-              sx={{
-                fontWeight: "normal",
-              }}
+              sx={{ fontWeight: "normal" }}
             >
               EVERYONE
             </Typography>
@@ -71,7 +51,7 @@ export default function Title() {
         </Typography>
       </div>
       <Button
-        sx={{ borderRadius: "25px", marginLeft: "10%" }}
+        sx={{ borderRadius: "25px", marginLeft: "10%", marginBottom: "8%", marginTop: "2%"}}
         id="alert"
         component="a"
         href="https://docs.google.com/forms/d/e/1FAIpQLSefTr6730BXSMYYdAnDXS5hFu_NZ5FHyzNYkv2MYqZoxvkgyQ/viewform"
