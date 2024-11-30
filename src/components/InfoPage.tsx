@@ -1,10 +1,8 @@
 import "../App.css";
 import Typography from '@mui/joy/Typography';
-import Sheet from '@mui/joy/Sheet';
-import Grid from '@mui/joy/Grid';
 import Card from '@mui/joy/Card';
 import CardContent from '@mui/joy/CardContent';
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
 export default function InfoPage() {
   return (
