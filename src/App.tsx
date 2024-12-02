@@ -52,6 +52,7 @@ function App() {
         </div>
         <div className="info" ref={info}>
           <h2>INFO</h2>
+          <Carousel></Carousel>
         </div>
         <div className="schedule" ref={schedule}>
           <Schedule></Schedule>
@@ -69,7 +70,6 @@ function App() {
       <br />
       <br />
       <Footer></Footer>
-      <Carousel></Carousel>
     </div>
   );
 }
