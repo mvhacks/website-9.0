@@ -14,6 +14,7 @@ function App() {
   const sponsor = useRef(null);
   const faqs = useRef(null);
   const team = useRef(null);
+  const ctf = useRef(null);
 
   const scroll = (elementRef: any) => {
     window.scrollTo({
@@ -35,6 +36,8 @@ function App() {
       scroll(faqs);
     } else if (option === "team") {
       scroll(team);
+    } else if (option === "ctf") {
+      scroll(ctf);
     }
   };
 
@@ -63,6 +66,13 @@ function App() {
         </div>
         <div className="team" ref={team}>
           <h2>TEAM</h2>
+        </div>
+        <div className='ctf' ref={ctf}>
+          <h2>CTF</h2>
+          <a href='https://forms.gle/TpAz8w8KSJpWMf9Y6'>Link</a>
+        </div>
+        <div>
+
         </div>
       </div>
       <br />

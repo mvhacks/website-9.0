@@ -51,7 +51,10 @@ h2 {
   height: 600px;
   background-color:#61dafb;
 }
-
+.ctf {
+  height: 600px;
+  background-color: gray;
+}
 .schedule {
   /* height: 600px; */
   /* background-color:forestgreen */
