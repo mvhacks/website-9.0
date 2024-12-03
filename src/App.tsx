@@ -7,6 +7,7 @@ import Faqs from "./components/Faqs";
 import Title from "./components/Title";
 import Schedule from "./components/Schedule";
 import InfoPage from './components/InfoPage';
+import Carousel from "./components/Carousel";
 
 function App() {
   const home = useRef(null);
@@ -51,6 +52,7 @@ function App() {
           <Title></Title>
         </div>
         <div className="info" ref={info}>
+          <Carousel></Carousel>
           <InfoPage></InfoPage>
         </div>
         <div className="schedule" ref={schedule}>
