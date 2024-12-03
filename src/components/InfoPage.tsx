@@ -14,8 +14,8 @@ export default function InfoPage() {
         sx={{
           "--Card-padding": "16px",
           "--Card-radius": "26px",
-          display: "block",
-          height: "200px",
+          display: "flex",
+          flexDirection: "column",
           width: "50%",
           backgroundColor: "black"
         }}>
@@ -31,8 +31,8 @@ export default function InfoPage() {
         sx={{
           "--Card-padding": "16px",
           "--Card-radius": "26px",
-          display: "block",
-          height: "200px",
+          display: "flex",
+          flexDirection: "column",
           width: "50%",
           marginLeft: "48%",
           marginTop: "100px",
@@ -50,8 +50,8 @@ export default function InfoPage() {
         sx={{
           "--Card-padding": "16px",
           "--Card-radius": "26px",
-          display: "block",
-          height: "200px",
+          display: "flex",
+          flexDirection: "column",
           marginTop: "100px",
           width: "50%",
           backgroundColor: "black"
