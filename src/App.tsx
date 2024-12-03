@@ -52,8 +52,8 @@ function App() {
           <Title></Title>
         </div>
         <div className="info" ref={info}>
-          <Carousel></Carousel>
           <InfoPage></InfoPage>
+          <Carousel></Carousel>
         </div>
         <div className="schedule" ref={schedule}>
           <Schedule></Schedule>
