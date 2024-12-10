@@ -31,7 +31,8 @@ export default function InfoPage() {
             "--Card-radius": "26px",
             display: "flex",
             flexDirection: "column",
-            width: "50%",
+            width: "40%",
+            marginLeft: "10%",
             backgroundColor: "black"
           }}>
             <CardContent sx={{alignItems: "center"}}>
@@ -48,8 +49,8 @@ export default function InfoPage() {
             "--Card-radius": "26px",
             display: "flex",
             flexDirection: "column",
-            width: "50%",
             marginLeft: "48%",
+            marginRight: "10%",
             marginTop: "100px",
             backgroundColor: "black"
           }}>
@@ -68,7 +69,9 @@ export default function InfoPage() {
             display: "flex",
             flexDirection: "column",
             marginTop: "100px",
-            width: "50%",
+            marginLeft: "10%",
+            marginBottom: "5%",
+            width: "40%",
             backgroundColor: "black"
           }}
         >
@@ -87,12 +90,13 @@ export default function InfoPage() {
             "--Card-padding": "16px",
             "--Card-radius": "26px",
             display: "flex",
+            margin: "0 10%",
             flexDirection: "column",
             backgroundColor: "black",
             padding: "5%"
           }}>
             <CardContent sx={{alignItems: "center"}}>
-              <Typography textColor={"#c8acd4"} level="h4">Where Boundaries Fade and Ideas Flourish</Typography>
+              <Typography textColor={"#c8acd4"} level="h2">Where Boundaries Fade and Ideas Flourish</Typography>
               <Typography textColor={"common.white"} level="body-md">MVHacks is proud to give a platform for aspiring tech enthusiasts to grow and learn by making unique projects that progress society.</Typography>
             </CardContent>
         </Card>
@@ -105,12 +109,12 @@ export default function InfoPage() {
             "--Card-radius": "26px",
             display: "flex",
             flexDirection: "column",
-            marginTop: "50px",
+            margin: "10% 10%" ,
             backgroundColor: "black",
             padding: "5%"
           }}>
             <CardContent sx={{alignItems: "center"}}>
-              <Typography textColor={"#c8acd4"} level="h4">Workshops and advice to help you grow</Typography>
+              <Typography textColor={"#c8acd4"} level="h2">Workshops and advice to help you grow</Typography>
               <Typography textColor={"common.white"} level="body-md">With specialized judges that are currently in the tech industry, at MVHacks you'll receive the best feedback to help you improve.</Typography>
             </CardContent>
         </Card>
@@ -123,13 +127,13 @@ export default function InfoPage() {
             "--Card-radius": "26px",
             display: "flex",
             flexDirection: "column",
-            marginTop: "50px",
+            margin: "10% 10%" ,
             backgroundColor: "black",
             padding: "5%"
           }}
         >
             <CardContent sx={{alignItems: "center"}}>
-              <Typography textColor={"#c8acd4"} level="h4">Real world collaboration and innovation</Typography>
+              <Typography textColor={"#c8acd4"} level="h2">Real world collaboration and innovation</Typography>
               <Typography textColor={"common.white"} level="body-md">The MVHacks schedule is currently in development, but expect team-building exercises, workshops, and challenges!</Typography>
             </CardContent>
         </Card>
