@@ -6,6 +6,8 @@ import Prospectus from "./components/Prospectus"
 import Faqs from "./components/Faqs";
 import Title from "./components/Title";
 import Schedule from "./components/Schedule";
+import InfoPage from './components/InfoPage';
+import Carousel from "./components/Carousel";
 
 function App() {
   const home = useRef(null);
@@ -50,7 +52,8 @@ function App() {
           <Title></Title>
         </div>
         <div className="info" ref={info}>
-          <h2>INFO</h2>
+          <InfoPage></InfoPage>
+          <Carousel></Carousel>
         </div>
         <div className="schedule" ref={schedule}>
           <Schedule></Schedule>

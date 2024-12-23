@@ -46,7 +46,7 @@ export default function Navbar({ onOptionSelect }: any) {
   return (
     <div style={{width: "100%", backgroundColor: "black", zIndex: "10"}}>
       <div style={{display: "flex", marginLeft: "11%", marginTop: "3%"}}>
-        <img src={logo} alt="mvhackslogo" width="60" height="60" />
+        <img src={logo} alt="mvhackslogo" width="60" height="60" style={{marginLeft: "10px"}} />
         <Link overlay underline="none" sx={{ display: 'flex', flexDirection: 'column', alignItems: 'start'}} onClick = {() => onOptionSelect('home')}>
           <Typography sx={{color: "white", paddingLeft: "10%"}} level="h2">MV</Typography>
           <Typography sx={{color: "white", paddingLeft: "10%"}} level="h2" noWrap={true}>HACKS 8.0</Typography>
