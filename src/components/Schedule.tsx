@@ -24,7 +24,7 @@ const rows = [
 
 export default function Faqs() {
   return (
-    <div style={{ padding: "15%" }}>
+    <div style={{ paddingLeft: "15%", paddingRight: "15%", paddingTop: "8%", paddingBottom: "5%"}}>
       <Typography
         level="h2"
         sx={{

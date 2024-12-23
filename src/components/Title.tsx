@@ -19,7 +19,7 @@ export default function Title() {
             fontSize: { xs: "6rem", md: "8rem" },
             marginLeft: "10%",
             lineHeight: "7rem",
-            marginTop: "10%",
+            marginTop: "5%",
           }}
         >
           MV HACKS
