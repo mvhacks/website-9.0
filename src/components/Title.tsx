@@ -26,18 +26,18 @@ export default function Title() {
         <Typography
           level="h3"
           textColor="common.white"
-          sx={{ lineHeight: "5rem", fontWeight: "normal", marginLeft: "10%" }}
+          sx={{ fontWeight: "normal", marginLeft: "10%" }}
         >
           THE HACKATHON FOR{" "}
           <Box
             position="relative"
             display="inline-block"
-            style={{ justifyContent: "center", width: "fit-content", alignItems: "center" }}
+            style={{ justifyContent: "center", width: "fit-content", alignItems: "center"}}
           >
             <img
               alt="circle"
               src={`${circle}?refresh=${random}`}
-              style={{ position: "absolute", width: "110%", height: "100%" }}
+              style={{ position: "absolute", width: "110%", height: "160%", left: "-5%", top: "-25%"}}
             />
 
             <Typography
