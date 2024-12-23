@@ -12,24 +12,7 @@ code {
 	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
 		monospace;
 }
-.slider {
-	width: 35% !important;
-	height: auto !important;
-	margin:auto !important;
-}
-.awssld {
-	--slider-height-percentage: 60% !important;
-	--slider-transition-duration: 225ms !important;
-	--organic-arrow-thickness: 10px !important;
-	--organic-arrow-border-radius: 0px !important;
-	--organic-arrow-height: 50px !important;
-	--organic-arrow-color: #ffffff !important;
-	--control-button-width: 10% !important;
-	--control-button-height: 25% !important;
-	--control-button-background: transparent !important;
-	--loader-bar-color: transparent !important;
-	--loader-bar-height: 1px !important;
-}
+
 #footer {
 	text-align: center;
 }
@@ -79,3 +62,5 @@ code {
 	padding-bottom: 20px;
 
 }
+
+
