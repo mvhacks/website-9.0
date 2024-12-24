@@ -8,6 +8,7 @@ import Title from "./components/Title";
 import Schedule from "./components/Schedule";
 import InfoPage from './components/InfoPage';
 import Carousel from "./components/Carousel";
+import background from './images/background.png';
 
 function App() {
   const home = useRef(null);
@@ -41,7 +42,12 @@ function App() {
   };
 
   return (
-    <div>
+    <div style={{
+      backgroundImage: `url(${background})`,
+      backgroundSize: 'cover',
+      backgroundPosition: 'center',
+      minHeight: '100vh'
+    }}>
       <Navbar onOptionSelect={handleOptionChange} />
       <div>
         <style>
