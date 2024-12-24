@@ -9,6 +9,7 @@ import Schedule from "./components/Schedule";
 import InfoPage from './components/InfoPage';
 import Carousel from "./components/Carousel";
 import background from './images/background.png';
+import Team from "./components/Team";
 
 function App() {
   const home = useRef(null);
@@ -71,7 +72,7 @@ function App() {
             <Prospectus></Prospectus>
         </div>
         <div className="team" ref={team}>
-          <h2>TEAM</h2>
+          <Team></Team>
         </div>
       </div>
       <br />
