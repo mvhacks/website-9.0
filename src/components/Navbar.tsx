@@ -16,7 +16,7 @@ export default function Navbar({ onOptionSelect }: any) {
 
   useEffect(() => {
     const handleResize = () => {
-      setIsVisible(window.innerWidth > 830); // Adjust the breakpoint as needed
+      setIsVisible(window.innerWidth > 1100); // Adjust the breakpoint as needed
     };
 
     window.addEventListener("resize", handleResize);
@@ -107,75 +107,166 @@ export default function Navbar({ onOptionSelect }: any) {
             >
               <Menu />
             </IconButton>
-            <Drawer
-              open={drawerOpen}
-              onClose={toggleDrawer(true)}
-              sx={{ color: "black" }}
-            >
+            <Drawer open={drawerOpen} onClose={toggleDrawer(true)}>
               <List
                 size="lg"
                 component="nav"
-                sx={{ color: "black", height: "100%", width: "100%" }}
+                sx={{
+                  color: "black",
+                  height: "100%",
+                  width: "100%",
+                  backgroundColor: "black",
+                }}
               >
                 <ListItemButton
                   sx={{
                     fontWeight: "lg",
                     color: "white",
                     backgroundColor: "black",
+                    textAlign: "center",
+                    justifyContent: "center",
+                    "&:hover": {
+                      backgroundColor: "black !important",
+                    },
                   }}
                   onClick={() => handleDrawerOption("home")}
                 >
-                  Home
+                  <Typography
+                    sx={{
+                      color: "white",
+                      "&:hover": {
+                        color: "rgb(200,172,212)",
+                      },
+                    }}
+                    level="h4"
+                  >
+                    Home
+                  </Typography>
                 </ListItemButton>
                 <ListItemButton
                   sx={{
                     fontWeight: "lg",
                     color: "white",
                     backgroundColor: "black",
+                    textAlign: "center",
+                    justifyContent: "center",
+                    "&:hover": {
+                      backgroundColor: "black !important",
+                    },
                   }}
                   onClick={() => handleDrawerOption("info")}
                 >
-                  Info
+                  <Typography
+                    sx={{
+                      color: "white",
+                      "&:hover": {
+                        color: "rgb(200,172,212)",
+                      },
+                    }}
+                    level="h4"
+                  >
+                    Info
+                  </Typography>
                 </ListItemButton>
                 <ListItemButton
                   sx={{
                     fontWeight: "lg",
                     color: "white",
                     backgroundColor: "black",
+                    textAlign: "center",
+                    justifyContent: "center",
+                    "&:hover": {
+                      backgroundColor: "black !important",
+                    },
                   }}
                   onClick={() => handleDrawerOption("schedule")}
                 >
-                  Schedule
+                  <Typography
+                    sx={{
+                      color: "white",
+                      "&:hover": {
+                        color: "rgb(200,172,212)",
+                      },
+                    }}
+                    level="h4"
+                  >
+                    Schedule
+                  </Typography>
                 </ListItemButton>
                 <ListItemButton
                   sx={{
                     fontWeight: "lg",
                     color: "white",
                     backgroundColor: "black",
+                    textAlign: "center",
+                    justifyContent: "center",
+                    "&:hover": {
+                      backgroundColor: "black !important",
+                    },
                   }}
                   onClick={() => handleDrawerOption("faqs")}
                 >
-                  Faqs
+                  <Typography
+                    sx={{
+                      color: "white",
+                      "&:hover": {
+                        color: "rgb(200,172,212)",
+                      },
+                    }}
+                    level="h4"
+                  >
+                    Faqs
+                  </Typography>
                 </ListItemButton>
                 <ListItemButton
                   sx={{
                     fontWeight: "lg",
                     color: "white",
                     backgroundColor: "black",
+                    textAlign: "center",
+                    justifyContent: "center",
+                    "&:hover": {
+                      backgroundColor: "black !important",
+                    },
                   }}
                   onClick={() => handleDrawerOption("sponsor")}
                 >
-                  Sponsors
+                  <Typography
+                    sx={{
+                      color: "white",
+                      "&:hover": {
+                        color: "rgb(200,172,212)",
+                      },
+                    }}
+                    level="h4"
+                  >
+                    Sponsors
+                  </Typography>
                 </ListItemButton>
                 <ListItemButton
                   sx={{
                     fontWeight: "lg",
                     color: "white",
                     backgroundColor: "black",
+                    textAlign: "center",
+                    justifyContent: "center",
+                    "&:hover": {
+                      backgroundColor: "black !important",
+                    },
                   }}
                   onClick={() => handleDrawerOption("team")}
                 >
-                  Team
+                  <Typography
+                    sx={{
+                      color: "white",
+                      "&:hover": {
+                        color: "rgb(200,172,212)",
+                      },
+                    }}
+                    level="h4"
+                  >
+                    Team
+                  </Typography>
                 </ListItemButton>
                 <Link
                   href="https://docs.google.com/forms/d/e/1FAIpQLSefTr6730BXSMYYdAnDXS5hFu_NZ5FHyzNYkv2MYqZoxvkgyQ/viewform"
@@ -186,9 +277,23 @@ export default function Navbar({ onOptionSelect }: any) {
                     backgroundColor: "black",
                     textAlign: "center",
                     justifyContent: "center",
+                    "&:hover": {
+                      backgroundColor: "black !important",
+                      textDecoration:"none",
+                    },
                   }}
                 >
-                  Apply
+                  <Typography
+                    sx={{
+                      color: "white",
+                      "&:hover": {
+                        color: "rgb(200,172,212)",
+                      },
+                    }}
+                    level="h4"
+                  >
+                    Apply
+                  </Typography>
                 </Link>
               </List>
             </Drawer>
@@ -314,7 +419,7 @@ export default function Navbar({ onOptionSelect }: any) {
               variant="plain"
               onClick={() => onOptionSelect("info")}
             >
-               <Typography
+              <Typography
                 sx={{
                   color: "white",
                   "&:hover": {
@@ -340,7 +445,7 @@ export default function Navbar({ onOptionSelect }: any) {
               variant="plain"
               onClick={() => onOptionSelect("schedule")}
             >
-               <Typography
+              <Typography
                 sx={{
                   color: "white",
                   "&:hover": {
@@ -366,7 +471,7 @@ export default function Navbar({ onOptionSelect }: any) {
               variant="plain"
               onClick={() => onOptionSelect("faqs")}
             >
-               <Typography
+              <Typography
                 sx={{
                   color: "white",
                   "&:hover": {
@@ -392,7 +497,7 @@ export default function Navbar({ onOptionSelect }: any) {
               variant="plain"
               onClick={() => onOptionSelect("sponsor")}
             >
-               <Typography
+              <Typography
                 sx={{
                   color: "white",
                   "&:hover": {
@@ -418,7 +523,7 @@ export default function Navbar({ onOptionSelect }: any) {
               variant="plain"
               onClick={() => onOptionSelect("team")}
             >
-               <Typography
+              <Typography
                 sx={{
                   color: "white",
                   "&:hover": {
