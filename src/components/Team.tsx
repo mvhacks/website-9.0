@@ -15,33 +15,33 @@ function addPerson(name: string, image: string, role: string, link: string, type
 const directors = [
     addPerson('Alexandra Markova', 'https://i.imgur.com/BBWqwhs.jpeg', 'Director', 'https://github.com/kitkatmia','Github'),
     addPerson('Saahiti Bondalapati', 'https://i.imgur.com/16sqDdo.png', 'Outreach Director', 'saahiti@mvhacks.io','Email'),
-    addPerson('Arthur Cheong', blank, 'Emcee', 'arthurc@mvhacks.io','Email'),
     addPerson('Emily Markova', 'https://i.imgur.com/wTrB5jy.jpeg', 'Tech Director', 'https://github.com/emilymarkova','Github'),
-    addPerson('Yhali Matot', blank, 'Sponsorship Director', 'alexm@mvhacks.io','Email')
+    addPerson('Yhali Matot', blank, 'Sponsorship Director', 'alexm@mvhacks.io', 'Email'),
+    addPerson('Arthur Cheong', blank, 'Emcee', 'arthurc@mvhacks.io','Email')
 ];
 
 const tech = [
+    addPerson('Emily Markova', 'https://i.imgur.com/wTrB5jy.jpeg', 'Tech Director', 'emily@mvhacks.io','Email'),
     addPerson('Noam Kassoff', 'https://i.imgur.com/YZLuaM4.png', 'Member', 'https://github.com/noamkassoff','Github'),
     addPerson('Milo Lin', 'https://i.imgur.com/QvoGuW5.jpeg', 'Member', 'milo@mvhacks.io','Email'),
-    addPerson('Emily Markova', 'https://i.imgur.com/wTrB5jy.jpeg', 'Director', 'emily@mvhacks.io','Email'),
     addPerson('Mia Ravishankar', blank, 'Member', 'miar@mvhacks.io','Email'),
     addPerson('Evelyn Yang', 'https://i.imgur.com/5b927dF.png', 'Member', 'evelyny@mvhacks.io','Email'),
     addPerson('Jeremy Yu', 'https://i.imgur.com/VNapq9L.png', 'Member', 'https://github.com/jt31415','Github')
 ];
 
 const outreach = [
-    addPerson('Saahiti Bondalapati', 'https://i.imgur.com/16sqDdo.png', 'Director', 'saahiti@mvhacks.io', 'Email'),
-    addPerson('Rohin Gupta', blank, 'Member', 'alexm@mvhacks.io','Email'),
+    addPerson('Saahiti Bondalapati', 'https://i.imgur.com/16sqDdo.png', 'Outreach Director', 'saahiti@mvhacks.io', 'Email'),
+    addPerson('Rohin Gupta', blank, 'Member', 'rohin@mvhacks.io','Email'),
     addPerson('Nikita Narrang', 'https://i.imgur.com/QC4s8O0.jpeg', 'Member', 'nikita@mvhacks.io','Email'),
     addPerson('Ishaan Sharma', blank, 'Member', 'alexm@mvhacks.io','Email'),
     addPerson('Mirabel Wang', blank, 'Member', 'mirabelw@mvhacks.io','Email')
 ];
 
 const sponsorship = [
-    addPerson('Kirati Bollineni', blank, 'Member', 'alexm@mvhacks.io','Email'),
+    addPerson('Yhali Matot', blank, 'Sponsorship Director', 'alexm@mvhacks.io','Email'),
+    addPerson('Kirati Bollineni', blank, 'Member', 'alexm@mvhacks.io', 'Email'),
     addPerson('Ethan Chen', blank, 'Member', 'alexm@mvhacks.io','Email'),
     addPerson('Owen Kim', blank, 'Member', 'alexm@mvhacks.io','Email'),
-    addPerson('Yhali Matot', blank, 'Director', 'alexm@mvhacks.io','Email'),
     addPerson('Henry Shih', 'https://i.imgur.com/XSFwbkK.jpeg', 'Member', 'henry@mvhacks.io','Email'),
     addPerson('Shankaran Srivatsa', blank, 'Member', 'alexm@mvhacks.io','Email'),
     addPerson('Kevin Thompson', blank, 'Member', 'alexm@mvhacks.io','Email'),

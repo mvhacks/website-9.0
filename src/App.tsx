@@ -46,10 +46,11 @@ function App() {
     <div style={{
       backgroundImage: `url(${background})`,
       margin: "0px",
-      padding:"0px",
+      padding: "0px",
       backgroundPosition: 'center',
       width: '100%',
       backgroundRepeat: 'repeat-y',
+      backgroundSize: 'contain',
 
     }}>
       <Navbar onOptionSelect={handleOptionChange} />
