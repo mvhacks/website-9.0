@@ -24,8 +24,8 @@ export default function Faqs() {
         sx={{
           backgroundColor: "transparent",
           color: "white !important",
-          marginLeft: "10%",
-          marginRight: "10%",
+          marginLeft: { xs: "3%", sm: "10%", md: "10%" },
+          marginRight: { xs: "3%", sm: "10%", md: "10%" },      
           "& .MuiAccordion-root": {
             backgroundColor: "transparent",
           },
