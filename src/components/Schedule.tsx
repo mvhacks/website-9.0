@@ -22,9 +22,16 @@ const rows = [
   createData("8:00 PM", "Closing Ceremony"),
 ];
 
-export default function Faqs() {
+export default function Schedule() {
   return (
-    <div style={{ paddingLeft: "15%", paddingRight: "15%", paddingTop: "8%", paddingBottom: "5%"}}>
+    <div
+      style={{
+        paddingLeft: "5%",
+        paddingRight: "5%",
+        paddingTop: "8%",
+        paddingBottom: "5%",
+      }}
+    >
       <Typography
         level="h2"
         sx={{
@@ -40,7 +47,8 @@ export default function Faqs() {
       <Table
         hoverRow
         sx={{
-          width: { xs: "100%", sm: "90%", md: "80%", lg: "70%", xl: "60%" },
+          width: "100%",
+          maxWidth: { xs: "100%", sm: "80%", md: "60%", lg: "50%" },
           margin: "0 auto",
           backgroundColor: "#221a46",
           color: "white !important",

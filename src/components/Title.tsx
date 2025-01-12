@@ -14,7 +14,7 @@ export default function Title() {
         <Typography
           level="h1"
           textColor="common.white"
-          sx={{ fontWeight: "bold", fontSize: { xs: "14vw", sm: "10vw", md: "9vw", lg: "7vw" }, marginLeft: "10%", lineHeight: "80%", marginTop: "1%"}}
+          sx={{ fontWeight: "bold", fontSize: { xs: "12vw", sm: "10vw", md: "9vw", lg: "7vw" }, marginLeft: "10%", lineHeight: "80%", marginTop: "1%"}}
         >
           MV HACKS
           <br />
@@ -26,7 +26,12 @@ export default function Title() {
         <Typography
           level="h3"
           textColor="common.white"
-          sx={{ fontWeight: "normal", marginLeft: "10%" }}
+          sx={{ 
+            fontWeight: "normal", 
+            marginLeft: "10%", 
+            fontSize: {xs: "6vw", sm: "4vw", md: "3vw", lg: "1.65vw"},
+            marginBottom: "1%", 
+          }}
         >
           THE HACKATHON FOR{" "}
           <Box
@@ -43,16 +48,26 @@ export default function Title() {
             <Typography
               level="h3"
               textColor="common.white"
-              sx={{ fontWeight: "normal" }}
+              sx={{ fontWeight: "normal", fontSize: {xs: "6vw", sm: "4vw", md: "3vw", lg: "1.65vw"}  }}
             >
               EVERYONE
             </Typography>
           </Box>
         </Typography>
-        <Typography level="body-lg" variant="plain" textColor="common.white" sx={{maxWidth: "500px", marginLeft: "10%", marginBottom:"20px", marginTop: "10px"}}>
+        <Typography 
+          level="body-lg" 
+          variant="plain" 
+          textColor="common.white" 
+          sx={{maxWidth: "500px", marginLeft: "10%", marginRight: "10%", marginBottom:"20px", marginTop: "10px", fontSize: {xs: "4vw", sm: "4vw", md: "3vw", lg: "1.25vw"} }}
+        >
           Each year, high school hackers from across the Bay Area come together at MVHacks to create cool projects, learn from experts, and participate in 12 hours of hacking! Hackers of all skill levels are welcome to compete, individually or as a group. 
           The date and time of this event are not finalized yet, but will be in Spring 2025 in the Bay Area.
-          <Typography level="title-lg" variant="plain" sx={{color: "rgb(150,122,162)"}}>*You can now sign up to be alerted when more details about MVHacks 8.0 are released by clicking the alert me button.</Typography>{' '}
+          <Typography 
+            level="title-lg" 
+            variant="plain" 
+            sx={{color: "rgb(150,122,162)", fontSize: {xs: "4vw", sm: "4vw", md: "3vw", lg: "1.25vw"}}}
+          >
+            *You can now sign up to be alerted when more details about MVHacks 8.0 are released by clicking the alert me button.</Typography>{' '}
         </Typography>
       </div>
       <Button
