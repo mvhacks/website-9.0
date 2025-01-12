@@ -4,7 +4,6 @@ import Card from '@mui/joy/Card';
 import CardContent from '@mui/joy/CardContent';
 import React, {useState, useEffect} from 'react';
 import { motion } from 'framer-motion';
-import { Opacity } from "@mui/icons-material";
 
 export default function InfoPage() {
   const [isMobile, setIsMobile] = useState<Boolean>(false);
