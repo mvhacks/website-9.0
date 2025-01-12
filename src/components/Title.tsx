@@ -58,7 +58,7 @@ export default function Title() {
           level="body-lg" 
           variant="plain" 
           textColor="common.white" 
-          sx={{maxWidth: "500px", marginLeft: "10%", marginRight: "10%", marginBottom:"20px", fontSize: {xs: "4vw", sm: "4vw", md: "3vw", lg: "1.25vw"} }}
+          sx={{maxWidth: "500px", marginLeft: "10%", marginRight: "10%", marginBottom:"20px", marginTop: "10px", fontSize: {xs: "4vw", sm: "4vw", md: "3vw", lg: "1.25vw"} }}
         >
           Each year, high school hackers from across the Bay Area come together at MVHacks to create cool projects, learn from experts, and participate in 12 hours of hacking! Hackers of all skill levels are welcome to compete, individually or as a group. 
           The date and time of this event are not finalized yet, but will be in Spring 2025 in the Bay Area.
