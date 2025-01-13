@@ -1,15 +1,13 @@
 import Table from '@mui/joy/Table';
 import Typography from '@mui/joy/Typography';
-import Button from "@mui/joy/Button";
-import blank from "../images/Team/blank.jpeg";
-import e from "../images/email.png";
-import g from "../images/github.png";
+import Button from '@mui/joy/Button';
+import blank from '../images/Team/blank.jpeg';
+import e from '../images/email.png';
+import g from '../images/github.png';
 
 function addPerson(name: string, image: string, role: string, link: string, type: string) {
-
     let typeImage = type === "Github" ? g : e;
     return { name, image, role, link, type, typeImage};
-
 }
 
 const directors = [
@@ -49,48 +47,118 @@ const sponsorship = [
 ];
 
 const teams = [
-    { name: "Directors", members: directors },
-    { name: "Tech", members: tech },
-    { name: "Outreach", members: outreach },
-    { name: "Sponsorship", members: sponsorship }
+    { name:"Directors", members: directors },
+    { name:"Tech", members: tech },
+    { name:"Outreach", members: outreach },
+    { name:"Sponsorship", members: sponsorship }
 ];
 
 export default function Team() {
     return (
-        <div style={{ padding: '5%' }}>
+        <div style={{ padding:'5%' }}>
             <Typography
-                level="h2"
+                level='h2'
                 sx={{
-                    color: '#ffffff',
-                    marginBottom: '2%',
-                    textAlign: "center"
+                    color:'#ffffff',
+                    marginBottom:'2%',
+                    textAlign:'center'
                 }}
             >
                 TEAM
             </Typography>
 
             {teams.map((team) => (
-
                 <Table
+                    key={team.name}
                     sx={{
-                        backgroundColor: '#221a46',
-                        marginTop: '2%',
-                        color: 'white',
-                        border: '6px solid #c6add4',
-                        overflow: 'hidden',
+                        backgroundColor:'#221a46',
+                        marginTop:'2%',
+                        color:'white',
+                        border:'6px solid #c6add4',
+                        overflow:'hidden',
                         '& td, & th': { 
-                            padding: '12px 16px', 
-                            fontSize: '1.1rem', 
-                            wordWrap: 'break-word', 
-                            whiteSpace: 'normal' }
+                            padding:'12px 16px', 
+                            fontSize:'1.1rem', 
+                            wordWrap:'break-word', 
+                            whiteSpace:'normal' 
+                        },
+                        '@media (max-width: 1200px)': {
+                            '& td, & th': { 
+                                fontSize:'1rem',
+                                padding:'10px 14px'
+                            },
+                            '& img#member': {
+                                height:'150px',
+                                width:'150px'
+                            },
+                            '& #link': { 
+                                width:'150px',
+                                fontSize:'0.9rem', 
+                                height:'25px' 
+                            },
+                            '& #link > img': { 
+                                height:'20px', 
+                                width:'20px',
+                                paddingRight:'5px' 
+                            },
+                            '& tr > td > div': { 
+                                gap:'10px' 
+                            }
+                        },
+                        '@media (max-width: 900px)': {
+                            '& td, & th': { 
+                                fontSize:'0.9rem',
+                                padding:'8px 12px'
+                            },
+                            '& img#member': {
+                                height:'130px',
+                                width:'130px'
+                            },
+                            '& #link': { 
+                                width:'130px',
+                                fontSize:'0.8rem', 
+                                height:'22px' 
+                            },
+                            '& #link > img': {
+                                height:'18px',
+                                width:'18px',
+                                paddingRight:'3px'
+                            },
+                            '& tr > td > div': { 
+                                gap:'5px' 
+                            }
+                        },
+                        '@media (max-width: 600px)': {
+                            '& td, & th': { 
+                                fontSize:'0.8rem',
+                                padding:'6px 10px'
+                            },
+                            '& img#member': {
+                                height:'110px',
+                                width:'110px'
+                            },
+                            '& #link': { 
+                                width:'110px',
+                                fontSize:'0.7rem', 
+                                height:'20px' 
+                            },
+                            '& #link > img': { 
+                                height:'16px', 
+                                width:'16px',
+                                paddingRight:'2px'
+                            },
+                            '& tr > td > div': { 
+                                gap:'2px' 
+                            }
+                        }
                     }}
                 >
-                    <tbody key={team.name}> 
+                    <tbody> 
                         <tr>
                             <td style={{ 
-                                fontSize: '20px', 
-                                textTransform: 'uppercase', 
-                                padding: '12px 16px' 
+                                fontSize:'20px', 
+                                textTransform:'uppercase', 
+                                padding:'12px 16px' 
                             }}>  
                                 {team.name}
                             </td>
@@ -98,18 +166,18 @@ export default function Team() {
                         <tr>
                             <td> 
                                 <div style={{ 
-                                    display: 'flex', 
-                                    flexWrap: 'wrap', 
-                                    justifyContent: 'left',
-                                    gap: '16px' 
+                                    display:'flex', 
+                                    flexWrap:'wrap', 
+                                    justifyContent:'center',
+                                    gap:'16px' 
                                 }}>
 
                                 {team.members.map((member, i) => (
                                     <div key={i} style={{ 
-                                        width: '180px', 
-                                        textAlign: 'center', 
-                                        justifyContent: 'center', 
-                                        alignItems: 'center' 
+                                        width:'180px', 
+                                        textAlign:'center', 
+                                        justifyContent:'center', 
+                                        alignItems:'center' 
                                     }}>
                                         <img 
                                             src={member.image} 
@@ -117,7 +185,7 @@ export default function Team() {
                                             width="170px" 
                                             id="member" 
                                             alt="member-image" 
-                                            style={{ objectFit: "cover"}} 
+                                            style={{ objectFit:'cover' }} 
                                         />
                                         <div style={{ 
                                             fontSize: '17px', 
@@ -135,24 +203,24 @@ export default function Team() {
                                         <div>
                                             <Button
                                                 sx={{ 
-                                                    borderRadius: "10px", 
-                                                    marginTop: "3%", 
-                                                    backgroundColor: '#c6add4', 
-                                                    height: "30px", 
-                                                    width:"170px",
-                                                    '&:hover': {backgroundColor: '#bb97cf'}
+                                                    borderRadius:'10px', 
+                                                    marginTop:'3%', 
+                                                    backgroundColor:'#c6add4', 
+                                                    height:'30px', 
+                                                    width:'170px',
+                                                    '&:hover': {backgroundColor:'#bb97cf'}
                                                 }}
-                                                id="link"
-                                                component="a"
+                                                id='link'
+                                                component='a'
                                                 href={member.link}
                                             >
                                                 <img 
                                                     src={member.typeImage} 
-                                                    height="25" 
-                                                    width="25" 
-                                                    id="member" 
-                                                    alt="member-link" 
-                                                    style={{paddingRight: "10px"}}
+                                                    height='25'
+                                                    width='25'
+                                                    id='member' 
+                                                    alt='member-link' 
+                                                    style={{paddingRight:'10px'}}
                                                 />
                                                 {member.type}
                                             </Button>
@@ -164,10 +232,8 @@ export default function Team() {
                             </td>
                         </tr>
                     </tbody>
-            </Table>
-
+                </Table>
             ))}
-            
         </div>
     );
 }
