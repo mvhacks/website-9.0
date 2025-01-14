@@ -86,8 +86,9 @@ export default function Navbar({ onOptionSelect }: any) {
                 }}
                 onClick={() => onOptionSelect("home")}
               >
-                <Typography id="mvhackstext"
-                  sx={{ 
+                <Typography
+                  id="mvhackstext"
+                  sx={{
                     color: "white",
                     paddingLeft: "10%",
                     marginRight: "auto",
@@ -279,7 +280,7 @@ export default function Navbar({ onOptionSelect }: any) {
                     justifyContent: "center",
                     "&:hover": {
                       backgroundColor: "black !important",
-                      textDecoration:"none",
+                      textDecoration: "none",
                     },
                   }}
                 >
@@ -292,7 +293,7 @@ export default function Navbar({ onOptionSelect }: any) {
                     }}
                     level="h4"
                   >
-                    Apply
+                    Alert
                   </Typography>
                 </Link>
               </List>
@@ -378,31 +379,6 @@ export default function Navbar({ onOptionSelect }: any) {
                 level="h3"
               >
                 Home
-              </Typography>
-            </Link>
-            <Link
-              style={{ margin: 10, color: "white", paddingLeft: 10 }}
-              sx={{
-                "&:hover": {
-                  backgroundColor: "transparent",
-                },
-              }}
-              href="https://docs.google.com/forms/d/e/1FAIpQLSefTr6730BXSMYYdAnDXS5hFu_NZ5FHyzNYkv2MYqZoxvkgyQ/viewform"
-              color="neutral"
-              level="h3"
-              underline="none"
-              variant="plain"
-            >
-              <Typography
-                sx={{
-                  color: "white",
-                  "&:hover": {
-                    color: "rgb(200,172,212)",
-                  },
-                }}
-                level="h3"
-              >
-                Apply
               </Typography>
             </Link>
             <Link
@@ -533,6 +509,38 @@ export default function Navbar({ onOptionSelect }: any) {
                 level="h3"
               >
                 Team
+              </Typography>
+            </Link>
+            <Link
+              style={{
+                margin: 10,
+                color: "white",
+                paddingLeft: 10,
+                border: "2px solid white",
+                borderRadius: "5px", 
+              }}
+              sx={{
+                "&:hover": {
+                  backgroundColor: "transparent",
+                  borderColor: "rgb(200,172,212)", 
+                },
+              }}
+              href="https://docs.google.com/forms/d/e/1FAIpQLSefTr6730BXSMYYdAnDXS5hFu_NZ5FHyzNYkv2MYqZoxvkgyQ/viewform"
+              color="neutral"
+              level="h3"
+              underline="none"
+              variant="plain"
+            >
+              <Typography
+                sx={{
+                  color: "white",
+                  "&:hover": {
+                    color: "rgb(200,172,212)",
+                  },
+                }}
+                level="h3"
+              >
+                Alert
               </Typography>
             </Link>
           </Box>
