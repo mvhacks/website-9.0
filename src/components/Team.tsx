@@ -82,152 +82,136 @@ export default function Team() {
                             wordWrap:'break-word', 
                             whiteSpace:'normal' 
                         },
-                        '@media (max-width: 1200px)': {
-                            '& td, & th': { 
-                                fontSize:'1rem',
-                                padding:'10px 14px'
+                        '@media (max-width: 700px)': {
+                            '& tr > td > div': {
+                                display:'flex',
+                                flexWrap:'wrap',
+                                justifyContent:'space-evenly',
+                                gap:'12px' 
                             },
-                            '& img#member': {
-                                height:'150px',
-                                width:'150px'
+                            '& tr > td > div > div': {
+                                width:'46% !important',
+                                margin:'0px !important',
+                                display:'flex',
+                                flexDirection:'column',
+                                alignItems:'center',
+                                gap:'2px'
                             },
-                            '& #link': { 
-                                width:'150px',
-                                fontSize:'0.9rem', 
-                                height:'25px' 
+                            '& tr > td > div > div img': {
+                                height:'90px',
+                                width:'90px',
+                                objectFit:'cover'
                             },
-                            '& #link > img': { 
-                                height:'20px', 
-                                width:'20px',
-                                paddingRight:'5px' 
+                            '& tr > td > div > div > div:first-of-type': {
+                                fontSize:'13px !important',
+                                fontWeight:'bold',
+                                color:'white',
                             },
-                            '& tr > td > div': { 
-                                gap:'10px' 
-                            }
-                        },
-                        '@media (max-width: 900px)': {
-                            '& td, & th': { 
-                                fontSize:'0.9rem',
-                                padding:'8px 12px'
-                            },
-                            '& img#member': {
-                                height:'130px',
-                                width:'130px'
-                            },
-                            '& #link': { 
-                                width:'130px',
-                                fontSize:'0.8rem', 
-                                height:'22px' 
-                            },
-                            '& #link > img': {
-                                height:'18px',
-                                width:'18px',
-                                paddingRight:'3px'
-                            },
-                            '& tr > td > div': { 
-                                gap:'5px' 
-                            }
-                        },
-                        '@media (max-width: 600px)': {
-                            '& td, & th': { 
-                                fontSize:'0.8rem',
-                                padding:'6px 10px'
-                            },
-                            '& img#member': {
-                                height:'110px',
-                                width:'110px'
-                            },
-                            '& #link': { 
-                                width:'110px',
-                                fontSize:'0.7rem', 
-                                height:'20px' 
-                            },
-                            '& #link > img': { 
-                                height:'16px', 
-                                width:'16px',
-                                paddingRight:'2px'
-                            },
-                            '& tr > td > div': { 
-                                gap:'2px' 
+                            '& tr > td > div > div > div:nth-of-type(2)': {
+                                fontSize:'10px !important',
+                                color:'grey',
                             }
                         }
                     }}
                 >
                     <tbody> 
                         <tr>
-                            <td style={{ 
-                                fontSize:'20px', 
-                                textTransform:'uppercase', 
-                                padding:'12px 16px' 
-                            }}>  
+                            <td
+                                style={{
+                                    fontSize:'20px',
+                                    textTransform:'uppercase',
+                                    padding:'12px 16px'
+                                }}
+                            >
                                 {team.name}
                             </td>
                         </tr>
                         <tr>
-                            <td> 
-                                <div style={{ 
-                                    display:'flex', 
-                                    flexWrap:'wrap', 
-                                    justifyContent:'center',
-                                    gap:'16px' 
-                                }}>
-
-                                {team.members.map((member, i) => (
-                                    <div key={i} style={{ 
-                                        width:'180px', 
-                                        textAlign:'center', 
-                                        justifyContent:'center', 
-                                        alignItems:'center' 
-                                    }}>
-                                        <img 
-                                            src={member.image} 
-                                            height="170px" 
-                                            width="170px" 
-                                            id="member" 
-                                            alt="member-image" 
-                                            style={{ objectFit:'cover' }} 
-                                        />
-                                        <div style={{ 
-                                            fontSize: '17px', 
-                                            fontWeight: 'bold',
-                                             color: 'white'
-                                        }}>
-                                            {member.name}
-                                        </div>
-                                        <div style={{ 
-                                            fontSize: '15px', 
-                                            color: 'grey'
-                                        }}>
-                                            {member.role}
-                                        </div>
-                                        <div>
-                                            <Button
-                                                sx={{ 
-                                                    borderRadius:'10px', 
-                                                    marginTop:'3%', 
-                                                    backgroundColor:'#c6add4', 
-                                                    height:'30px', 
-                                                    width:'170px',
-                                                    '&:hover': {backgroundColor:'#bb97cf'}
+                            <td>
+                                <div
+                                    style={{
+                                        display:'flex',
+                                        flexWrap:'wrap',
+                                        justifyContent:'center',
+                                        gap:'16px'
+                                    }}
+                                >
+                                    {team.members.map((member, i) => (
+                                        <div
+                                            key={i}
+                                            style={{
+                                                textAlign:'center',
+                                                justifyContent:'center',
+                                                alignItems:'center',
+                                                width:'45%',
+                                                maxWidth:'180px',
+                                                margin:'5px'
+                                            }}
+                                        >
+                                            <img
+                                                src={member.image}
+                                                height="170px"
+                                                width="170px"
+                                                id="member"
+                                                alt="member-image"
+                                                style={{ objectFit: 'cover' }}
+                                            />
+                                            <div
+                                                style={{
+                                                    fontSize:'17px',
+                                                    fontWeight:'bold',
+                                                    color:'white'
                                                 }}
-                                                id='link'
-                                                component='a'
-                                                href={member.link}
                                             >
-                                                <img 
-                                                    src={member.typeImage} 
-                                                    height='25'
-                                                    width='25'
-                                                    id='member' 
-                                                    alt='member-link' 
-                                                    style={{paddingRight:'10px'}}
-                                                />
-                                                {member.type}
-                                            </Button>
+                                                {member.name}
+                                            </div>
+                                            <div
+                                                style={{
+                                                    fontSize:'15px',
+                                                    color:'grey'
+                                                }}
+                                            >
+                                                {member.role}
+                                            </div>
+                                            <div>
+                                                <Button
+                                                    sx={{
+                                                        borderRadius:'10px',
+                                                        marginTop:'3%',
+                                                        backgroundColor:'#c6add4',
+                                                        height:'30px',
+                                                        width:'170px',
+                                                        '&:hover': {
+                                                            backgroundColor:'#bb97cf'
+                                                        },
+                                                        '@media (max-width: 700px)': {
+                                                            height:'20px', 
+                                                            width:'90px',
+                                                            fontSize:'13px',
+                                                            padding:'0 8px',
+                                                            '& img': {
+                                                                height:'18px !important',
+                                                                width:'18px !important'
+                                                            }
+                                                        }
+                                                    }}
+                                                    id="link"
+                                                    component="a"
+                                                    href={member.link}
+                                                >
+                                                    <img
+                                                        src={member.typeImage}
+                                                        height="25"
+                                                        width="25"
+                                                        id="member"
+                                                        alt="member-link"
+                                                        style={{ paddingRight: '10px' }} 
+                                                    />
+                                                    {member.type}
+                                                </Button>
+                                            </div>
                                         </div>
-                                    </div>
-                                ))}
-
+                                    ))}
                                 </div>
                             </td>
                         </tr>
