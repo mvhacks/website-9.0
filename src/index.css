@@ -12,7 +12,9 @@ code {
 	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
 		monospace;
 }
-
+#mvhackstext {
+	font-size: clamp(16px, 5vw, 2.25rem);
+}
 #footer {
 	text-align: center;
 }
