@@ -9,7 +9,6 @@ import ListItemButton from "@mui/joy/ListItemButton";
 import IconButton from "@mui/joy/IconButton";
 import Menu from "@mui/icons-material/Menu";
 import React, { useState, useEffect } from "react";
-import { clamp, px } from "framer-motion";
 
 export default function Navbar({ onOptionSelect }: any) {
   const [isVisible, setIsVisible] = useState<Boolean>(true);
