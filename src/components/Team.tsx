@@ -30,8 +30,7 @@ const tech = [
 const outreach = [
     addPerson('Saahiti Bondalapati', 'https://i.imgur.com/16sqDdo.png', 'Outreach Director', 'saahiti@mvhacks.io', 'Email'),
     addPerson('Rohin Gupta', blank, 'Member', 'rohin@mvhacks.io','Email'),
-    addPerson('Nikita Narrang', 'https://i.imgur.com/QC4s8O0.jpeg', 'Member', 'nikita@mvhacks.io','Email'),
-    addPerson('Ishaan Sharma', blank, 'Member', 'alexm@mvhacks.io','Email'),
+    addPerson('Nikita Narang', 'https://i.imgur.com/QC4s8O0.jpeg', 'Member', 'nikita@mvhacks.io','Email'),
     addPerson('Mirabel Wang', blank, 'Member', 'mirabelw@mvhacks.io','Email')
 ];
 
