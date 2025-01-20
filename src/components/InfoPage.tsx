@@ -22,10 +22,10 @@ export default function InfoPage() {
   }, []);
   return (
     <div>
-      {!isMobile && (<div style={{marginTop: "100px"}}>
+      {!isMobile && (<div style={{marginTop: "50px"}}>
         <motion.div
           initial={{ opacity: 0, y: 50}}
-          whileInView={{ opacity: 1, y: 0, transition: { delay: 0.2, duration: 0.5}}}
+          whileInView={{ opacity: 1, y: 0, transition: { delay: 0.3, duration: 0.7}}}
           viewport={{ once: true, amount: 1 }}
         >
           <Card
@@ -49,7 +49,7 @@ export default function InfoPage() {
         </motion.div>
         <motion.div
           initial={{ opacity: 0, y: 50}}
-          whileInView={{ opacity: 1, y: 0, transition: { delay: 0.2, duration: 0.5}}}
+          whileInView={{ opacity: 1, y: 0, transition: { delay: 0.3, duration: 0.7}}}
           viewport={{ once: true, amount: 1 }}
         >
           <Card
@@ -74,7 +74,7 @@ export default function InfoPage() {
         </motion.div>
         <motion.div
           initial={{ opacity: 0, y: 50}}
-          whileInView={{ opacity: 1, y: 0, transition: { delay: 0.2, duration: 0.5}}}
+          whileInView={{ opacity: 1, y: 0, transition: { delay: 0.3, duration: 0.7}}}
           viewport={{ once: true, amount: 1 }}
         >
           <Card
@@ -100,10 +100,10 @@ export default function InfoPage() {
           </Card>
         </motion.div>
       </div>)}
-      {isMobile && (<div style={{marginTop: "100px"}}>
+      {isMobile && (<div style={{marginTop: "50px"}}>
         <motion.div
           initial={{ opacity: 0, y: 50}}
-          whileInView={{ opacity: 1, y: 0, transition: { delay: 0.2, duration: 0.5}}}
+          whileInView={{ opacity: 1, y: 0, transition: { delay: 0.3, duration: 0.7}}}
           viewport={{ once: true, amount: 1 }}
         >
           <Card
@@ -127,7 +127,7 @@ export default function InfoPage() {
         </motion.div>
         <motion.div
           initial={{ opacity: 0, y: 50}}
-          whileInView={{ opacity: 1, y: 0, transition: { delay: 0.2, duration: 0.5}}}
+          whileInView={{ opacity: 1, y: 0, transition: { delay: 0.3, duration: 0.7}}}
           viewport={{ once: true, amount: 1 }}
         >
           <Card
@@ -151,7 +151,7 @@ export default function InfoPage() {
         </motion.div>
         <motion.div
           initial={{ opacity: 0, y: 50}}
-          whileInView={{ opacity: 1, y: 0, transition: { delay: 0.2, duration: 0.5}}}
+          whileInView={{ opacity: 1, y: 0, transition: { delay: 0.3, duration: 0.7}}}
           viewport={{ once: true, amount: 1 }}
         >
           <Card
