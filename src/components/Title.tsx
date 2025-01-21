@@ -14,7 +14,7 @@ export default function Title() {
         <Typography
           level="h1"
           textColor="common.white"
-          sx={{ fontWeight: "bold", fontSize: { xs: "12vw", sm: "10vw", md: "9vw", lg: "7vw" }, marginLeft: "10%", lineHeight: "80%", marginTop: "1%"}}
+          sx={{ fontWeight: "bold", fontSize: { xs: "12vw", sm: "10vw", md: "9vw", lg: "7vw" }, marginLeft: "10%", lineHeight: "80%", marginTop: "7%"}}
         >
           MV HACKS
           <br />
