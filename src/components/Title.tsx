@@ -43,7 +43,7 @@ export default function Title() {
             <img
               alt="circle"
               src={`${circle}?refresh=${random}`}
-              style={{ position: "absolute", width: "110%", height: "160%", left: "-5%", top: "-25%"}}
+              style={{ position: "absolute", width: "120%", height: "170%", left: "-7%", top: "-25%"}}
             />
 
             <Typography
