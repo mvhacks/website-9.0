@@ -1,7 +1,6 @@
 import Table from '@mui/joy/Table';
 import Typography from '@mui/joy/Typography';
 import Button from '@mui/joy/Button';
-import blank from '../images/Team/blank.jpeg';
 import e from '../images/email.png';
 import g from '../images/github.png';
 
