@@ -14,7 +14,7 @@ const directors = [
     addPerson('Alexandra Markova', 'https://i.imgur.com/BBWqwhs.jpeg', 'Director', 'https://github.com/kitkatmia','Github'),
     addPerson('Saahiti Bondalapati', 'https://i.imgur.com/16sqDdo.png', 'Outreach Director', 'saahiti@mvhacks.io','Email'),
     addPerson('Emily Markova', 'https://i.imgur.com/wTrB5jy.jpeg', 'Tech Director', 'https://github.com/emilymarkova','Github'),
-    addPerson('Yhali Matot', blank, 'Sponsorship Director', 'alexm@mvhacks.io', 'Email'),
+    addPerson('Yhali Matot', '/TeamImages/yhali.png', 'Sponsorship Director', 'yhali@mvhacks.io', 'Email'),
     addPerson('Arthur Cheong', blank, 'Emcee', 'arthurc@mvhacks.io','Email')
 ];
 
