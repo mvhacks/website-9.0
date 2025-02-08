@@ -35,7 +35,7 @@ const outreach = [
 ];
 
 const sponsorship = [
-    addPerson('Yhali Matot', blank, 'Sponsorship Director', 'alexm@mvhacks.io','Email'),
+    addPerson('Yhali Matot', '/TeamImages/yhali.png', 'Sponsorship Director', 'yhali@mvhacks.io', 'Email'),
     addPerson('Kirati Bollineni', blank, 'Member', 'alexm@mvhacks.io', 'Email'),
     addPerson('Ethan Chen', blank, 'Member', 'alexm@mvhacks.io','Email'),
     addPerson('Owen Kim', blank, 'Member', 'alexm@mvhacks.io','Email'),
