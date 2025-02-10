@@ -35,11 +35,12 @@ const outreach = [
 
 const sponsorship = [
     addPerson('Yhali Matot', '/TeamImages/yhali.png', 'Sponsorship Director', 'yhali@mvhacks.io', 'Email'),
-    addPerson('Kirati Bollineni', '/TeamImages/blank.jpeg', 'Member', 'alexm@mvhacks.io', 'Email'),
-    addPerson('Ethan Chen', '/TeamImages/blank.jpeg', 'Member', 'alexm@mvhacks.io','Email'),
-    addPerson('Owen Kim', '/TeamImages/blank.jpeg', 'Member', 'alexm@mvhacks.io','Email'),
+    addPerson('Kirati Bollineni', '/TeamImages/kirati.png', 'Member', 'kiratib@mvhacks.io', 'Email'),
+    addPerson('Ethan Chen', '/TeamImages/ethan.jpeg', 'Member', 'ethanc@mvhacks.io','Email'),
+    addPerson('Owen Kim', '/TeamImages/owen.jpg', 'Member', 'owen@mvhacks.io','Email'),
+    addPerson('Ishaan Sharma', '/TeamImages/blank.jpeg', 'Member', 'ishaan@mvhacks.io','Email'),
     addPerson('Henry Shih', '/TeamImages/henry.jpg', 'Member', 'henry@mvhacks.io','Email'),
-    addPerson('Shankaran Srivatsa', '/TeamImages/blank.jpeg', 'Member', 'alexm@mvhacks.io','Email'),
+    addPerson('Shankaran Srivatsa', '/TeamImages/shankaran.jpeg', 'Member', 'shankaran@mvhacks.io','Email'),
     addPerson('Kevin Thompson', '/TeamImages/blank.jpeg', 'Member', 'alexm@mvhacks.io','Email'),
     addPerson('Ada Tulac', '/TeamImages/ada.jpg', 'Member', 'adat@mvhacks.io','Email')
 ];
