@@ -66,9 +66,9 @@ function App() {
           <InfoPage></InfoPage>
           <Carousel></Carousel>
         </div>
-        <div className="schedule" ref={schedule}>
+        {/* <div className="schedule" ref={schedule}>
           <Schedule></Schedule>
-        </div>
+        </div> */}
         <div className="faqs" ref={faqs}>
           <Faqs></Faqs>
         </div>
