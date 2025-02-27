@@ -107,8 +107,7 @@ export default function Faqs() {
             </Typography>
           </AccordionSummary>
           <AccordionDetails sx={{ color: "#c6add4" }}>
-            The date and location have not been finalized yet. Feel free to sign
-            up to be alerted when we have more information!
+          It will take place March 23rd from 9:30am to 9:30pm at the Mountain View Redwood Hall.
           </AccordionDetails>
         </Accordion>
         <Accordion>

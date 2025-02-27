@@ -269,7 +269,7 @@ export default function Navbar({ onOptionSelect }: any) {
                   </Typography>
                 </ListItemButton>
                 <Link
-                  href="https://docs.google.com/forms/d/e/1FAIpQLSefTr6730BXSMYYdAnDXS5hFu_NZ5FHyzNYkv2MYqZoxvkgyQ/viewform"
+                  href="https://forms.gle/UjfMwShvMadRa7r4A"
                   level="h4"
                   sx={{
                     fontWeight: "lg",
@@ -292,7 +292,7 @@ export default function Navbar({ onOptionSelect }: any) {
                     }}
                     level="h4"
                   >
-                    Alert
+                    Sign Up
                   </Typography>
                 </Link>
               </List>
@@ -524,7 +524,7 @@ export default function Navbar({ onOptionSelect }: any) {
                   borderColor: "rgb(200,172,212)", 
                 },
               }}
-              href="https://docs.google.com/forms/d/e/1FAIpQLSefTr6730BXSMYYdAnDXS5hFu_NZ5FHyzNYkv2MYqZoxvkgyQ/viewform"
+              href="https://forms.gle/UjfMwShvMadRa7r4A"
               color="neutral"
               level="h3"
               underline="none"
@@ -539,7 +539,7 @@ export default function Navbar({ onOptionSelect }: any) {
                 }}
                 level="h3"
               >
-                Alert
+                Sign Up
               </Typography>
             </Link>
           </Box>

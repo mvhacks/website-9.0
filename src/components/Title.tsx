@@ -68,16 +68,16 @@ export default function Title() {
             variant="plain" 
             sx={{color: "rgb(150,122,162)", fontSize: {xs: "3vw", sm: "2vw", md: "2vw", lg: "1.25vw"}}}
           >
-            *You can now sign up to be alerted when more details about MVHacks 8.0 are released by clicking the alert me button.</Typography>{' '}
+            *You can now sign up to participate in the hackathon by clicking the Sign Up button.</Typography>{' '}
         </Typography>
       </div>
       <Button
         sx={{ borderRadius: "25px", marginLeft: "10%", marginBottom: "8%", marginTop: "2%"}}
         id="alert"
         component="a"
-        href="https://docs.google.com/forms/d/e/1FAIpQLSefTr6730BXSMYYdAnDXS5hFu_NZ5FHyzNYkv2MYqZoxvkgyQ/viewform"
+        href="https://forms.gle/UteLJwraxDvovauM6"
       >
-        ALERT ME
+        SIGN UP
         <img src={arrow} height="25" width="25" id="arrow" alt="arrow-icon" />
       </Button>
     </Box>
