@@ -7,19 +7,18 @@ function createData(time: string, event: string) {
 }
 
 const rows = [
-  createData("8:00 AM", "Opening Ceremony"),
-  createData("8:30 AM", "Start Hacking"),
-  createData("9:00 AM", "Capture the Flag Starts"),
-  createData("10:30 AM", "Workshop"),
-  createData("11:30 AM", "Lunch (provided by MVHacks)"),
-  createData("1:00 PM", "Company Presentation"),
-  createData("2:00 PM", "Guess the Image Game"),
-  createData("3:00 PM", "Developing Websites With React Workshop"),
-  createData("4:30 PM", "Geoguessr Multiplayer Live Game"),
-  createData("5:30 PM", "Cup Stacking"),
-  createData("7:00 PM", "Submissions"),
-  createData("7:15 PM", "Voting and Judging"),
-  createData("8:00 PM", "Closing Ceremony"),
+  createData("9:30 AM", "Opening Ceremony"),
+  createData("10:00 AM", "Start Hacking"),
+  createData("10:30 AM", "Capture the Flag Starts"),
+  createData("12:00 AM", "Workshop"),
+  createData("1:00 PM", "Lunch (provided by MVHacks)"),
+  createData("2:30 PM", "Company Presentation"),
+  createData("3:30 PM", "Marshmallow Towers"),
+  createData("4:30 PM", "Developing Websites With React Workshop"),
+  createData("6:00 PM", "Skribbl.io"),
+  createData("8:30 PM", "Submissions"),
+  createData("8:45 PM", "Voting and Judging"),
+  createData("9:30 PM", "Closing Ceremony"),
 ];
 
 export default function Schedule() {
