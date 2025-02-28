@@ -5,7 +5,7 @@ import Footer from "./components/Footer";
 import Prospectus from "./components/Prospectus"
 import Faqs from "./components/Faqs";
 import Title from "./components/Title";
-// import Schedule from "./components/Schedule";
+import Schedule from "./components/Schedule";
 import InfoPage from './components/InfoPage';
 import Carousel from "./components/Carousel";
 import background from './images/background.png';
@@ -66,9 +66,9 @@ function App() {
           <InfoPage></InfoPage>
           <Carousel></Carousel>
         </div>
-        {/* <div className="schedule" ref={schedule}>
+        <div className="schedule" ref={schedule}>
           <Schedule></Schedule>
-        </div> */}
+        </div>
         <div className="faqs" ref={faqs}>
           <Faqs></Faqs>
         </div>

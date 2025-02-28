@@ -168,7 +168,7 @@ export default function Navbar({ onOptionSelect }: any) {
                     Info
                   </Typography>
                 </ListItemButton>
-                {/* <ListItemButton
+                <ListItemButton
                   sx={{
                     fontWeight: "lg",
                     color: "white",
@@ -192,7 +192,7 @@ export default function Navbar({ onOptionSelect }: any) {
                   >
                     Schedule
                   </Typography>
-                </ListItemButton> */}
+                </ListItemButton>
                 <ListItemButton
                   sx={{
                     fontWeight: "lg",
@@ -406,7 +406,7 @@ export default function Navbar({ onOptionSelect }: any) {
                 Info
               </Typography>
             </Link>
-            {/* <Link
+            <Link
               style={{ margin: 10, color: "white", paddingLeft: 10 }}
               sx={{
                 "&:hover": {
@@ -431,7 +431,7 @@ export default function Navbar({ onOptionSelect }: any) {
               >
                 Schedule
               </Typography>
-            </Link> */}
+            </Link>
             <Link
               style={{ margin: 10, color: "white", paddingLeft: 10 }}
               sx={{
