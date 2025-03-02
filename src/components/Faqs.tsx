@@ -28,13 +28,12 @@ export default function Faqs() {
           marginRight: { xs: "3%", sm: "10%", md: "10%" },      
           padding: "20px",
           borderRadius: "8px",
-          boxShadow: "0 0 30px rgba(130, 12, 215, 0.6)",
           "& .MuiAccordion-root": {
             backgroundColor: "transparent",
           },
           "& button:hover": {
             backgroundColor: "#221a46 !important",
-          },      
+          },
         }}
       >
         <Accordion>

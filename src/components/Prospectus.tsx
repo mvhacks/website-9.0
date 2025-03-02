@@ -18,37 +18,45 @@ export default function Prospectus() {
         >
           SPONSOR MVHACKS 8.0!
         </Typography>
-        <p>
-          MVHacks is now in its 8th year of inspiring high school students
-          throughout the country to get together and build great projects. As a
-          prestigious, in-person hackathon, our past events have consistently
-          attracted over 200 unique and diverse attendees. With your support, we
-          aim to engage over 250+ students for MVHacks.
-        </p>
-        <p>
-          To discover more about sponsorship opportunities, please download our
-          Sponsorship Prospectus below and reach out to us at&nbsp;
+        <div style={{ 
+            backgroundColor: "rgba(0, 0, 0, 0.7)",
+            padding: "20px",
+            borderRadius: "8px",  
+          }}
+        >
+          <p>
+            MVHacks is now in its 8th year of inspiring high school students
+            throughout the country to get together and build great projects. As a
+            prestigious, in-person hackathon, our past events have consistently
+            attracted over 200 unique and diverse attendees. With your support, we
+            aim to engage over 250+ students for MVHacks.
+          </p>
+          <p>
+            To discover more about sponsorship opportunities, please download our
+            Sponsorship Prospectus below and reach out to us at&nbsp;
+            <a
+              id="email"
+              href="mailto:alexm@mvhacks.io"
+              style={{ color: "#c6add4" }}
+            >
+              alexm@mvhacks.io
+            </a>
+            .
+          </p>
+          <p>
+            Join us, and let's make MVHacks 8.0 an unforgettable experience. We
+            eagerly await the participation of your company!
+          </p>
           <a
-            id="email"
-            href="mailto:alexm@mvhacks.io"
+            id="prospectusDownload"
+            href={"MVH8SponsorshipProspectus.pdf"}
+            download
             style={{ color: "#c6add4" }}
           >
-            alexm@mvhacks.io
+            Download the Sponsorship Prospectus
           </a>
-          .
-        </p>
-        <p>
-          Join us, and let's make MVHacks 8.0 an unforgettable experience. We
-          eagerly await the participation of your company!
-        </p>
-        <a
-          id="prospectusDownload"
-          href={"MVH8SponsorshipProspectus.pdf"}
-          download
-          style={{ color: "#c6add4" }}
-        >
-          Download the Sponsorship Prospectus
-        </a>
+        </div>
+        
       </div>
       <Box
         alignItems="center"
