@@ -22,16 +22,19 @@ export default function Faqs() {
       </Typography>
       <AccordionGroup
         sx={{
-          backgroundColor: "transparent",
+          backgroundColor: "rgba(0, 0, 0, 0.7)",
           color: "white !important",
           marginLeft: { xs: "3%", sm: "10%", md: "10%" },
           marginRight: { xs: "3%", sm: "10%", md: "10%" },      
+          padding: "20px",
+          borderRadius: "8px",
+          boxShadow: "0 0 30px rgba(130, 12, 215, 0.6)",
           "& .MuiAccordion-root": {
             backgroundColor: "transparent",
           },
           "& button:hover": {
             backgroundColor: "#221a46 !important",
-          },
+          },      
         }}
       >
         <Accordion>
