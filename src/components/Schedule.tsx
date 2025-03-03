@@ -18,7 +18,7 @@ const rows = [
   createData("6:00 PM", "Skribbl.io"),
   createData("8:30 PM", "Submissions"),
   createData("8:45 PM", "Voting and Judging"),
-  createData("9:30 PM", "Closing Ceremony"),
+  createData("9:00 PM", "Closing Ceremony"),
 ];
 
 export default function Schedule() {
