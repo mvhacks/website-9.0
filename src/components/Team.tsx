@@ -14,7 +14,7 @@ const directors = [
     addPerson('Saahiti Bondalapati', '/TeamImages/saahiti.png', 'Outreach Director', 'saahiti@mvhacks.io','Email'),
     addPerson('Emily Markova', '/TeamImages/emily.jpg', 'Tech Director', 'https://github.com/emilymarkova','Github'),
     addPerson('Yhali Matot', '/TeamImages/yhali.png', 'Sponsorship Director', 'yhali@mvhacks.io', 'Email'),
-    addPerson('Arthur Cheong', '/TeamImages/blank.jpeg', 'Emcee', 'arthurc@mvhacks.io','Email')
+    addPerson('Arthur Cheong', '/TeamImages/arthur.jpeg', 'Emcee', 'arthurc@mvhacks.io','Email')
 ];
 
 const tech = [
@@ -28,7 +28,7 @@ const tech = [
 
 const outreach = [
     addPerson('Saahiti Bondalapati', '/TeamImages/saahiti.png', 'Outreach Director', 'saahiti@mvhacks.io', 'Email'),
-    addPerson('Rohin Gupta', '/TeamImages/blank.jpeg', 'Member', 'rohin@mvhacks.io','Email'),
+    addPerson('Rohin Gupta', '/TeamImages/rohin.jpg', 'Member', 'rohin@mvhacks.io','Email'),
     addPerson('Nikita Narang', '/TeamImages/nikita.jpeg', 'Member', 'nikita@mvhacks.io','Email'),
     addPerson('Mirabel Wang', '/TeamImages/blank.jpeg', 'Member', 'mirabelw@mvhacks.io','Email')
 ];
@@ -38,7 +38,7 @@ const sponsorship = [
     addPerson('Kirati Bollineni', '/TeamImages/kirati.png', 'Member', 'kiratib@mvhacks.io', 'Email'),
     addPerson('Ethan Chen', '/TeamImages/ethan.jpeg', 'Member', 'ethanc@mvhacks.io','Email'),
     addPerson('Owen Kim', '/TeamImages/owen.jpg', 'Member', 'owen@mvhacks.io','Email'),
-    addPerson('Ishaan Sharma', '/TeamImages/blank.jpeg', 'Member', 'ishaan@mvhacks.io','Email'),
+    addPerson('Ishaan Sharma', '/TeamImages/ishaan.jpeg', 'Member', 'ishaan@mvhacks.io','Email'),
     addPerson('Henry Shih', '/TeamImages/henry.jpg', 'Member', 'henry@mvhacks.io','Email'),
     addPerson('Shankaran Srivatsa', '/TeamImages/shankaran.jpeg', 'Member', 'shankaran@mvhacks.io','Email'),
     addPerson('Kevin Thompson', '/TeamImages/blank.jpeg', 'Member', 'alexm@mvhacks.io','Email'),
