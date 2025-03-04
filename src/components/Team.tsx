@@ -30,7 +30,7 @@ const outreach = [
     addPerson('Saahiti Bondalapati', '/TeamImages/saahiti.png', 'Outreach Director', 'saahiti@mvhacks.io', 'Email'),
     addPerson('Rohin Gupta', '/TeamImages/rohin.jpg', 'Member', 'rohin@mvhacks.io','Email'),
     addPerson('Nikita Narang', '/TeamImages/nikita.jpeg', 'Member', 'nikita@mvhacks.io','Email'),
-    addPerson('Mirabel Wang', '/TeamImages/blank.jpeg', 'Member', 'mirabelw@mvhacks.io','Email')
+    addPerson('Mirabel Wang', '/TeamImages/mirabel.jpg', 'Member', 'mirabelw@mvhacks.io','Email')
 ];
 
 const sponsorship = [
@@ -41,7 +41,6 @@ const sponsorship = [
     addPerson('Ishaan Sharma', '/TeamImages/ishaan.jpeg', 'Member', 'ishaan@mvhacks.io','Email'),
     addPerson('Henry Shih', '/TeamImages/henry.jpg', 'Member', 'henry@mvhacks.io','Email'),
     addPerson('Shankaran Srivatsa', '/TeamImages/shankaran.jpeg', 'Member', 'shankaran@mvhacks.io','Email'),
-    addPerson('Kevin Thompson', '/TeamImages/blank.jpeg', 'Member', 'alexm@mvhacks.io','Email'),
     addPerson('Ada Tulac', '/TeamImages/ada.jpg', 'Member', 'adat@mvhacks.io','Email')
 ];
 
