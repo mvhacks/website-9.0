@@ -12,12 +12,10 @@ const rows = [
   createData("10:30 AM", "Capture the Flag Starts"),
   createData("12:00 PM", "Workshop"),
   createData("1:00 PM", "Lunch (provided by MVHacks)"),
-  createData("2:30 PM", "Company Presentation"),
   createData("3:30 PM", "Marshmallow Towers"),
   createData("4:30 PM", "Workshop"),
   createData("6:00 PM", "Skribbl.io"),
-  createData("8:30 PM", "Submissions"),
-  createData("8:45 PM", "Voting and Judging"),
+  createData("8:30 PM", "Submissions + Voting and Judging"),
   createData("9:00 PM", "Closing Ceremony"),
 ];
 
