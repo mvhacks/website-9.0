@@ -62,22 +62,22 @@ export default function Title() {
           sx={{maxWidth: "1000px", marginLeft: "10%", marginRight: "10%", marginBottom:"20px", marginTop: "2%", fontSize: {xs: "3vw", sm: "2vw", md: "2vw", lg: "1.25vw"} }}
         >
           Each year, high school hackers from across the Bay Area come together at MVHacks to create cool projects, learn from experts, and participate in 12 hours of hacking! Hackers of all skill levels are welcome to compete, individually or as a group. 
-          It will take place March 23rd from 9:30am to 9:30pm at the Mountain View Redwood Hall.
+          MVHacks 8.0 took place on March 23rd, 2025. 
           <Typography 
             level="title-lg" 
             variant="plain" 
             sx={{color: "rgb(150,122,162)", fontSize: {xs: "3vw", sm: "2vw", md: "2vw", lg: "1.25vw"}}}
           >
-            *You can now sign up to participate in the hackathon by clicking the Sign Up button.</Typography>{' '}
+            *If you are interested in applying to be part of the MVHacks 9.0 team, please click the Apply button.</Typography>{' '}
         </Typography>
       </div>
       <Button
         sx={{ borderRadius: "25px", marginLeft: "10%", marginBottom: "8%", marginTop: "2%"}}
         id="alert"
         component="a"
-        href="https://forms.gle/UteLJwraxDvovauM6"
+        href="https://forms.gle/9ZKR5hDukp2kH16M8"
       >
-        SIGN UP
+        Apply
         <img src={arrow} height="25" width="25" id="arrow" alt="arrow-icon" />
       </Button>
     </Box>

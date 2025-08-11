@@ -269,7 +269,7 @@ export default function Navbar({ onOptionSelect }: any) {
                   </Typography>
                 </ListItemButton>
                 <Link
-                  href="https://forms.gle/UjfMwShvMadRa7r4A"
+                  href="https://forms.gle/9ZKR5hDukp2kH16M8"
                   level="h4"
                   sx={{
                     fontWeight: "lg",
@@ -292,7 +292,7 @@ export default function Navbar({ onOptionSelect }: any) {
                     }}
                     level="h4"
                   >
-                    Sign Up
+                    Apply
                   </Typography>
                 </Link>
               </List>
@@ -524,7 +524,7 @@ export default function Navbar({ onOptionSelect }: any) {
                   borderColor: "rgb(200,172,212)", 
                 },
               }}
-              href="https://forms.gle/UjfMwShvMadRa7r4A"
+              href="https://forms.gle/9ZKR5hDukp2kH16M8"
               color="neutral"
               level="h3"
               underline="none"
@@ -539,7 +539,7 @@ export default function Navbar({ onOptionSelect }: any) {
                 }}
                 level="h3"
               >
-                Sign Up
+                Apply
               </Typography>
             </Link>
           </Box>
