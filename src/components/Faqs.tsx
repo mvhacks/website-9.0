@@ -109,7 +109,7 @@ export default function Faqs() {
             </Typography>
           </AccordionSummary>
           <AccordionDetails sx={{ color: "#cfc3e0" }}>
-          It will take place March 23rd from 9:30am to 9:30pm at the Mountain View Redwood Hall.
+          The specific date and time are to be determined. 
           </AccordionDetails>
         </Accordion>
         <Accordion>
@@ -157,9 +157,7 @@ export default function Faqs() {
             </Typography>
           </AccordionSummary>
           <AccordionDetails sx={{ color: "#cfc3e0" }}>
-            All high school students are eligible to attend MVHacks as hackers.
-            Interested in attending but not a high school student? Consider
-            signing up to be a mentor.
+            All high school students and middle schoolers are eligible to attend MVHacks as hackers.
           </AccordionDetails>
         </Accordion>
         <Accordion>
@@ -174,7 +172,7 @@ export default function Faqs() {
             </Typography>
           </AccordionSummary>
           <AccordionDetails sx={{ color: "#cfc3e0" }}>
-            For the event, all you need is your school ID, laptop, charger, and
+            For the event, all you need is your laptop, charger, and
             a desire to hack!
           </AccordionDetails>
         </Accordion>
@@ -209,7 +207,7 @@ export default function Faqs() {
           <AccordionDetails sx={{ color: "#cfc3e0" }}>
             Be nice, respectful, and have fun! Hackers are expected to behave
             appropriately and safely at all times, and abide by the MLH Code of
-            Conduct.
+            Conduct (https://github.com/MLH/mlh-policies/blob/main/code-of-conduct.md).
           </AccordionDetails>
         </Accordion>
       </AccordionGroup>
