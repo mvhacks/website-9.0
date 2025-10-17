@@ -18,7 +18,7 @@ export default function Title() {
         >
           MV HACKS
           <br />
-          <span style={{ color: "rgb(200,172,212)" }}>8.0</span>
+          <span style={{ color: "rgb(200,172,212)" }}>9.0</span>
         </Typography>
       </div>
 
