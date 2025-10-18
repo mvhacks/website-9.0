@@ -94,7 +94,7 @@ export default function Navbar({ onOptionSelect }: any) {
                   }}
                   level="h1"
                 >
-                  MVHacks&nbsp;8.0
+                  MVHacks&nbsp;9.0
                 </Typography>
               </Link>
             </Box>
@@ -268,33 +268,6 @@ export default function Navbar({ onOptionSelect }: any) {
                     Team
                   </Typography>
                 </ListItemButton>
-                <Link
-                  href="https://forms.gle/9ZKR5hDukp2kH16M8"
-                  level="h4"
-                  sx={{
-                    fontWeight: "lg",
-                    color: "white",
-                    backgroundColor: "black",
-                    textAlign: "center",
-                    justifyContent: "center",
-                    "&:hover": {
-                      backgroundColor: "black !important",
-                      textDecoration: "none",
-                    },
-                  }}
-                >
-                  <Typography
-                    sx={{
-                      color: "white",
-                      "&:hover": {
-                        color: "rgb(200,172,212)",
-                      },
-                    }}
-                    level="h4"
-                  >
-                    Apply
-                  </Typography>
-                </Link>
               </List>
             </Drawer>
           </Box>
@@ -343,7 +316,7 @@ export default function Navbar({ onOptionSelect }: any) {
                 }}
                 level="h1"
               >
-                MVHacks 8.0
+                MVHacks 9.0
               </Typography>
             </Link>
           </Box>
@@ -508,38 +481,6 @@ export default function Navbar({ onOptionSelect }: any) {
                 level="h3"
               >
                 Team
-              </Typography>
-            </Link>
-            <Link
-              style={{
-                margin: 10,
-                color: "white",
-                paddingLeft: 10,
-                border: "2px solid white",
-                borderRadius: "5px", 
-              }}
-              sx={{
-                "&:hover": {
-                  backgroundColor: "transparent",
-                  borderColor: "rgb(200,172,212)", 
-                },
-              }}
-              href="https://forms.gle/9ZKR5hDukp2kH16M8"
-              color="neutral"
-              level="h3"
-              underline="none"
-              variant="plain"
-            >
-              <Typography
-                sx={{
-                  color: "white",
-                  "&:hover": {
-                    color: "rgb(200,172,212)",
-                  },
-                }}
-                level="h3"
-              >
-                Apply
               </Typography>
             </Link>
           </Box>

@@ -33,7 +33,7 @@ export default function Footer() {
         sx={{ animation: `${glow} 2s infinite alternate` }}
         id="contactUs"
         component="a"
-        href="mailto:alexm@mvhacks.io"
+        href="mailto:emily@mvhacks.io"
       >
         Contact Us
       </Button>

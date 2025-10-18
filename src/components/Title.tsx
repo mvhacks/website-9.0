@@ -2,8 +2,6 @@ import React from "react";
 import Box from "@mui/joy/Box";
 import Typography from "@mui/joy/Typography";
 import circle from "../images/circle.gif";
-import Button from "@mui/joy/Button";
-import arrow from "../images/arrow.png";
 
 export default function Title() {
   const random = Math.floor(Math.random() * 10000);
@@ -18,7 +16,7 @@ export default function Title() {
         >
           MV HACKS
           <br />
-          <span style={{ color: "rgb(200,172,212)" }}>8.0</span>
+          <span style={{ color: "rgb(200,172,212)" }}>9.0</span>
         </Typography>
       </div>
 
@@ -62,24 +60,9 @@ export default function Title() {
           sx={{maxWidth: "1000px", marginLeft: "10%", marginRight: "10%", marginBottom:"20px", marginTop: "2%", fontSize: {xs: "3vw", sm: "2vw", md: "2vw", lg: "1.25vw"} }}
         >
           Each year, high school hackers from across the Bay Area come together at MVHacks to create cool projects, learn from experts, and participate in 12 hours of hacking! Hackers of all skill levels are welcome to compete, individually or as a group. 
-          MVHacks 8.0 took place on March 23rd, 2025. 
-          <Typography 
-            level="title-lg" 
-            variant="plain" 
-            sx={{color: "rgb(150,122,162)", fontSize: {xs: "3vw", sm: "2vw", md: "2vw", lg: "1.25vw"}}}
-          >
-            *If you are interested in applying to be part of the MVHacks 9.0 team, please click the Apply button.</Typography>{' '}
+          The date and location of MVHacks 9.0 are to be announced. 
         </Typography>
       </div>
-      <Button
-        sx={{ borderRadius: "25px", marginLeft: "10%", marginBottom: "8%", marginTop: "2%"}}
-        id="alert"
-        component="a"
-        href="https://forms.gle/9ZKR5hDukp2kH16M8"
-      >
-        Apply
-        <img src={arrow} height="25" width="25" id="arrow" alt="arrow-icon" />
-      </Button>
     </Box>
   );
 }
