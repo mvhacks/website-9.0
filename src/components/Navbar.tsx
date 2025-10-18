@@ -94,7 +94,7 @@ export default function Navbar({ onOptionSelect }: any) {
                   }}
                   level="h1"
                 >
-                  MVHacks&nbsp;8.0
+                  MVHacks&nbsp;9.0
                 </Typography>
               </Link>
             </Box>
@@ -343,7 +343,7 @@ export default function Navbar({ onOptionSelect }: any) {
                 }}
                 level="h1"
               >
-                MVHacks 8.0
+                MVHacks 9.0
               </Typography>
             </Link>
           </Box>

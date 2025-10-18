@@ -18,7 +18,7 @@ export default function Title() {
         >
           MV HACKS
           <br />
-          <span style={{ color: "rgb(200,172,212)" }}>8.0</span>
+          <span style={{ color: "rgb(200,172,212)" }}>9.0</span>
         </Typography>
       </div>
 
@@ -62,7 +62,7 @@ export default function Title() {
           sx={{maxWidth: "1000px", marginLeft: "10%", marginRight: "10%", marginBottom:"20px", marginTop: "2%", fontSize: {xs: "3vw", sm: "2vw", md: "2vw", lg: "1.25vw"} }}
         >
           Each year, high school hackers from across the Bay Area come together at MVHacks to create cool projects, learn from experts, and participate in 12 hours of hacking! Hackers of all skill levels are welcome to compete, individually or as a group. 
-          MVHacks 8.0 took place on March 23rd, 2025. 
+          The date and location of MVHacks 9.0 are to be announced. 
           <Typography 
             level="title-lg" 
             variant="plain" 
