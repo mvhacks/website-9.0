@@ -1,4 +1,4 @@
-import prospectusImage from "../images/MVH8Prospectus.png";
+import prospectusImage from "../images/MVH9Prospectus.png";
 import Typography from "@mui/joy/Typography";
 import Box from "@mui/joy/Box";
 
