@@ -18,12 +18,11 @@ const directors = [
 ];
 
 const tech = [
-    addPerson('Emily Markova', '/TeamImages/MVHacks 8.0/emily.jpg', 'Tech Director', 'emily@mvhacks.io','Email'),
-    addPerson('Noam Kassoff', '/TeamImages/MVHacks 8.0/noam.png', 'Member', 'https://github.com/noamkassoff','Github'),
-    addPerson('Milo Lin', '/TeamImages/MVHacks 8.0/milo.jpeg', 'Member', 'milo@mvhacks.io','Email'),
-    addPerson('Mia Ravishankar', '/TeamImages/MVHacks 8.0/mia.png', 'Member', 'miar@mvhacks.io','Email'),
-    addPerson('Evelyn Yang', '/TeamImages/MVHacks 8.0/evelyn.JPG', 'Member', 'evelyny@mvhacks.io','Email'),
-    addPerson('Jeremy Yu', '/TeamImages/MVHacks 8.0/jeremy.JPG', 'Member', 'https://github.com/jt31415','Github')
+    addPerson('Cinty Lin', '/TeamImages/MVHacks 9.0/Cinty Lin.jpg', 'Tech Director', 'cinty@mvhacks.io','Email'),
+    addPerson('Shankaran Srivatsa', '/TeamImages/MVHacks 9.0/Shankaran Srivatsa.jpeg', 'Member', 'shankaran@mvhacks.io','Email'),
+    addPerson('Kaitlyn Yoon', '/TeamImages/MVHacks 9.0/Kaitlyn Yoon.jpeg', 'Member', 'kaitlyny@mvhacks.io','Email'),
+    addPerson('Olivia Nam', '/TeamImages/MVHacks 9.0/Olivia Nam.jpg', 'Member', 'olivian@mvhacks.io','Email'),
+    addPerson('Evelyn Yang', '/TeamImages/MVHacks 9.0/Evelyn Yang.jpg', 'Member', 'evelyny@mvhacks.io','Email'),
 ];
 
 const outreach = [
