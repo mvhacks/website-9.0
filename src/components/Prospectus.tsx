@@ -36,10 +36,10 @@ export default function Prospectus() {
             Sponsorship Prospectus below and reach out to us at&nbsp;
             <a
               id="email"
-              href="mailto:alexm@mvhacks.io"
+              href="mailto:emily@mvhacks.io"
               style={{ color: "#c6add4" }}
             >
-              alexm@mvhacks.io
+              emily@mvhacks.io
             </a>
             .
           </p>
