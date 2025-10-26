@@ -157,7 +157,7 @@ export default function Faqs() {
             </Typography>
           </AccordionSummary>
           <AccordionDetails sx={{ color: "#cfc3e0" }}>
-            All high school students and middle schoolers are eligible to attend MVHacks as hackers.
+            All high school and middle school students are eligible to attend MVHacks as hackers.
           </AccordionDetails>
         </Accordion>
         <Accordion>
