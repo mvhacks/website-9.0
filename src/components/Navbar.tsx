@@ -1,5 +1,5 @@
 import "../App.css";
-import logo from "../images/MVH8LogoOld.png";
+import logo from "../images/MVH9Logo.png";
 import Typography from "@mui/joy/Typography";
 import Box from "@mui/joy/Box";
 import Link from "@mui/joy/Link";

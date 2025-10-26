@@ -25,7 +25,7 @@ export default function Prospectus() {
           }}
         >
           <p>
-            MVHacks is now in its 9th year of inspiring high school students
+            MVHacks is now in its 9th year of inspiring students
             throughout the country to get together and build great projects. As a
             prestigious, in-person hackathon, our past events have consistently
             attracted over 200 unique and diverse attendees. With your support, we

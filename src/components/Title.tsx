@@ -59,7 +59,7 @@ export default function Title() {
           textColor="common.white" 
           sx={{maxWidth: "1000px", marginLeft: "10%", marginRight: "10%", marginBottom:"20px", marginTop: "2%", fontSize: {xs: "3vw", sm: "2vw", md: "2vw", lg: "1.25vw"} }}
         >
-          Each year, high school hackers from across the Bay Area come together at MVHacks to create cool projects, learn from experts, and participate in 12 hours of hacking! Hackers of all skill levels are welcome to compete, individually or as a group. 
+          MVHacks is a student-led hackathon that invites student hackers from across the Bay Area come together and develop innovative projects, learn from experts, and participate in 12 hours of hacking to win awards! Hackers of all skill levels are welcome to compete, individually or as a group.
           The date and location of MVHacks 9.0 are to be announced. 
         </Typography>
       </div>
