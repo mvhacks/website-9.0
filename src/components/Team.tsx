@@ -20,7 +20,7 @@ const directors = [
 const tech = [
     addPerson('Cinty Lin', '/TeamImages/MVHacks 9.0/Cinty Lin.jpg', 'Tech Director', 'mailto:cinty@mvhacks.io','Email'),
     addPerson('Shankaran Srivatsa', '/TeamImages/MVHacks 9.0/Shankaran Srivatsa.jpeg', 'Member', 'mailto:shankaran@mvhacks.io','Email'),
-    addPerson('Kaitlyn Yoon', '/TeamImages/MVHacks 9.0/Kaitlyn Yoon.jpeg', 'Member', 'mailto:kaitlyny@mvhacks.io','Email'),
+    addPerson('Kaitlyn Yoon', '/TeamImages/MVHacks 9.0/Kaitlyn Yoon.jpg', 'Member', 'mailto:kaitlyny@mvhacks.io','Email'),
     addPerson('Olivia Nam', '/TeamImages/MVHacks 9.0/Olivia Nam.jpg', 'Member', 'mailto:olivian@mvhacks.io','Email'),
     addPerson('Evelyn Yang', '/TeamImages/MVHacks 9.0/Evelyn Yang.jpg', 'Member', 'mailto:evelyny@mvhacks.io','Email'),
 ];
@@ -28,7 +28,7 @@ const tech = [
 const outreach = [
     addPerson('Mirabel Wang', '/TeamImages/MVHacks 8.0/mirabel.jpg', 'Outreach Director', 'mailto:mirabelw@mvhacks.io', 'Email'),
     addPerson('Yeonu Lee', '/TeamImages/MVHacks 9.0/Yeonu Lee.png', 'Member', 'mailto:yeonul@mvhacks.io','Email'),
-    addPerson('Lucas Kirazci', '/TeamImages/MVHacks 9.0/Lucas Kirazci.jpg', 'Member', 'mailto:nikita@mvhacks.io','Email'),
+    addPerson('Lucas Kirazci', '/TeamImages/MVHacks 9.0/Lucas Kirazci.jpg', 'Member', 'mailto:','Email'),
 ];
 
 const sponsorship = [
