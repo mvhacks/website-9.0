@@ -33,7 +33,7 @@ const outreach = [
 
 const sponsorship = [
     addPerson('Yhali Matot', '/TeamImages/MVHacks 8.0/yhali.png', 'Sponsorship Director', 'mailto:yhali@mvhacks.io', 'Email'),
-    addPerson('Aarush Rajagopalan', '/TeamImages/MVHacks 9.0/Aarush Rajagopalan.jpeg', 'Member', 'mailto:aarush@mvhacks.io', 'Email'),
+    addPerson('Aarush Rajagopalan', '/TeamImages/MVHacks 9.0/Aarush Rajagopalan.jpeg', 'Member', 'mailto:aarushr@mvhacks.io', 'Email'),
     addPerson('Kirati Bollineni', '/TeamImages/MVHacks 9.0/Kirati Bollineni.jpeg', 'Member', 'mailto:kiratib@mvhacks.io', 'Email'),
     addPerson('Ishaan Sharma', '/TeamImages/MVHacks 9.0/Ishaan Sharma.jpeg', 'Member', 'mailto:ishaan@mvhacks.io','Email'),
     addPerson('Amyra Kedia', '/TeamImages/MVHacks 9.0/Amyra Kedia.jpeg', 'Member', 'mailto:amyra@mvhacks.io','Email')
