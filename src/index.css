@@ -6,15 +6,22 @@ body {
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	background-color: black;
+	cursor: url('/public/Images/cursor.png') 8 8, auto;
 }
 
 code {
 	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
 		monospace;
 }
+
+.MuiLink-root {
+  cursor: url('/public/Images/cursor.png') 8 8, auto !important;
+}
+
 #mvhackstext {
 	font-size: clamp(16px, 5vw, 2.25rem);
 }
+
 #footer {
 	text-align: center;
 }
@@ -51,11 +58,48 @@ code {
 }
 
 #email {
-	color: rgb(147, 147, 230)
+	color: rgb(147, 147, 230);
 }
 
 #downloadProspectus {
-	color: rgb(147, 147, 230)
+	color: rgb(147, 147, 230);
+}
+
+/* .MuiLink-root,
+.MuiButton-root,
+.MuiIconButton-root,
+.MuiListItemButton-root, */
+.MuiButton-root,
+.MuiIconButton-root,
+.MuiListItemButton-root,
+[role="button"],
+a#prospectusDownload,
+a#email,
+button#link,
+#link,
+#contactUs,
+#devpost,
+#instagram,
+#downloadProspectus,
+.navbar a,
+.navbar button,
+.carousel-container .react-multi-carousel__arrow,
+.carousel-container .react-multi-carousel__arrow--left,
+.carousel-container .react-multi-carousel__arrow--right,
+.carousel-container button.react-multi-carousel__arrow,
+.react-multi-carousel__arrow,
+.react-multi-carousel__arrow--left,
+.react-multi-carousel__arrow--right,
+.react-multi-carousel-arrow,
+.carousel-container button,
+.MuiAccordionSummary-root,
+.MuiAccordionSummary-root button,
+.MuiAccordionSummary-root .MuiButtonBase-root,
+.MuiButtonBase-root[role="button"],
+.JoyAccordionSummary-root,
+.JoyAccordionSummary-root button,
+[role="button"].MuiButtonBase-root {
+  cursor: url('/public/Images/pointer.png') 8 8, pointer !important;
 }
 
 #prospectusImage {
