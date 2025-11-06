@@ -98,6 +98,9 @@ button#link,
 .MuiButtonBase-root[role="button"],
 .JoyAccordionSummary-root,
 .JoyAccordionSummary-root button,
+[style*="cursor: pointer"],
+[style*="cursor: grab"],
+.schedule-slider,
 [role="button"].MuiButtonBase-root {
   cursor: url('/public/Images/pointer.png') 8 8, pointer !important;
 }

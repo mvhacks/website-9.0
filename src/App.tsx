@@ -10,6 +10,7 @@ import InfoPage from './components/InfoPage';
 import Carousel from "./components/Carousel";
 import background from './images/background.png';
 import Team from "./components/Team";
+import BubbleCursor from './components/BubbleCursor';
 
 function App() {
   const home = useRef(null);
@@ -53,6 +54,7 @@ function App() {
       backgroundSize: 'contain',
 
     }}>
+      <BubbleCursor />
       <Navbar onOptionSelect={handleOptionChange} />
       <div>
         <style>

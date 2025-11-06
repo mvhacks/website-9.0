@@ -71,3 +71,7 @@ h2 {
   /*height: 600px;*/
   /*background-color:darkkhaki;*/
 }
+
+.has-bubble-cursor {
+  cursor: none !important;
+}
