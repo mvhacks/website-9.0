@@ -70,9 +70,9 @@ export default function Navbar({ onOptionSelect }: any) {
               <img
                 src={logo}
                 alt="mvhackslogo"
-                width="40"
-                height="40"
-                style={{ marginLeft: "10px", borderRadius: "10px" }}
+                width="50"
+                height="50"
+                style={{ marginLeft: "10px", borderRadius: "50%" }}
               />
               <Link
                 overlay
@@ -292,9 +292,9 @@ export default function Navbar({ onOptionSelect }: any) {
             <img
               src={logo}
               alt="mvhackslogo"
-              width="40"
-              height="40"
-              style={{ marginLeft: "10px", borderRadius: "10px" }}
+              width="50"
+              height="50"
+              style={{ marginLeft: "10px", borderRadius: "50%" }}
             />
             <Link
               overlay
