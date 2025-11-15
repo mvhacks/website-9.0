@@ -87,6 +87,15 @@ h2 {
   background-attachment: scroll;
 }
 
+/* For mobile devices */
+@media (max-width: 768px) {
+  .app-background {
+    background-size: cover;
+    background-attachment: scroll;
+    /* Or use: background-size: auto 100%; to stretch vertically */
+  }
+}
+
 /* For ultra-wide screens, use cover to ensure no gaps while still allowing scroll */
 @media (min-width: 1920px) {
   .app-background {

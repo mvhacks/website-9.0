@@ -41,7 +41,7 @@ export default function InfoPage() {
               marginLeft: "10%",
               backgroundColor: "#8cc6e6",
               opacity: 0.8,
-              borderColor: "#8cc6e6"
+              borderColor: "#8cc6e6",
             }}>
               <CardContent sx={{alignItems: "center"}}>
                 <Typography textColor={"#1800ad"} level="h2">Where Boundaries Fade and Ideas Flourish</Typography>
@@ -67,7 +67,8 @@ export default function InfoPage() {
               marginRight: "10%",
               marginTop: "100px",
               backgroundColor: "#8cc6e6",
-              borderColor: "#8cc6e6"
+              borderColor: "#8cc6e6",
+              opacity: 0.8,
             }}>
               <CardContent sx={{alignItems: "center"}}>
                 <Typography textColor={"#1800ad"} level="h2">Workshops and advice to help you grow</Typography>
@@ -94,7 +95,8 @@ export default function InfoPage() {
               marginBottom: "5%",
               width: "40%",
               backgroundColor: "#8cc6e6",
-              borderColor: "#8cc6e6"
+              borderColor: "#8cc6e6",
+              opacity: 0.8,
             }}
           >
               <CardContent sx={{alignItems: "center"}}>
@@ -122,7 +124,8 @@ export default function InfoPage() {
               flexDirection: "column",
               backgroundColor: "#8cc6e6",
               padding: "5%",
-              borderColor: "#8cc6e6"
+              borderColor: "#8cc6e6",
+              opacity: 0.8,
             }}>
               <CardContent sx={{alignItems: "center"}}>
                 <Typography textColor={"#1800ad"} level="h2">Where Boundaries Fade and Ideas Flourish</Typography>
@@ -147,7 +150,8 @@ export default function InfoPage() {
               margin: "10% 10%" ,
               backgroundColor: "#8cc6e6",
               padding: "5%",
-              borderColor: "#8cc6e6"
+              borderColor: "#8cc6e6",
+              opacity: 0.8,
             }}>
               <CardContent sx={{alignItems: "center"}}>
                 <Typography textColor={"#1800ad"} level="h2">Workshops and advice to help you grow</Typography>

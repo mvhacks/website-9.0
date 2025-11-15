@@ -5,22 +5,40 @@ import Typography from "@mui/joy/Typography";
 export default function Title() {
 
   return (
-    <Box>
-      <div id="title">
+    <Box
+      sx={{
+        display: "flex",
+        flexDirection: "column",
+        justifyContent: "center",
+        alignItems: "center",
+        minHeight: "100vh",
+        textAlign: "center",
+        gap: "1rem",
+        padding: "0 10px"
+      }}
+    >
+      <div id="title"
+        style={{
+          display: "flex",
+          flexDirection: "column",
+          justifyContent: "center",
+          alignItems: "center",
+          textAlign: "center",
+          marginBottom: "1rem"
+        }}
+      >
         <Typography
           level="h1"
           sx={{ 
             fontWeight: "bold", 
             fontSize: { xs: "12vw", sm: "10vw", md: "9vw", lg: "7vw" }, 
-            marginLeft: "10%", 
-            lineHeight: "80%", 
-            marginTop: {xs: "35%", sm: "33%", md: "30%", lg: "27%"}, // Responsive top margin
+            lineHeight: "80%",
             color: "black",
             textAlign: "center"
           }}
         >
           <span style={{ color: "#1800ad" }}>MV</span>
-          <span style={{ color: "black" }}>Hacks</span>
+          <span style={{ color: "black" }}>hacks</span>
           <sup style={{ color: "black", fontSize: "0.6em", verticalAlign: "super" }}>9.0</sup>
         </Typography>
       </div>
@@ -29,28 +47,26 @@ export default function Title() {
         <Typography
           level="title-lg"
           sx={{ 
-            fontWeight: "normal", 
-            marginLeft: "10%", 
+            fontWeight: "bold", 
             fontSize: {xs: "4vw", sm: "3vw", md: "2.5vw", lg: "2vw"},
-            marginTop: {xs: "5%", sm: "4%", md: "3%", lg: "2%"}, // Responsive spacing
             marginBottom: "1%",
             color: "black",
             textAlign: "center"
           }}
         >
-          Let's dive in
+          let's dive in
         </Typography>
         <Typography 
           level="body-lg" 
           variant="plain" 
           textColor="#1800ad" 
           sx={{
-            maxWidth: "1000px", 
-            marginLeft: "10%", 
-            marginRight: "10%", 
-            marginBottom:"20px", 
+            maxWidth: { xs: "90%", sm: "80%", md: "700px", lg: "600px" }, // Responsive max width
+            marginLeft: "auto", 
+            marginRight: "auto", 
+            marginBottom: "20px", 
             marginTop: "2%", 
-            fontSize: {xs: "3vw", sm: "2vw", md: "2vw", lg: "1.25vw"},
+            fontSize: { xs: "3vw", sm: "2vw", md: "2vw", lg: "1.25vw" },
             textAlign: "center"
           }}
         >

@@ -70,6 +70,9 @@ export default function Navbar({ onOptionSelect }: any) {
               <img
                 src={logo}
                 alt="mvhackslogo"
+                width="30"  
+                height="30" 
+                style={{ borderRadius: "50%" }}
               />
               <Link
                 overlay
@@ -88,10 +91,14 @@ export default function Navbar({ onOptionSelect }: any) {
                     color: "white",
                     paddingLeft: "10%",
                     marginRight: "auto",
+                    fontSize: { xs: "6vw", sm: "4vw", md: "3vw" }, 
+                    fontWeight: "bold", 
                   }}
                   level="h1"
                 >
-                  MVHacks&nbsp;9.0
+                  <span style={{ color: "#1800ad" }}>MV</span>
+                  <span style={{ color: "black" }}>Hacks</span>
+                  <sup style={{ color: "black", fontSize: "0.6em", verticalAlign: "super" }}>9.0</sup>
                 </Typography>
               </Link>
             </Box>
@@ -291,7 +298,13 @@ export default function Navbar({ onOptionSelect }: any) {
               alt="mvhackslogo"
               width="50"
               height="50"
-              style={{ marginLeft: "10px", borderRadius: "50%" }}
+              style={{ 
+                width: "50px",
+                height: "50px",
+                maxWidth: "50px",
+                maxHeight: "50px",
+                borderRadius: "50%",
+              }}
             />
             <Link
               overlay
@@ -311,8 +324,9 @@ export default function Navbar({ onOptionSelect }: any) {
                   paddingLeft: "10%",
                   marginRight: "auto",
                   fontWeight: "bold",
-                  fontSize: { xs: "12vw", sm: "10vw", md: "9vw", lg: "7vw" },
+                  fontSize: { xs: "4vw", sm: "3vw", md: "2.5vw", lg: "2vw" },
                   lineHeight: "80%",
+                  whiteSpace: "nowrap",
                 }}
                 level="h1"
               >
