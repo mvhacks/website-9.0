@@ -10,11 +10,11 @@ function addPerson(name: string, image: string, role: string, link: string, type
 }
 
 const directors = [
-    addPerson('Emily Markova', '/TeamImages/MVHacks 8.0/emily.jpg', 'Head Director', 'mailto:emily@mvhacks.io','Email'),
+    addPerson('Emily Markova', '/TeamImages/MVHacks 9.0/emily.jpg', 'Head Director', 'mailto:emily@mvhacks.io','Email'),
     addPerson('Cinty Lin', '/TeamImages/MVHacks 9.0/Cinty Lin.jpg', 'Tech Director', 'mailto:cinty@mvhacks.io','Email'),
-    addPerson('Mirabel Wang', '/TeamImages/MVHacks 8.0/mirabel.jpg', 'Outreach Director', 'mailto:mirabelw@mvhacks.io','Email'),
-    addPerson('Yhali Matot', '/TeamImages/MVHacks 8.0/yhali.png', 'Sponsorship Director', 'mailto:yhali@mvhacks.io', 'Email'),
-    addPerson('Nikita Narang', 'TeamImages/MVHacks 8.0/nikita.jpeg', 'Design Director', 'mailto:nikita@mvhacks.io', 'Email'),
+    addPerson('Mirabel Wang', '/TeamImages/MVHacks 9.0/mirabel.jpg', 'Outreach Director', 'mailto:mirabelw@mvhacks.io','Email'),
+    addPerson('Yhali Matot', '/TeamImages/MVHacks 9.0/yhali.png', 'Sponsorship Director', 'mailto:yhali@mvhacks.io', 'Email'),
+    addPerson('Nikita Narang', 'TeamImages/MVHacks 9.0/nikita.jpeg', 'Design Director', 'mailto:nikita@mvhacks.io', 'Email'),
 ];
 
 const tech = [
@@ -26,13 +26,13 @@ const tech = [
 ];
 
 const outreach = [
-    addPerson('Mirabel Wang', '/TeamImages/MVHacks 8.0/mirabel.jpg', 'Outreach Director', 'mailto:mirabelw@mvhacks.io', 'Email'),
+    addPerson('Mirabel Wang', '/TeamImages/MVHacks 9.0/mirabel.jpg', 'Outreach Director', 'mailto:mirabelw@mvhacks.io', 'Email'),
     addPerson('Yeonu Lee', '/TeamImages/MVHacks 9.0/Yeonu Lee.png', 'Member', 'mailto:yeonul@mvhacks.io','Email'),
     addPerson('Lucas Kirazci', '/TeamImages/MVHacks 9.0/Lucas Kirazci.jpg', 'Member', 'mailto:','Email'),
 ];
 
 const sponsorship = [
-    addPerson('Yhali Matot', '/TeamImages/MVHacks 8.0/yhali.png', 'Sponsorship Director', 'mailto:yhali@mvhacks.io', 'Email'),
+    addPerson('Yhali Matot', '/TeamImages/MVHacks 9.0/yhali.png', 'Sponsorship Director', 'mailto:yhali@mvhacks.io', 'Email'),
     addPerson('Aarush Rajagopalan', '/TeamImages/MVHacks 9.0/Aarush Rajagopalan.jpeg', 'Member', 'mailto:aarushr@mvhacks.io', 'Email'),
     addPerson('Kirati Bollineni', '/TeamImages/MVHacks 9.0/Kirati Bollineni.jpeg', 'Member', 'mailto:kiratib@mvhacks.io', 'Email'),
     addPerson('Ishaan Sharma', '/TeamImages/MVHacks 9.0/Ishaan Sharma.jpeg', 'Member', 'mailto:ishaan@mvhacks.io','Email'),
