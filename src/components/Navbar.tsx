@@ -70,9 +70,6 @@ export default function Navbar({ onOptionSelect }: any) {
               <img
                 src={logo}
                 alt="mvhackslogo"
-                width="50"
-                height="50"
-                style={{ marginLeft: "10px", borderRadius: "50%" }}
               />
               <Link
                 overlay
@@ -135,7 +132,7 @@ export default function Navbar({ onOptionSelect }: any) {
                     sx={{
                       color: "white",
                       "&:hover": {
-                        color: "rgb(200,172,212)",
+                        color: "rgb(24, 0, 173)",
                       },
                     }}
                     level="h4"
@@ -160,7 +157,7 @@ export default function Navbar({ onOptionSelect }: any) {
                     sx={{
                       color: "white",
                       "&:hover": {
-                        color: "rgb(200,172,212)",
+                        color: "rgb(24, 0, 173)",
                       },
                     }}
                     level="h4"
@@ -185,7 +182,7 @@ export default function Navbar({ onOptionSelect }: any) {
                     sx={{
                       color: "white",
                       "&:hover": {
-                        color: "rgb(200,172,212)",
+                        color: "rgb(24, 0, 173)",
                       },
                     }}
                     level="h4"
@@ -210,7 +207,7 @@ export default function Navbar({ onOptionSelect }: any) {
                     sx={{
                       color: "white",
                       "&:hover": {
-                        color: "rgb(200,172,212)",
+                        color: "rgb(24, 0, 173)",
                       },
                     }}
                     level="h4"
@@ -235,7 +232,7 @@ export default function Navbar({ onOptionSelect }: any) {
                     sx={{
                       color: "white",
                       "&:hover": {
-                        color: "rgb(200,172,212)",
+                        color: "rgb(24, 0, 173)",
                       },
                     }}
                     level="h4"
@@ -260,7 +257,7 @@ export default function Navbar({ onOptionSelect }: any) {
                     sx={{
                       color: "white",
                       "&:hover": {
-                        color: "rgb(200,172,212)",
+                        color: "rgb(24, 0, 173)",
                       },
                     }}
                     level="h4"
@@ -308,15 +305,20 @@ export default function Navbar({ onOptionSelect }: any) {
               onClick={() => onOptionSelect("home")}
             >
               <Typography
+                id="mvhackstext"
                 sx={{
                   color: "white",
                   paddingLeft: "10%",
-                  width: "100%",
                   marginRight: "auto",
+                  fontWeight: "bold",
+                  fontSize: { xs: "12vw", sm: "10vw", md: "9vw", lg: "7vw" },
+                  lineHeight: "80%",
                 }}
                 level="h1"
               >
-                MVHacks 9.0
+                <span style={{ color: "#1800ad" }}>MV</span>
+                <span style={{ color: "black" }}>Hacks</span>
+                <sup style={{ color: "black", fontSize: "0.6em", verticalAlign: "super" }}>9.0</sup>
               </Typography>
             </Link>
           </Box>
@@ -345,7 +347,7 @@ export default function Navbar({ onOptionSelect }: any) {
                 sx={{
                   color: "white",
                   "&:hover": {
-                    color: "rgb(200,172,212)",
+                    color: "rgb(24, 0, 173)",
                   },
                 }}
                 level="h3"
@@ -371,7 +373,7 @@ export default function Navbar({ onOptionSelect }: any) {
                 sx={{
                   color: "white",
                   "&:hover": {
-                    color: "rgb(200,172,212)",
+                    color: "rgb(24, 0, 173)",
                   },
                 }}
                 level="h3"
@@ -397,7 +399,7 @@ export default function Navbar({ onOptionSelect }: any) {
                 sx={{
                   color: "white",
                   "&:hover": {
-                    color: "rgb(200,172,212)",
+                    color: "rgb(24, 0, 173)",
                   },
                 }}
                 level="h3"
@@ -423,7 +425,7 @@ export default function Navbar({ onOptionSelect }: any) {
                 sx={{
                   color: "white",
                   "&:hover": {
-                    color: "rgb(200,172,212)",
+                    color: "rgb(24, 0, 173)",
                   },
                 }}
                 level="h3"
@@ -449,7 +451,7 @@ export default function Navbar({ onOptionSelect }: any) {
                 sx={{
                   color: "white",
                   "&:hover": {
-                    color: "rgb(200,172,212)",
+                    color: "rgb(24, 0, 173)",
                   },
                 }}
                 level="h3"
@@ -475,7 +477,7 @@ export default function Navbar({ onOptionSelect }: any) {
                 sx={{
                   color: "white",
                   "&:hover": {
-                    color: "rgb(200,172,212)",
+                    color: "rgb(24, 0, 173)",
                   },
                 }}
                 level="h3"

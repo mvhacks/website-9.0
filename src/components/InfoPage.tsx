@@ -39,11 +39,13 @@ export default function InfoPage() {
               flexDirection: "column",
               width: "40%",
               marginLeft: "10%",
-              backgroundColor: "black"
+              backgroundColor: "#8cc6e6",
+              opacity: 0.8,
+              borderColor: "#8cc6e6"
             }}>
               <CardContent sx={{alignItems: "center"}}>
-                <Typography textColor={"#c8acd4"} level="h2">Where Boundaries Fade and Ideas Flourish</Typography>
-                <Typography textColor={"common.white"}>MVHacks is proud to give a platform for aspiring tech enthusiasts to grow and learn by making unique projects that progress society.</Typography>
+                <Typography textColor={"#1800ad"} level="h2">Where Boundaries Fade and Ideas Flourish</Typography>
+                <Typography textColor={"black"}>MVHacks is proud to give a platform for aspiring tech enthusiasts to grow and learn by making unique projects that progress society.</Typography>
               </CardContent>
           </Card>
         </motion.div>
@@ -64,11 +66,12 @@ export default function InfoPage() {
               marginLeft: "48%",
               marginRight: "10%",
               marginTop: "100px",
-              backgroundColor: "black"
+              backgroundColor: "#8cc6e6",
+              borderColor: "#8cc6e6"
             }}>
               <CardContent sx={{alignItems: "center"}}>
-                <Typography textColor={"#c8acd4"} level="h2">Workshops and advice to help you grow</Typography>
-                <Typography textColor={"common.white"}>With specialized judges that are currently in the tech industry, at MVHacks you'll receive the best feedback to help you improve.</Typography>
+                <Typography textColor={"#1800ad"} level="h2">Workshops and advice to help you grow</Typography>
+                <Typography textColor={"black"}>With specialized judges that are currently in the tech industry, at MVHacks you'll receive the best feedback to help you improve.</Typography>
               </CardContent>
           </Card>
         </motion.div>
@@ -90,12 +93,13 @@ export default function InfoPage() {
               marginLeft: "10%",
               marginBottom: "5%",
               width: "40%",
-              backgroundColor: "black"
+              backgroundColor: "#8cc6e6",
+              borderColor: "#8cc6e6"
             }}
           >
               <CardContent sx={{alignItems: "center"}}>
-                <Typography textColor={"#c8acd4"} level="h2">Real world collaboration and innovation</Typography>
-                <Typography textColor={"common.white"}>The MVHacks schedule is currently in development, but expect team-building exercises, workshops, and challenges!</Typography>
+                <Typography textColor={"#1800ad"} level="h2">Real world collaboration and innovation</Typography>
+                <Typography textColor={"black"}>The MVHacks schedule is currently in development, but expect team-building exercises, workshops, and challenges!</Typography>
               </CardContent>
           </Card>
         </motion.div>
@@ -116,12 +120,13 @@ export default function InfoPage() {
               display: "flex",
               margin: "0 10%",
               flexDirection: "column",
-              backgroundColor: "black",
-              padding: "5%"
+              backgroundColor: "#8cc6e6",
+              padding: "5%",
+              borderColor: "#8cc6e6"
             }}>
               <CardContent sx={{alignItems: "center"}}>
-                <Typography textColor={"#c8acd4"} level="h2">Where Boundaries Fade and Ideas Flourish</Typography>
-                <Typography textColor={"common.white"} level="body-md">MVHacks is proud to give a platform for aspiring tech enthusiasts to grow and learn by making unique projects that progress society.</Typography>
+                <Typography textColor={"#1800ad"} level="h2">Where Boundaries Fade and Ideas Flourish</Typography>
+                <Typography textColor={"black"} level="body-md">MVHacks is proud to give a platform for aspiring tech enthusiasts to grow and learn by making unique projects that progress society.</Typography>
               </CardContent>
           </Card>
         </motion.div>
@@ -140,37 +145,13 @@ export default function InfoPage() {
               display: "flex",
               flexDirection: "column",
               margin: "10% 10%" ,
-              backgroundColor: "black",
-              padding: "5%"
+              backgroundColor: "#8cc6e6",
+              padding: "5%",
+              borderColor: "#8cc6e6"
             }}>
               <CardContent sx={{alignItems: "center"}}>
-                <Typography textColor={"#c8acd4"} level="h2">Workshops and advice to help you grow</Typography>
-                <Typography textColor={"common.white"} level="body-md">With specialized judges that are currently in the tech industry, at MVHacks you'll receive the best feedback to help you improve.</Typography>
-              </CardContent>
-          </Card>
-        </motion.div>
-        <motion.div
-          initial={{ opacity: 0, y: 50}}
-          whileInView={{ opacity: 1, y: 0, transition: { delay: 0.3, duration: 0.7}}}
-          viewport={{ once: true, amount: 1 }}
-        >
-          <Card
-            orientation="horizontal"
-            size="md"
-            variant="outlined"
-            sx={{
-              "--Card-padding": "16px",
-              "--Card-radius": "26px",
-              display: "flex",
-              flexDirection: "column",
-              margin: "10% 10%" ,
-              backgroundColor: "black",
-              padding: "5%"
-            }}
-          >
-              <CardContent sx={{alignItems: "center"}}>
-                <Typography textColor={"#c8acd4"} level="h2">Real world collaboration and innovation</Typography>
-                <Typography textColor={"common.white"} level="body-md">The MVHacks schedule is currently in development, but expect team-building exercises, workshops, and challenges!</Typography>
+                <Typography textColor={"#1800ad"} level="h2">Workshops and advice to help you grow</Typography>
+                <Typography textColor={"black"} level="body-md">With specialized judges that are currently in the tech industry, at MVHacks you'll receive the best feedback to help you improve.</Typography>
               </CardContent>
           </Card>
         </motion.div>
