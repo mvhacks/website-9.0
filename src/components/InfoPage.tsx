@@ -124,10 +124,13 @@ export default function InfoPage() {
           viewport={{ once: true, amount: 0.3 }}
         >
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
           <div
             style={{ display: 'flex', justifyContent: 'center' }}
           >
 =======
+=======
+>>>>>>> Stashed changes
 <<<<<<< HEAD
           <Card
             orientation="horizontal"
@@ -237,6 +240,9 @@ export default function InfoPage() {
           <div
             style={{ display: 'flex', justifyContent: 'center' }}
           >
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
             <motion.div
               aria-label="Where Boundaries Fade and Ideas Flourish"
@@ -265,6 +271,8 @@ export default function InfoPage() {
             </motion.div>
           </div>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
 =======
 >>>>>>> 9ccaa5afdbc9584bcf9c67f878c44447f5e4618d
         </motion.div>
@@ -293,6 +301,102 @@ export default function InfoPage() {
               <CardContent sx={{alignItems: "center"}}>
                 <Typography textColor={"#1800ad"} level="h2">Workshops and advice to help you grow</Typography>
                 <Typography textColor={"black"} level="body-md">With specialized judges that are currently in the tech industry, at MVHacks you'll receive the best feedback to help you improve.</Typography>
+              </CardContent>
+          </Card>
+=======
+          <div style={{ display: 'flex', justifyContent: 'center' }}>
+            <motion.div
+              aria-label="Workshops and advice to help you grow"
+              animate={{ y: [-10, 10, -10] }}
+              transition={{ duration: 6, repeat: Infinity, ease: 'easeInOut' }}
+              style={{
+                width: 280,
+                height: 280,
+                minWidth: 200,
+                minHeight: 200,
+                backgroundImage: `url(${bubbleImg})`,
+                backgroundSize: 'contain',
+                backgroundRepeat: 'no-repeat',
+                backgroundPosition: 'center',
+                display: 'flex',
+                flexDirection: 'column',
+                alignItems: 'center',
+                justifyContent: 'center',
+                textAlign: 'center',
+                padding: 20,
+                color: '#ffffff',
+              }}
+            >
+              <Typography level="h4" sx={{ color: '#1800ad', fontWeight: 600, mb: 1 }}>{'Workshops and advice to help you grow'}</Typography>
+              <Typography level="body-sm" sx={{ color: '#2c2c2c' }}>{"With specialized judges that are currently in the tech industry, at MVHacks you'll receive the best feedback to help you improve."}</Typography>
+            </motion.div>
+          </div>
+        </motion.div>
+        <motion.div
+          initial={{ opacity: 0, y: 40}}
+          whileInView={{ opacity: 1, y: 0, transition: { delay: 0.2, duration: 0.6}}}
+          viewport={{ once: true, amount: 0.3 }}
+        >
+          <div style={{ display: 'flex', justifyContent: 'center' }}>
+            <motion.div
+              aria-label="Real world collaboration and innovation"
+              animate={{ y: [-10, 10, -10] }}
+              transition={{ duration: 6, repeat: Infinity, ease: 'easeInOut' }}
+              style={{
+                width: 280,
+                height: 280,
+                minWidth: 200,
+                minHeight: 200,
+                backgroundImage: `url(${bubbleImg})`,
+                backgroundSize: 'contain',
+                backgroundRepeat: 'no-repeat',
+                backgroundPosition: 'center',
+                display: 'flex',
+                flexDirection: 'column',
+                alignItems: 'center',
+                justifyContent: 'center',
+                textAlign: 'center',
+                padding: 20,
+                color: '#ffffff',
+              }}
+            >
+              <Typography level="h4" sx={{ color: '#1800ad', fontWeight: 600, mb: 1 }}>{'Real world collaboration and innovation'}</Typography>
+              <Typography level="body-sm" sx={{ color: '#2c2c2c' }}>{'The MVHacks schedule is currently in development, but expect team-building exercises, workshops, and challenges!'}</Typography>
+            </motion.div>
+          </div>
+>>>>>>> Stashed changes
+>>>>>>> 9ccaa5afdbc9584bcf9c67f878c44447f5e4618d
+        </motion.div>
+        <motion.div
+          initial={{ opacity: 0, y: 40}}
+          whileInView={{ opacity: 1, y: 0, transition: { delay: 0.15, duration: 0.6}}}
+          viewport={{ once: true, amount: 0.3 }}
+          style={{ marginTop: 24 }}
+        >
+<<<<<<< HEAD
+          <Card
+            orientation="horizontal"
+            size="md"
+            variant="outlined"
+            sx={{
+              "--Card-padding": "16px",
+              "--Card-radius": "26px",
+              display: "flex",
+              flexDirection: "column",
+              margin: "10% 10%" ,
+              backgroundColor: "#8cc6e6",
+              opacity: 0.8,
+              borderColor: "#8cc6e6",
+              padding: "5%"
+<<<<<<< Updated upstream
+            }}>
+=======
+            }}
+          >
+>>>>>>> Stashed changes
+              <CardContent sx={{alignItems: "center"}}>
+                <Typography textColor={"#1800ad"} level="h2">Real world collaboration and innovation</Typography>
+                <Typography textColor={"black"} level="body-md">The MVHacks schedule is currently in development, but expect team-building exercises, workshops, and challenges!</Typography>
               </CardContent>
           </Card>
 =======
