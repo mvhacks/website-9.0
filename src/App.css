@@ -75,3 +75,22 @@ h2 {
 .has-bubble-cursor {
   cursor: none !important;
 }
+
+.app-background {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100vh;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-attachment: scroll;
+}
+
+/* For ultra-wide screens, use cover to ensure no gaps while still allowing scroll */
+@media (min-width: 1920px) {
+  .app-background {
+    background-size: cover;
+    background-attachment: scroll;
+  }
+}

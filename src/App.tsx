@@ -44,16 +44,11 @@ function App() {
   };
 
   return (
-    <div style={{
-      backgroundImage: `url(${background})`,
-      margin: "0px",
-      padding: "0px",
-      backgroundPosition: 'center',
-      width: '100%',
-      backgroundRepeat: 'repeat-y',
-      backgroundSize: 'contain',
-
-    }}>
+    <div 
+      className="app-background"
+      style={{
+        backgroundImage: `url(${background})`,
+      }}>
       <BubbleCursor />
       <Navbar onOptionSelect={handleOptionChange} />
       <div>
