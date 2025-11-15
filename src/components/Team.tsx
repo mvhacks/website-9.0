@@ -28,7 +28,7 @@ const tech = [
 const outreach = [
     addPerson('Mirabel Wang', '/TeamImages/MVHacks 9.0/mirabel.jpg', 'Outreach Director', 'mailto:mirabelw@mvhacks.io', 'Email'),
     addPerson('Yeonu Lee', '/TeamImages/MVHacks 9.0/Yeonu Lee.png', 'Member', 'mailto:yeonul@mvhacks.io','Email'),
-    addPerson('Lucas Kirazci', '/TeamImages/MVHacks 9.0/Lucas Kirazci.jpg', 'Member', 'mailto:','Email'),
+    addPerson('Lucas Kirazci', '/TeamImages/MVHacks 9.0/Lucas Kirazci.jpg', 'Member', 'mailto:lucas@mvhacks.io','Email'),
 ];
 
 const sponsorship = [
