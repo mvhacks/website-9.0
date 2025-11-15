@@ -61,12 +61,12 @@ export default function Title() {
           variant="plain" 
           textColor="#1800ad" 
           sx={{
-            maxWidth: "1000px", 
-            marginLeft: "10%", 
-            marginRight: "10%", 
-            marginBottom:"20px", 
+            maxWidth: { xs: "90%", sm: "80%", md: "700px", lg: "600px" }, // Responsive max width
+            marginLeft: "auto", 
+            marginRight: "auto", 
+            marginBottom: "20px", 
             marginTop: "2%", 
-            fontSize: {xs: "3vw", sm: "2vw", md: "2vw", lg: "1.25vw"},
+            fontSize: { xs: "3vw", sm: "2vw", md: "2vw", lg: "1.25vw" },
             textAlign: "center"
           }}
         >

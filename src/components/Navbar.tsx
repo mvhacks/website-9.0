@@ -70,6 +70,9 @@ export default function Navbar({ onOptionSelect }: any) {
               <img
                 src={logo}
                 alt="mvhackslogo"
+                width="30"  
+                height="30" 
+                style={{ borderRadius: "50%" }}
               />
               <Link
                 overlay
@@ -88,10 +91,14 @@ export default function Navbar({ onOptionSelect }: any) {
                     color: "white",
                     paddingLeft: "10%",
                     marginRight: "auto",
+                    fontSize: { xs: "6vw", sm: "4vw", md: "3vw" }, 
+                    fontWeight: "bold", 
                   }}
                   level="h1"
                 >
-                  MVHacks&nbsp;9.0
+                  <span style={{ color: "#1800ad" }}>MV</span>
+                  <span style={{ color: "black" }}>Hacks</span>
+                  <sup style={{ color: "black", fontSize: "0.6em", verticalAlign: "super" }}>9.0</sup>
                 </Typography>
               </Link>
             </Box>
