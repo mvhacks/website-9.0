@@ -291,7 +291,13 @@ export default function Navbar({ onOptionSelect }: any) {
               alt="mvhackslogo"
               width="50"
               height="50"
-              style={{ marginLeft: "10px", borderRadius: "50%" }}
+              style={{ 
+                width: "50px",
+                height: "50px",
+                maxWidth: "50px",
+                maxHeight: "50px",
+                borderRadius: "50%",
+              }}
             />
             <Link
               overlay
@@ -311,8 +317,9 @@ export default function Navbar({ onOptionSelect }: any) {
                   paddingLeft: "10%",
                   marginRight: "auto",
                   fontWeight: "bold",
-                  fontSize: { xs: "12vw", sm: "10vw", md: "9vw", lg: "7vw" },
+                  fontSize: { xs: "4vw", sm: "3vw", md: "2.5vw", lg: "2vw" },
                   lineHeight: "80%",
+                  whiteSpace: "nowrap",
                 }}
                 level="h1"
               >
