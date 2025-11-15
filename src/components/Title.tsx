@@ -34,7 +34,8 @@ export default function Title() {
             fontSize: { xs: "12vw", sm: "10vw", md: "9vw", lg: "7vw" }, 
             lineHeight: "80%",
             color: "black",
-            textAlign: "center"
+            textAlign: "center",
+            marginTop: { xs: "20%", sm: "18%", md: "15%", lg: "12%" }
           }}
         >
           <span style={{ color: "#1800ad" }}>MV</span>
