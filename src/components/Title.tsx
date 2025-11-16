@@ -38,7 +38,7 @@ export default function Title() {
             marginTop: { xs: "20%", sm: "18%", md: "15%", lg: "12%" }
           }}
         >
-          <span style={{ color: "#1800ad" }}>MV</span>
+          <span style={{ color: "#1800ad" }}>mv</span>
           <span style={{ color: "black" }}>hacks</span>
           <sup style={{ color: "black", fontSize: "0.6em", verticalAlign: "super" }}>9.0</sup>
         </Typography>

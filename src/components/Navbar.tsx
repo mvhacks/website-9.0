@@ -96,7 +96,7 @@ export default function Navbar({ onOptionSelect }: any) {
                   }}
                   level="h1"
                 >
-                  <span style={{ color: "#1800ad" }}>MV</span>
+                  <span style={{ color: "#1800ad" }}>mv</span>
                   <span style={{ color: "black" }}>hacks</span>
                   <sup style={{ color: "black", fontSize: "0.6em", verticalAlign: "super" }}>9.0</sup>
                 </Typography>
@@ -302,7 +302,7 @@ export default function Navbar({ onOptionSelect }: any) {
                 }}
                 level="h1"
               >
-                <span style={{ color: "#1800ad" }}>MV</span>
+                <span style={{ color: "#1800ad" }}>mv</span>
                 <span style={{ color: "black" }}>hacks</span>
                 <sup style={{ color: "black", fontSize: "0.6em", verticalAlign: "super" }}>9.0</sup>
               </Typography>
