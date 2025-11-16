@@ -39,11 +39,18 @@ const sponsorship = [
     addPerson('Amyra Kedia', '/TeamImages/MVHacks 9.0/Amyra Kedia.jpeg', 'Member', 'mailto:amyra@mvhacks.io','Email')
 ];
 
+const design = [
+    addPerson('Nikita Narang', 'TeamImages/MVHacks 9.0/nikita.jpeg', 'Design Director', 'mailto:nikita@mvhacks.io', 'Email'),
+    addPerson('Lezhi Zeng', '/TeamImages/MVHacks 9.0/Lezhi Zeng.png', 'Member', 'mailto:lezhiz@mvhacks.io','Email'),
+    addPerson('Jerry Liang', '/TeamImages/MVHacks 9.0/Jerry Liang.jpg', 'Member', 'mailto:jerryl@mvhacks.io','Email'),
+];
+
 const teams = [
     { name:"Directors", members: directors },
     { name:"Tech", members: tech },
     { name:"Outreach", members: outreach },
-    { name:"Sponsorship", members: sponsorship }
+    { name:"Sponsorship", members: sponsorship },
+    { name:"Design", members: design }
 ];
 
 export default function Team() {
