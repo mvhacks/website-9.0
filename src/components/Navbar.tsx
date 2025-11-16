@@ -97,7 +97,7 @@ export default function Navbar({ onOptionSelect }: any) {
                   level="h1"
                 >
                   <span style={{ color: "#1800ad" }}>MV</span>
-                  <span style={{ color: "black" }}>Hacks</span>
+                  <span style={{ color: "black" }}>hacks</span>
                   <sup style={{ color: "black", fontSize: "0.6em", verticalAlign: "super" }}>9.0</sup>
                 </Typography>
               </Link>
@@ -122,31 +122,6 @@ export default function Navbar({ onOptionSelect }: any) {
                   backgroundColor: "black",
                 }}
               >
-                <ListItemButton
-                  sx={{
-                    fontWeight: "lg",
-                    color: "white",
-                    backgroundColor: "black",
-                    textAlign: "center",
-                    justifyContent: "center",
-                    "&:hover": {
-                      backgroundColor: "black !important",
-                    },
-                  }}
-                  onClick={() => handleDrawerOption("home")}
-                >
-                  <Typography
-                    sx={{
-                      color: "white",
-                      "&:hover": {
-                        color: "rgb(24, 0, 173)",
-                      },
-                    }}
-                    level="h4"
-                  >
-                    Home
-                  </Typography>
-                </ListItemButton>
                 <ListItemButton
                   sx={{
                     fontWeight: "lg",
@@ -306,16 +281,13 @@ export default function Navbar({ onOptionSelect }: any) {
                 borderRadius: "50%",
               }}
             />
-            <Link
-              overlay
-              underline="none"
+            <Box
               sx={{
                 display: "flex",
                 flexDirection: "column",
                 alignItems: "center",
                 justifyContent: "center",
               }}
-              onClick={() => onOptionSelect("home")}
             >
               <Typography
                 id="mvhackstext"
@@ -331,10 +303,10 @@ export default function Navbar({ onOptionSelect }: any) {
                 level="h1"
               >
                 <span style={{ color: "#1800ad" }}>MV</span>
-                <span style={{ color: "black" }}>Hacks</span>
+                <span style={{ color: "black" }}>hacks</span>
                 <sup style={{ color: "black", fontSize: "0.6em", verticalAlign: "super" }}>9.0</sup>
               </Typography>
-            </Link>
+            </Box>
           </Box>
           <Box
             sx={{
@@ -344,31 +316,6 @@ export default function Navbar({ onOptionSelect }: any) {
               marginRight: "25px",
             }}
           >
-            <Link
-              style={{ margin: 10, color: "white", paddingLeft: 10 }}
-              sx={{
-                "&:hover": {
-                  backgroundColor: "transparent",
-                },
-              }}
-              component="button"
-              color="neutral"
-              underline="none"
-              variant="plain"
-              onClick={() => onOptionSelect("home")}
-            >
-              <Typography
-                sx={{
-                  color: "white",
-                  "&:hover": {
-                    color: "rgb(24, 0, 173)",
-                  },
-                }}
-                level="h3"
-              >
-                Home
-              </Typography>
-            </Link>
             <Link
               style={{ margin: 10, color: "white", paddingLeft: 10 }}
               sx={{
