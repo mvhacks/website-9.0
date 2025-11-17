@@ -61,7 +61,7 @@ export default function Navbar({ onOptionSelect }: any) {
             <Box
               sx={{
                 display: "flex",
-                alignItems: "center",
+                alignItems: "flex-start",
                 justifyContent: "center",
                 marginLeft: "25px",
                 marginBottom: "20px",
@@ -72,7 +72,7 @@ export default function Navbar({ onOptionSelect }: any) {
                 alt="mvhackslogo"
                 width="30"  
                 height="30" 
-                style={{ borderRadius: "50%" }}
+                style={{ borderRadius: "50%", marginTop: "10px" }}
               />
               <Link
                 overlay
@@ -144,7 +144,7 @@ export default function Navbar({ onOptionSelect }: any) {
                     }}
                     level="h4"
                   >
-                    Info
+                    info
                   </Typography>
                 </ListItemButton>
                 <ListItemButton
@@ -169,7 +169,7 @@ export default function Navbar({ onOptionSelect }: any) {
                     }}
                     level="h4"
                   >
-                    Schedule
+                    schedule
                   </Typography>
                 </ListItemButton>
                 <ListItemButton
@@ -194,7 +194,7 @@ export default function Navbar({ onOptionSelect }: any) {
                     }}
                     level="h4"
                   >
-                    Faqs
+                    faqs
                   </Typography>
                 </ListItemButton>
                 <ListItemButton
@@ -219,7 +219,7 @@ export default function Navbar({ onOptionSelect }: any) {
                     }}
                     level="h4"
                   >
-                    Sponsors
+                    sponsors
                   </Typography>
                 </ListItemButton>
                 <ListItemButton
@@ -244,7 +244,7 @@ export default function Navbar({ onOptionSelect }: any) {
                     }}
                     level="h4"
                   >
-                    Team
+                    team
                   </Typography>
                 </ListItemButton>
               </List>
@@ -279,6 +279,7 @@ export default function Navbar({ onOptionSelect }: any) {
                 maxWidth: "50px",
                 maxHeight: "50px",
                 borderRadius: "50%",
+                marginTop: "15px",
               }}
             />
             <Box
@@ -339,7 +340,7 @@ export default function Navbar({ onOptionSelect }: any) {
                 }}
                 level="h3"
               >
-                Info
+                info
               </Typography>
             </Link>
             <Link
@@ -365,7 +366,7 @@ export default function Navbar({ onOptionSelect }: any) {
                 }}
                 level="h3"
               >
-                Schedule
+                schedule
               </Typography>
             </Link>
             <Link
@@ -391,7 +392,7 @@ export default function Navbar({ onOptionSelect }: any) {
                 }}
                 level="h3"
               >
-                Faqs
+                faqs
               </Typography>
             </Link>
             <Link
@@ -417,7 +418,7 @@ export default function Navbar({ onOptionSelect }: any) {
                 }}
                 level="h3"
               >
-                Sponsors
+                sponsors
               </Typography>
             </Link>
             <Link
@@ -443,7 +444,7 @@ export default function Navbar({ onOptionSelect }: any) {
                 }}
                 level="h3"
               >
-                Team
+                team
               </Typography>
             </Link>
           </Box>

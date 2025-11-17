@@ -1,7 +1,8 @@
 import React from "react";
 import Button from "@mui/joy/Button";
 import insta_logo from "../images/insta_logo.png";
-import { keyframes } from "@mui/system";
+import { Box, keyframes } from "@mui/system";
+import { Typography } from "@mui/joy";
 
 export default function Footer() {
 
@@ -18,30 +19,60 @@ export default function Footer() {
 `;
   
   return (
-    <div id="footer">
-      <Button
-        sx={{ animation: `${glow} 2s infinite alternate` }}
-        id="devpost"
-        component="a"
-        href="https://mvhacks-6-0.devpost.com/project-gallery"
+    <Box
+      component="footer"
+      sx={{
+        backgroundColor: "#210657ff",
+        color: "white",
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center",
+        gap: 6,
+        flexWrap: "wrap",
+        py: 4,
+        px: 2,
+        flexDirection: "column"
+      }}
+    >
+      <Box
+        sx={{
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+          gap: 6,
+          flexWrap: "wrap",
+        }}
       >
-        Previous Projects
-      </Button>
-      <br />
-      <br />
-      <Button
-        sx={{ animation: `${glow} 2s infinite alternate` }}
-        id="contactUs"
-        component="a"
-        href="mailto:emily@mvhacks.io"
+        <Button
+          sx={{ animation: `${glow} 2s infinite alternate`,color: "white", }}
+          id="devpost"
+          component="a"
+          href="https://mvhacks-6-0.devpost.com/project-gallery"
+        >
+          Previous Projects
+        </Button>
+        <Button
+          sx={{ animation: `${glow} 2s infinite alternate` }}
+          id="contactUs"
+          component="a"
+          href="mailto:emily@mvhacks.io"
+        >
+          Contact Us
+        </Button>
+        <a 
+        id="instagram"
+        href="https://www.instagram.com/mvhacks/"
+        onMouseEnter={e => (e.currentTarget.style.opacity = "0.8")}
+        onMouseLeave={e => (e.currentTarget.style.opacity = "1")}
+        >
+          <img src={insta_logo} alt="Instagram logo" width={50} height={50} />
+        </a>
+      </Box>
+      <Typography
+        sx={{textAlign: "center", color: "#ccc" }}
       >
-        Contact Us
-      </Button>
-      <br />
-      <br />
-      <a id="instagram" href="https://www.instagram.com/mvhacks/">
-        <img src={insta_logo} alt="Instagram logo" width={50} height={50} />
-      </a>
-    </div>
+        © 2025 MVHACKS. All rights reserved.
+      </Typography>
+    </Box>
   );
 }
