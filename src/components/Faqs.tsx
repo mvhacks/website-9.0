@@ -32,23 +32,12 @@ export default function Faqs() {
             backgroundColor: "transparent",
           },
           "& button:hover": {
-            backgroundColor: "#221a46 !important",
+            backgroundColor: "#2e366fff !important",
           },
         }}
       >
         <Accordion>
-          <AccordionSummary
-            sx={{
-              backgroundColor: "transparent",
-              color: "white !important",
-              "& .MuiAccordion-root": {
-                backgroundColor: "transparent",
-              },
-              "& button:hover": {
-                backgroundColor: "#1730be !important",
-              },
-            }}
-          >
+          <AccordionSummary>
             <Typography
               textColor="common.white"
               sx={{
