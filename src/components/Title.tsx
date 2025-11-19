@@ -36,7 +36,13 @@ export default function Title() {
             lineHeight: "80%",
             color: "black",
             textAlign: "center",
-            marginTop: { xs: "20%", sm: "18%", md: "15%", lg: "12%" }
+            marginTop: { 
+              xs: "60vh",   // Small phones
+              sm: "50vh",   // Tablets
+              md: "40vh",   // Small laptops
+              lg: "30vh",   // Desktop
+              xl: "24vh"    // Large screens
+            }
           }}
         >
           <span style={{ color: "#1800ad" }}>mv</span>
