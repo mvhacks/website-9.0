@@ -46,7 +46,7 @@ export default function InfoPage() {
                   alignItems: 'center',
                   justifyContent: 'center',
                   textAlign: 'center',
-                  padding: 24,
+                  padding: 75,
                   color: '#ffffff',
                 }}
               >
@@ -76,7 +76,7 @@ export default function InfoPage() {
                   alignItems: 'center',
                   justifyContent: 'center',
                   textAlign: 'center',
-                  padding: 24,
+                  padding: 75,
                   color: '#ffffff',
                 }}
               >
@@ -106,7 +106,7 @@ export default function InfoPage() {
                   alignItems: 'center',
                   justifyContent: 'center',
                   textAlign: 'center',
-                  padding: 24,
+                  padding: 75,
                   color: '#ffffff',
                 }}
               >
@@ -144,7 +144,7 @@ export default function InfoPage() {
                 alignItems: 'center',
                 justifyContent: 'center',
                 textAlign: 'center',
-                padding: 20,
+                padding: 65,
                 color: '#ffffff',
               }}
             >
@@ -178,7 +178,7 @@ export default function InfoPage() {
                 alignItems: 'center',
                 justifyContent: 'center',
                 textAlign: 'center',
-                padding: 20,
+                padding: 65,
                 color: '#ffffff',
               }}
             >
@@ -211,7 +211,7 @@ export default function InfoPage() {
                 alignItems: 'center',
                 justifyContent: 'center',
                 textAlign: 'center',
-                padding: 20,
+                padding: 65,
                 color: '#ffffff',
               }}
             >

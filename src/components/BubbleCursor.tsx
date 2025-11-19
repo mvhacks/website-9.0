@@ -29,8 +29,8 @@ class Particle {
     const scale =
       0.2 + (this.initialLifeSpan - this.lifeSpan) / this.initialLifeSpan;
 
-    context.fillStyle = '#e6f1f7';
-    context.strokeStyle = '#3a92c5';
+    context.fillStyle = 'rgba(230, 241, 247, 0.4)';
+    context.strokeStyle = 'rgba(58, 146, 197, 0.3)';
     context.beginPath();
     context.arc(
       this.position.x - (this.baseDimension / 2) * scale,
