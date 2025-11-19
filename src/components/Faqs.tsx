@@ -45,7 +45,7 @@ export default function Faqs() {
                 backgroundColor: "transparent",
               },
               "& button:hover": {
-                backgroundColor: "#221a46 !important",
+                backgroundColor: "#1730be !important",
               },
             }}
           >
@@ -58,7 +58,7 @@ export default function Faqs() {
               What is a hackathon?
             </Typography>
           </AccordionSummary>
-          <AccordionDetails sx={{ color: "#cfc3e0" }}>
+          <AccordionDetails sx={{ color: "#cfdbf1" }}>
             A hackathon is a competitive educational event in which students
             come together to develop an idea for a project into a real product.
             MVHacks will provide hackers with educational resources, including
@@ -77,7 +77,7 @@ export default function Faqs() {
               How much does it cost?
             </Typography>
           </AccordionSummary>
-          <AccordionDetails sx={{ color: "#cfc3e0" }}>
+          <AccordionDetails sx={{ color: "#cfdbf1" }}>
             It is completely free! All food, swag, and prizes are provided at no
             charge.
           </AccordionDetails>
@@ -93,7 +93,7 @@ export default function Faqs() {
               What about food?
             </Typography>
           </AccordionSummary>
-          <AccordionDetails sx={{ color: "#cfc3e0" }}>
+          <AccordionDetails sx={{ color: "#cfdbf1" }}>
             MVHacks will provide a free lunch to all participants!
           </AccordionDetails>
         </Accordion>
@@ -108,7 +108,7 @@ export default function Faqs() {
               When / Where is this taking place?
             </Typography>
           </AccordionSummary>
-          <AccordionDetails sx={{ color: "#cfc3e0" }}>
+          <AccordionDetails sx={{ color: "#cfdbf1" }}>
           The specific date and time are to be determined. 
           </AccordionDetails>
         </Accordion>
@@ -123,7 +123,7 @@ export default function Faqs() {
               How long will this hackathon be?
             </Typography>
           </AccordionSummary>
-          <AccordionDetails sx={{ color: "#cfc3e0" }}>
+          <AccordionDetails sx={{ color: "#cfdbf1" }}>
             12 hours (one-day event)!
           </AccordionDetails>
         </Accordion>
@@ -138,7 +138,7 @@ export default function Faqs() {
               Do I need programming experience?
             </Typography>
           </AccordionSummary>
-          <AccordionDetails sx={{ color: "#cfc3e0" }}>
+          <AccordionDetails sx={{ color: "#cfdbf1" }}>
             No - this is a fantastic learning opportunity! Hackers can expect to
             be able to attend educational workshops run by industry
             professionals in addition to experienced adult mentors to help them
@@ -156,7 +156,7 @@ export default function Faqs() {
               Who can attend?
             </Typography>
           </AccordionSummary>
-          <AccordionDetails sx={{ color: "#cfc3e0" }}>
+          <AccordionDetails sx={{ color: "#cfdbf1" }}>
             All high school and middle school students are eligible to attend MVHacks as hackers.
           </AccordionDetails>
         </Accordion>
@@ -171,7 +171,7 @@ export default function Faqs() {
               What do I need?
             </Typography>
           </AccordionSummary>
-          <AccordionDetails sx={{ color: "#cfc3e0" }}>
+          <AccordionDetails sx={{ color: "#cfdbf1" }}>
             For the event, all you need is your laptop, charger, and
             a desire to hack!
           </AccordionDetails>
@@ -187,7 +187,7 @@ export default function Faqs() {
               Do I need a team?
             </Typography>
           </AccordionSummary>
-          <AccordionDetails sx={{ color: "#cfc3e0" }}>
+          <AccordionDetails sx={{ color: "#cfdbf1" }}>
             Teams of up to 3 are allowed. You may work as an individual, but we
             recommend collaborating. There will be a team mixer at start of the
             hackathon.
@@ -204,7 +204,7 @@ export default function Faqs() {
               What are the rules?
             </Typography>
           </AccordionSummary>
-          <AccordionDetails sx={{ color: "#cfc3e0" }}>
+          <AccordionDetails sx={{ color: "#cfdbf1" }}>
             Be nice, respectful, and have fun! Hackers are expected to behave
             appropriately and safely at all times, and abide by the MLH Code of
             Conduct (https://github.com/MLH/mlh-policies/blob/main/code-of-conduct.md).

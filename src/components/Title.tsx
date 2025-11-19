@@ -24,7 +24,8 @@ export default function Title() {
           justifyContent: "center",
           alignItems: "center",
           textAlign: "center",
-          marginBottom: "1rem"
+          marginBottom: "1rem",
+          marginTop: "5%"
         }}
       >
         <Typography
@@ -66,7 +67,7 @@ export default function Title() {
             marginLeft: "auto", 
             marginRight: "auto", 
             marginBottom: "20px", 
-            marginTop: "2%", 
+            marginTop: "5%", 
             fontSize: { xs: "3vw", sm: "2vw", md: "2vw", lg: "1.25vw" },
             textAlign: "center"
           }}

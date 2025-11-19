@@ -37,7 +37,7 @@ export default function Prospectus() {
             <a
               id="email"
               href="mailto:emily@mvhacks.io"
-              style={{ color: "#c6add4" }}
+              style={{ color: "#b4c6e2" }}
             >
               emily@mvhacks.io
             </a>
@@ -51,7 +51,7 @@ export default function Prospectus() {
             id="prospectusDownload"
             href={"MVH9SponsorshipProspectus.pdf"}
             download
-            style={{ color: "#c6add4" }}
+            style={{ color: "#b4c6e2" }}
           >
             Download the Sponsorship Prospectus
           </a>

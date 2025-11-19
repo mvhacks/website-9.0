@@ -8,13 +8,13 @@ export default function Footer() {
 
   const glow = keyframes`
   0% {
-    box-shadow: 0 0 3px rgba(138, 43, 226, 0.3), 0 0 6px rgba(138, 43, 226, 0.3);
+    box-shadow: 0 0 3px rgba(83, 100, 197, 0.3), 0 0 6px rgba(83, 100, 197, 0.3);
   }
   50% {
-    box-shadow: 0 0 8px rgba(138, 43, 2265, 0.5), 0 0 12px rgba(138, 43, 226, 0.5);
+    box-shadow: 0 0 8px rgba(83, 100, 197, 0.5), 0 0 12px rgba(83, 100, 197, 0.5);
   }
   100% {
-    box-shadow: 0 0 3px rgba(138, 43, 226, 0.3), 0 0 6px rgba(138, 43, 226, 0.3);
+    box-shadow: 0 0 3px rgba(83, 100, 197, 0.3), 0 0 6px rgba(83, 100, 197, 0.3);
   }
 `;
   
@@ -22,7 +22,7 @@ export default function Footer() {
     <Box
       component="footer"
       sx={{
-        backgroundColor: "#210657ff",
+        backgroundColor: "#1730be",
         color: "white",
         display: "flex",
         justifyContent: "center",
