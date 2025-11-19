@@ -71,10 +71,10 @@ export default function Team() {
                 <Table
                     key={team.name}
                     sx={{
-                        backgroundColor:'#221a46',
+                        backgroundColor:'#4049a0',
                         marginTop:'2%',
                         color:'white',
-                        border:'6px solid #c6add4',
+                        border:'6px solid #779df1',
                         overflow:'hidden',
                         '& td, & th': { 
                             padding:'12px 16px', 
@@ -178,11 +178,11 @@ export default function Team() {
                                                     sx={{
                                                         borderRadius:'10px',
                                                         marginTop:'3%',
-                                                        backgroundColor:'#c6add4',
+                                                        backgroundColor:'#779df1',
                                                         height:'30px',
                                                         width:'170px',
                                                         '&:hover': {
-                                                            backgroundColor:'#bb97cf'
+                                                            backgroundColor:'#779df1'
                                                         },
                                                         '@media (max-width: 700px)': {
                                                             height:'20px', 
