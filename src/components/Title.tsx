@@ -1,20 +1,25 @@
 import React from "react";
 import Box from "@mui/joy/Box";
 import Typography from "@mui/joy/Typography";
+import fishCircle from "../images/fish_circle.png";
 
 export default function Title() {
 
   return (
     <Box
       sx={{
+        position: "relative",
         display: "flex",
         flexDirection: "column",
         justifyContent: "center",
         alignItems: "center",
         minHeight: "100vh",
         textAlign: "center",
-        gap: "1rem",
-        padding: "0 10px"
+        padding: "0 10px",
+        backgroundImage: `url(${fishCircle})`,
+        backgroundRepeat: "no-repeat",
+        backgroundPosition: "center",
+        backgroundSize: { xs: "140%", sm: "112%", md: "110%", lg: "66%" },
       }}
     >
       <div id="title"
@@ -32,16 +37,16 @@ export default function Title() {
           level="h1"
           sx={{ 
             fontWeight: "bold", 
-            fontSize: { xs: "12vw", sm: "10vw", md: "9vw", lg: "7vw" }, 
+            fontSize: { xs: "10vw", sm: "10vw", md: "9vw", lg: "6vw" }, 
             lineHeight: "80%",
             color: "black",
             textAlign: "center",
             marginTop: { 
-              xs: "60vh",   // Small phones
-              sm: "50vh",   // Tablets
-              md: "40vh",   // Small laptops
-              lg: "30vh",   // Desktop
-              xl: "24vh"    // Large screens
+              xs: "0vh",   // Small phones
+              sm: "0vh",   // Tablets
+              md: "-10vh",   // Small laptops
+              lg: "-12vh",   // Desktop
+              xl: "-6vh"    // Large screens
             }
           }}
         >
@@ -56,7 +61,7 @@ export default function Title() {
           level="title-lg"
           sx={{ 
             fontWeight: "bold", 
-            fontSize: {xs: "4vw", sm: "3vw", md: "2.5vw", lg: "2vw"},
+            fontSize: {xs: "3vw", sm: "3vw", md: "2.5vw", lg: "2vw"},
             marginBottom: "1%",
             color: "black",
             textAlign: "center"
@@ -69,12 +74,12 @@ export default function Title() {
           variant="plain" 
           textColor="#1800ad" 
           sx={{
-            maxWidth: { xs: "90%", sm: "80%", md: "700px", lg: "600px" }, // Responsive max width
+            maxWidth: { xs: "300px", sm: "500px", md: "600px", lg: "500px" }, // Responsive max width
             marginLeft: "auto", 
             marginRight: "auto", 
             marginBottom: "20px", 
             marginTop: "5%", 
-            fontSize: { xs: "3vw", sm: "2vw", md: "2vw", lg: "1.25vw" },
+            fontSize: { xs: "3vw", sm: "2vw", md: "2vw", lg: "1vw" },
             textAlign: "center"
           }}
         >

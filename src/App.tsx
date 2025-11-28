@@ -8,7 +8,6 @@ import Title from "./components/Title";
 import Schedule from "./components/Schedule";
 import InfoPage from './components/InfoPage';
 import Carousel from "./components/Carousel";
-import background from './images/background.png';
 import Team from "./components/Team";
 import BubbleCursor from './components/BubbleCursor';
 
@@ -44,11 +43,7 @@ function App() {
   };
 
   return (
-    <div 
-      className="app-background"
-      style={{
-        backgroundImage: `url(${background})`,
-      }}>
+    <div className="app-background">
       <BubbleCursor />
       <Navbar onOptionSelect={handleOptionChange} />
       <div>
