@@ -19,7 +19,7 @@ export default function Title() {
         backgroundImage: `url(${fishCircle})`,
         backgroundRepeat: "no-repeat",
         backgroundPosition: "center",
-        backgroundSize: { xs: "140%", sm: "112%", md: "110%", lg: "66%" },
+        backgroundSize: { xs: "140%", sm: "112%", md: "110%", lg: "63%" },
       }}
     >
       <div id="title"
