@@ -87,6 +87,27 @@ h2 {
   background-attachment: scroll;
 }
 
+/* Small screens */
+@media (max-width: 600px) {
+  .app-background {
+    background-image: url("./images/background.png");
+  }
+}
+
+/* Medium screens */
+@media (min-width: 600px) and (max-width: 1024px) {
+  .app-background {
+    background-image: url("./images/background-s-m.png");
+  }
+}
+
+/* Large screens */
+@media (min-width: 1024px) {
+  .app-background {
+    background-image: url("./images/background.png");
+  }
+}
+
 /* For mobile devices */
 @media (max-width: 768px) {
   .app-background {
