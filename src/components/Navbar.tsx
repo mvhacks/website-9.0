@@ -61,10 +61,11 @@ export default function Navbar({ onOptionSelect }: any) {
             <Box
               sx={{
                 display: "flex",
-                alignItems: "flex-start",
+                alignItems: "center",
                 justifyContent: "center",
                 marginLeft: "25px",
                 marginBottom: "20px",
+                paddingTop: { xs: "5px", sm: "7px" },
               }}
             >
               <img
