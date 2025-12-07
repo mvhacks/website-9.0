@@ -3,7 +3,8 @@ import Typography from '@mui/joy/Typography';
 import React, {useState, useEffect} from 'react';
 import { motion } from 'framer-motion';
 import bubbleImg from '../images/bubble.png';
-import coralImg from '../images/coral.png';
+import coralImg1 from '../images/coral1.png';
+import coralImg2 from '../images/coral2.png';
 
 export default function InfoPage() {
   const [isMobile, setIsMobile] = useState<Boolean>(false);
@@ -26,15 +27,27 @@ export default function InfoPage() {
         <div style={{ position: 'relative', marginTop: '40vh', display: 'flex', justifyContent: 'center', marginBottom: 40 }}>
           <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start', maxWidth: 1000, padding: '0 20px', width: '100%' }}>
             <img
-            src={coralImg}
+            src={coralImg1}
             alt="coral"
             style={{
               position: 'absolute',
               bottom: '400px',
-              left: '50%',
-              transform: 'translateX(-50%)',
+              left: '0%',
               width: '100%',
-              maxWidth: '2100px',
+              maxWidth: '500px',
+              height: 'auto',
+              pointerEvents: 'none',
+            }}
+          />
+            <img
+            src={coralImg2}
+            alt="coral"
+            style={{
+              position: 'absolute',
+              bottom: '0px',
+              right: '0%',
+              width: '100%',
+              maxWidth: '500px',
               height: 'auto',
               pointerEvents: 'none',
             }}
@@ -152,15 +165,27 @@ export default function InfoPage() {
       )}
   {isMobile && (<div style={{marginTop: "40vh"}}>
         <img
-          src={coralImg}
-          alt="coral decoration"
+          src={coralImg1}
+          alt="coral"
           style={{
             position: 'absolute',
-            bottom: '-900px',
-            left: '50%',
-            transform: 'translateX(-50%)',
+            bottom: '-1000px',
+            left: '0%',
             width: '100%',
-            maxWidth: '1100px',
+            maxWidth: '220px',
+            height: 'auto',
+            pointerEvents: 'none',
+          }}
+        />
+        <img
+          src={coralImg2}
+          alt="coral"
+          style={{
+            position: 'absolute',
+            bottom: '-1400px',
+            right: '0%',
+            width: '100%',
+            maxWidth: '175px',
             height: 'auto',
             pointerEvents: 'none',
           }}

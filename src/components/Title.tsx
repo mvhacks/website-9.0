@@ -50,7 +50,7 @@ export default function Title() {
             }
           }}
         >
-          <span style={{ color: "#1800ad" }}>mv</span>
+          <span style={{ color: "#003caa" }}>mv</span>
           <span style={{ color: "black" }}>hacks</span>
           <sup style={{ color: "black", fontSize: "0.6em", verticalAlign: "super" }}>9.0</sup>
         </Typography>
@@ -72,7 +72,7 @@ export default function Title() {
         <Typography 
           level="body-lg" 
           variant="plain" 
-          textColor="#1800ad" 
+          textColor="#003caa" 
           sx={{
             maxWidth: { xs: "300px", sm: "500px", md: "600px", lg: "500px" }, // Responsive max width
             marginLeft: "auto", 
