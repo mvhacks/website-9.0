@@ -24,15 +24,23 @@ export default function SeaTimeline() {
 
       <div style={{ width: "100%", overflowX: "auto", overflowY: "hidden" }}>
         <div style={{ display: "inline-flex", minWidth: "100%", position: "relative", paddingBottom: "2rem" }}>
-          <div style={{
+          <svg style={{
             position: "absolute",
-            top: "250px",
+            top: "244px",
             left: "15px",
             width: "calc(100% - 30px)",
-            height: "6px",
-            background: "linear-gradient(90deg, #1B5E3F 0%, #2E8B57 50%, #1B5E3F 100%)",
+            height: "18px",
             zIndex: 1
-          }} />
+          }}>
+            <defs>
+              <pattern id="kelpPattern" x="0" y="0" width="40" height="18" patternUnits="userSpaceOnUse">
+                <path d="M0,9 Q5,3 10,9 T20,9 T30,9 T40,9" fill="none" stroke="#1B5E3F" strokeWidth="3" opacity="0.6"/>
+                <path d="M2,9 Q7,5 12,9 T22,9 T32,9 T42,9" fill="none" stroke="#2E8B57" strokeWidth="2.5" opacity="0.8"/>
+                <path d="M0,9 Q5,13 10,9 T20,9 T30,9 T40,9" fill="none" stroke="#1B5E3F" strokeWidth="2" opacity="0.5"/>
+              </pattern>
+            </defs>
+            <rect width="100%" height="100%" fill="url(#kelpPattern)"/>
+          </svg>
 
           {events.map((item, index) => {
             const isTop = index % 2 === 0;
@@ -102,29 +110,23 @@ export default function SeaTimeline() {
                   )}
                 </div>
 
-                <div style={{
+                <svg style={{
                   position: "absolute",
                   left: "50%",
-                  top: "250px",
-                  transform: "translate(-50%, -50%)",
-                  width: "30px",
-                  height: "30px",
-                  borderRadius: "50%",
-                  background: "radial-gradient(circle, #1B5E3F 0%, #2E8B57 100%)",
-                  border: "3px solid #87CEEB",
+                  top: isTop ? "178px" : "253px",
+                  width: "12px",
+                  height: "75px",
+                  transform: "translateX(-50%)",
                   zIndex: 2
                 }}>
-                  <div style={{
-                    position: "absolute",
-                    left: "50%",
-                    [isTop ? "bottom" : "top"]: "100%",
-                    width: "4px",
-                    height: "135px",
-                    background: "linear-gradient(180deg, #1B5E3F, #2E8B57)",
-                    transform: "translateX(-50%)",
-                    zIndex: -1
-                  }} />
-                </div>
+                  <defs>
+                    <pattern id={`kelpStem${index}`} x="0" y="0" width="12" height="15" patternUnits="userSpaceOnUse">
+                      <path d="M6,0 Q3,4 6,8 T6,15" fill="none" stroke="#1B5E3F" strokeWidth="4" opacity="0.7"/>
+                      <path d="M6,0 Q8,4 6,8 T6,15" fill="none" stroke="#2E8B57" strokeWidth="3" opacity="0.6"/>
+                    </pattern>
+                  </defs>
+                  <rect width="100%" height="100%" fill={`url(#kelpStem${index})`}/>
+                </svg>
               </div>
             );
           })}
