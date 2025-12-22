@@ -1,5 +1,6 @@
 import React from "react";
 import treasuremap from "../images/treasuremap.png";
+import Typography from "@mui/joy/Typography";
 
 const events = [
   { time: "8:30 AM", event: "Opening Ceremony/Breakfast" },
@@ -18,9 +19,18 @@ export default function SeaTimeline() {
   
   return (
     <div style={{ minHeight: "100vh", padding: "4rem 2rem" }}>
-      <h2 style={{ color: "#87CEEB", textAlign: "center", marginBottom: "4rem", fontSize: "3rem", fontWeight: "bold", letterSpacing: "2px" }}>
+      <Typography
+        level="h2"
+        sx={{
+          color: "#ffffff",
+          marginBottom: "2%",
+          marginRight: "0.7%",
+          marginLeft: "0.7%",
+          textAlign: "center",
+        }}
+      >
         EVENT SCHEDULE
-      </h2>
+      </Typography>
 
       <div style={{ width: "100%", overflowX: "auto", overflowY: "hidden" }}>
         <div style={{ display: "inline-flex", minWidth: "100%", position: "relative", paddingBottom: "2rem" }}>
