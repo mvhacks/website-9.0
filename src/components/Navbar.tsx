@@ -140,7 +140,7 @@ export default function Navbar({ onOptionSelect }: any) {
                     sx={{
                       color: "white",
                       "&:hover": {
-                        color: "rgb(24, 0, 173)",
+                        color: "#003caa",
                       },
                     }}
                     level="h4"
@@ -165,7 +165,7 @@ export default function Navbar({ onOptionSelect }: any) {
                     sx={{
                       color: "white",
                       "&:hover": {
-                        color: "rgb(24, 0, 173)",
+                        color: "#003caa",
                       },
                     }}
                     level="h4"
@@ -190,7 +190,7 @@ export default function Navbar({ onOptionSelect }: any) {
                     sx={{
                       color: "white",
                       "&:hover": {
-                        color: "rgb(24, 0, 173)",
+                        color: "#003caa",
                       },
                     }}
                     level="h4"
@@ -215,7 +215,7 @@ export default function Navbar({ onOptionSelect }: any) {
                     sx={{
                       color: "white",
                       "&:hover": {
-                        color: "rgb(24, 0, 173)",
+                        color: "#003caa",
                       },
                     }}
                     level="h4"
@@ -240,7 +240,7 @@ export default function Navbar({ onOptionSelect }: any) {
                     sx={{
                       color: "white",
                       "&:hover": {
-                        color: "rgb(24, 0, 173)",
+                        color: "#003caa",
                       },
                     }}
                     level="h4"
@@ -336,7 +336,7 @@ export default function Navbar({ onOptionSelect }: any) {
                 sx={{
                   color: "white",
                   "&:hover": {
-                    color: "rgb(24, 0, 173)",
+                    color: "#003caa",
                   },
                 }}
                 level="h3"
@@ -362,7 +362,7 @@ export default function Navbar({ onOptionSelect }: any) {
                 sx={{
                   color: "white",
                   "&:hover": {
-                    color: "rgb(24, 0, 173)",
+                    color: "#003caa",
                   },
                 }}
                 level="h3"
@@ -388,7 +388,7 @@ export default function Navbar({ onOptionSelect }: any) {
                 sx={{
                   color: "white",
                   "&:hover": {
-                    color: "rgb(24, 0, 173)",
+                    color: "#003caa",
                   },
                 }}
                 level="h3"
@@ -414,7 +414,7 @@ export default function Navbar({ onOptionSelect }: any) {
                 sx={{
                   color: "white",
                   "&:hover": {
-                    color: "rgb(24, 0, 173)",
+                    color: "#003caa",
                   },
                 }}
                 level="h3"
@@ -440,7 +440,7 @@ export default function Navbar({ onOptionSelect }: any) {
                 sx={{
                   color: "white",
                   "&:hover": {
-                    color: "rgb(24, 0, 173)",
+                    color: "#003caa",
                   },
                 }}
                 level="h3"

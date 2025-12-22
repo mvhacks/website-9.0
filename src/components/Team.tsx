@@ -71,10 +71,10 @@ export default function Team() {
                 <Table
                     key={team.name}
                     sx={{
-                        backgroundColor:'#4049a0',
+                        backgroundColor:'#071b45',
                         marginTop:'2%',
                         color:'white',
-                        border:'6px solid #779df1',
+                        border:'6px solid #5f7fc4ff',
                         overflow:'hidden',
                         '& td, & th': { 
                             padding:'12px 16px', 
@@ -109,7 +109,7 @@ export default function Team() {
                             },
                             '& tr > td > div > div > div:nth-of-type(2)': {
                                 fontSize:'10px !important',
-                                color:'grey',
+                                color:'white',
                             }
                         }
                     }}
@@ -168,7 +168,7 @@ export default function Team() {
                                             <div
                                                 style={{
                                                     fontSize:'15px',
-                                                    color:'grey'
+                                                    color:'white'
                                                 }}
                                             >
                                                 {member.role}
@@ -178,7 +178,7 @@ export default function Team() {
                                                     sx={{
                                                         borderRadius:'10px',
                                                         marginTop:'3%',
-                                                        backgroundColor:'#779df1',
+                                                        backgroundColor:'#5f7fc4ff',
                                                         height:'30px',
                                                         width:'170px',
                                                         '&:hover': {
