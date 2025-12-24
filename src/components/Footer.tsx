@@ -1,76 +1,115 @@
 import React from "react";
-import Button from "@mui/joy/Button";
-import insta_logo from "../images/insta_logo.png";
+import contact_icon from "../images/contact-icon.png";
+import insta_icon from "../images/instagram-icon.png";
+import projects_icon from "../images/projects-icon.png";
 import { Box, keyframes } from "@mui/system";
-import { Typography } from "@mui/joy";
+import { Typography, Link, Stack } from "@mui/joy";
 
 export default function Footer() {
+  const glowAnimation = keyframes`
+    0% { 
+      filter: drop-shadow(0 0 2px rgba(175, 184, 235, 0.4)); 
+    }
+    50% { 
+      filter: drop-shadow(0 0 12px rgba(146, 154, 201, 0.9)); 
+    }
+    100% { 
+      filter: drop-shadow(0 0 2px rgba(105, 112, 152, 0.4)); 
+    }
+  `;
 
-  const glow = keyframes`
-  0% {
-    box-shadow: 0 0 3px rgba(83, 100, 197, 0.3), 0 0 6px rgba(83, 100, 197, 0.3);
-  }
-  50% {
-    box-shadow: 0 0 8px rgba(83, 100, 197, 0.5), 0 0 12px rgba(83, 100, 197, 0.5);
-  }
-  100% {
-    box-shadow: 0 0 3px rgba(83, 100, 197, 0.3), 0 0 6px rgba(83, 100, 197, 0.3);
-  }
-`;
-  
+  // Styling for the glow container
+  const iconBoxStyle = {
+    display: "flex",
+    justifyContent: "center",
+    alignItems: "center",
+    animation: `${glowAnimation} 3s infinite ease-in-out`,
+  };
+
   return (
     <Box
       component="footer"
       sx={{
-        backgroundColor: "#4049a0",
-        color: "white",
-        display: "flex",
-        justifyContent: "center",
-        alignItems: "center",
-        gap: 6,
-        flexWrap: "wrap",
-        py: 4,
+        backgroundColor: "#0a192f",
+        py: 6,
         px: 2,
-        flexDirection: "column"
+        display: "flex",
+        flexDirection: "column",
+        alignItems: "center",
+        gap: 4,
       }}
     >
-      <Box
-        sx={{
-          display: "flex",
-          justifyContent: "center",
-          alignItems: "center",
-          gap: 6,
-          flexWrap: "wrap",
-        }}
+      <Stack
+        direction={{ xs: "column", sm: "row" }}
+        spacing={{ xs: 5, sm: 8 }}
+        alignItems="center"
+        justifyContent="center"
       >
-        <Button
-          sx={{ animation: `${glow} 2s infinite alternate`,color: "white", }}
-          id="devpost"
-          component="a"
+        {/* Past Projects */}
+        <Link
           href="https://mvhacks-6-0.devpost.com/project-gallery"
+          underline="none"
+          sx={{
+            display: "flex",
+            flexDirection: "column",
+            alignItems: "center",
+            gap: 1.5,
+            color: "white",
+            "&:hover": { transform: "scale(1.05)", color: "rgba(255, 255, 255, 0.8)" },
+          }}
         >
-          Previous Projects
-        </Button>
-        <Button
-          sx={{ animation: `${glow} 2s infinite alternate` }}
-          id="contactUs"
-          component="a"
+          <Box sx={iconBoxStyle}>
+            <img src={projects_icon} alt="past projects" style={{ width: 50, height: 50, objectFit: "contain" }} />
+          </Box>
+          <Typography level="body-md" sx={{ color: "inherit", fontWeight: 500 }}>
+            past projects
+          </Typography>
+        </Link>
+
+        {/* Contact Us */}
+        <Link
           href="mailto:emily@mvhacks.io"
+          underline="none"
+          sx={{
+            display: "flex",
+            flexDirection: "column",
+            alignItems: "center",
+            gap: 1.5,
+            color: "white",
+            "&:hover": { transform: "scale(1.05)", color: "rgba(255, 255, 255, 0.8)" },
+          }}
         >
-          Contact Us
-        </Button>
-        <a 
-        id="instagram"
-        href="https://www.instagram.com/mvhacks/"
-        onMouseEnter={e => (e.currentTarget.style.opacity = "0.8")}
-        onMouseLeave={e => (e.currentTarget.style.opacity = "1")}
+          <Box sx={iconBoxStyle}>
+            <img src={contact_icon} alt="contact us" style={{ width: 50, height: 50, objectFit: "contain" }} />
+          </Box>
+          <Typography level="body-md" sx={{ color: "inherit", fontWeight: 500 }}>
+            contact us
+          </Typography>
+        </Link>
+
+        {/* Instagram */}
+        <Link
+          href="https://www.instagram.com/mvhacks/"
+          underline="none"
+          sx={{
+            display: "flex",
+            flexDirection: "column",
+            alignItems: "center",
+            gap: 1.5,
+            color: "white",
+            "&:hover": { transform: "scale(1.05)", color: "rgba(255, 255, 255, 0.8)" },
+          }}
         >
-          <img src={insta_logo} alt="Instagram logo" width={50} height={50} />
-        </a>
-      </Box>
-      <Typography
-        sx={{textAlign: "center", color: "#ccc" }}
-      >
+          <Box sx={iconBoxStyle}>
+            <img src={insta_icon} alt="instagram" style={{ width: 50, height: 50, objectFit: "contain" }} />
+          </Box>
+          <Typography level="body-md" sx={{ color: "inherit", fontWeight: 500 }}>
+            instagram
+          </Typography>
+        </Link>
+      </Stack>
+
+      <Typography sx={{ textAlign: "center", color: "rgba(255,255,255,0.5)", mt: 2 }}>
         © 2025 MVHACKS. All rights reserved.
       </Typography>
     </Box>
