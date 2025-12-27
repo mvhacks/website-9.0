@@ -18,12 +18,18 @@ export default function Prospectus() {
         >
           SPONSOR MVHACKS 9.0!
         </Typography>
-        <div style={{ 
-            backgroundColor: "rgba(0, 0, 0, 0.7)",
-            padding: "20px",
-            borderRadius: "8px",  
-          }}
+        <div
+          className="liquidGlass-container"
+          style={{ 
+              backgroundColor: "transparent",
+              padding: "20px",
+              borderRadius: "8px",  
+            }}
         >
+          <div className="liquidGlass-effect" />
+          <div className="liquidGlass-tint" />
+          <div className="liquidGlass-shine" />
+
           <p>
             MVHacks is now in its 9th year of inspiring students
             throughout the country to get together and build great projects. As a

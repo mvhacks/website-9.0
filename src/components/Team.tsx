@@ -71,7 +71,7 @@ export default function Team() {
                 <Table
                     key={team.name}
                     sx={{
-                        backgroundColor:'#071b45',
+                        backgroundColor:'#071b457c',
                         marginTop:'2%',
                         color:'white',
                         border:'6px solid #5f7fc4ff',
@@ -175,14 +175,15 @@ export default function Team() {
                                             </div>
                                             <div>
                                                 <Button
+                                                    className="liquidGlass-container"
                                                     sx={{
                                                         borderRadius:'10px',
                                                         marginTop:'3%',
-                                                        backgroundColor:'#5f7fc4ff',
+                                                        backgroundColor:'transparent',
                                                         height:'30px',
                                                         width:'170px',
                                                         '&:hover': {
-                                                            backgroundColor:'#779df1'
+                                                            backgroundColor:'#779ef128'
                                                         },
                                                         '@media (max-width: 700px)': {
                                                             height:'20px', 
@@ -199,6 +200,10 @@ export default function Team() {
                                                     component="a"
                                                     href={member.link}
                                                 >
+                                                    <div className="liquidGlass-effect" />
+                                                    <div className="liquidGlass-tint" />
+                                                    <div className="liquidGlass-shine" />
+                                                    
                                                     <img
                                                         src={member.typeImage}
                                                         height="25"
