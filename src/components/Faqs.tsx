@@ -21,8 +21,9 @@ export default function Faqs() {
         FREQUENTLY ASKED QUESTIONS
       </Typography>
       <AccordionGroup
+        className="liquidGlass-container"
         sx={{
-          backgroundColor: "rgba(0, 0, 0, 0.7)",
+          backgroundColor:'transparent',
           color: "white !important",
           marginLeft: { xs: "3%", sm: "10%", md: "10%" },
           marginRight: { xs: "3%", sm: "10%", md: "10%" },      
@@ -32,10 +33,14 @@ export default function Faqs() {
             backgroundColor: "transparent",
           },
           "& button:hover": {
-            backgroundColor: "#2e366fff !important",
+            backgroundColor: "rgba(105, 173, 255, 0.41) !important",
           },
         }}
       >
+        <div className="liquidGlass-effect" />
+        <div className="liquidGlass-tint" />
+        <div className="liquidGlass-shine" />
+
         <Accordion>
           <AccordionSummary>
             <Typography
