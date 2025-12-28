@@ -182,6 +182,7 @@ export default function Team() {
                                                         backgroundColor:'transparent',
                                                         height:'30px',
                                                         width:'170px',
+                                                        zIndex: 1,
                                                         '&:hover': {
                                                             backgroundColor:'#779ef128'
                                                         },
@@ -200,9 +201,9 @@ export default function Team() {
                                                     component="a"
                                                     href={member.link}
                                                 >
-                                                    <div className="liquidGlass-effect" />
-                                                    <div className="liquidGlass-tint" />
-                                                    <div className="liquidGlass-shine" />
+                                                    <div className="liquidGlass-effect" style={{ pointerEvents: 'none' }} />
+                                                    <div className="liquidGlass-tint" style={{ pointerEvents: 'none' }} />
+                                                    <div className="liquidGlass-shine" style={{ pointerEvents: 'none' }} />
                                                     
                                                     <img
                                                         src={member.typeImage}
