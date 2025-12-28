@@ -11,11 +11,13 @@ export default function Faqs() {
       <Typography
         level="h2"
         sx={{
-          color: "#ffffff",
+          color: "rgba(180, 230, 255, 0.9)",
           marginBottom: "2%",
           marginRight: "0.7%",
           marginLeft: "0.7%",
           textAlign: "center",
+          textShadow: "0 1px 0 rgba(255, 255, 255, 0.5), 0 3px 8px rgba(0, 50, 100, 0.5)",
+          WebkitTextStroke: "1px rgba(255, 255, 255, 0.3)",
         }}
       >
         FREQUENTLY ASKED QUESTIONS
