@@ -19,18 +19,20 @@ export default function SeaTimeline() {
   
   return (
     <div style={{ minHeight: "100vh", padding: "4rem 2rem" }}>
-      <Typography
-        level="h2"
-        sx={{
-          color: "#ffffff",
-          marginBottom: "2%",
-          marginRight: "0.7%",
-          marginLeft: "0.7%",
-          textAlign: "center",
-        }}
-      >
-        EVENT SCHEDULE
-      </Typography>
+<Typography
+  level="h2"
+  sx={{
+    color: "rgba(180, 230, 255, 0.9)",
+    marginBottom: "2%",
+    marginRight: "0.7%",
+    marginLeft: "0.7%",
+    textAlign: "center",
+    textShadow: "0 1px 0 rgba(255, 255, 255, 0.5), 0 3px 8px rgba(0, 50, 100, 0.5)",
+    WebkitTextStroke: "1px rgba(255, 255, 255, 0.3)",
+  }}
+>
+  EVENT SCHEDULE
+</Typography>
 
       <div style={{ width: "100%", overflowX: "auto", overflowY: "hidden" }}>
         <div style={{ display: "inline-flex", minWidth: "100%", position: "relative", paddingBottom: "2rem" }}>
