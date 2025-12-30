@@ -8,6 +8,7 @@ import List from "@mui/joy/List";
 import ListItemButton from "@mui/joy/ListItemButton";
 import IconButton from "@mui/joy/IconButton";
 import Menu from "@mui/icons-material/Menu";
+import Close from "@mui/icons-material/Close";
 import React, { useState, useEffect } from "react";
 
 export default function Navbar({ onOptionSelect }: any) {
@@ -113,6 +114,31 @@ export default function Navbar({ onOptionSelect }: any) {
               <Menu />
             </IconButton>
             <Drawer open={drawerOpen} onClose={toggleDrawer(true)}>
+              <Box
+                sx={{
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "space-between",
+                  padding: "15px",
+                  backgroundColor: "black",
+                  borderBottom: "1px solid #333",
+                }}
+              >
+                <img
+                  src={logo}
+                  alt="mvhackslogo"
+                  width="40"
+                  height="40"
+                  style={{ borderRadius: "50%" }}
+                />
+                <IconButton
+                  color="neutral"
+                  onClick={() => setDrawerOpen(false)}
+                  sx={{ color: "white" }}
+                >
+                  <Close />
+                </IconButton>
+              </Box>
               <List
                 size="lg"
                 component="nav"
