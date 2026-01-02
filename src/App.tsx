@@ -11,6 +11,7 @@ import Carousel from "./components/Carousel";
 import Team from "./components/Team";
 import BubbleCursor from './components/BubbleCursor';
 import LiquidFilter from './LiquidGlassFilter';
+import FloatingSubmarine from "./components/FloatingSubmarine";
 
 function App() {
   const home = useRef(null);
@@ -46,6 +47,7 @@ function App() {
   return (
     <div className="app-background">
       <BubbleCursor />
+      <FloatingSubmarine />
       <LiquidFilter/>
       <Navbar onOptionSelect={handleOptionChange} />
       <div>
