@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import "./FloatingSubmarine.css";
+import submarineImg from "../images/submarine.png";
 
 const FloatingSubmarine: React.FC = () => {
   const [scrollY, setScrollY] = useState<number>(0);
@@ -21,7 +22,7 @@ const FloatingSubmarine: React.FC = () => {
       }}
     >
       <div className="floating-submarine">
-        <img src="/submarine.png" alt="Floating submarine" draggable={false} />
+        <img src={submarineImg} alt="Floating submarine" draggable={false} />
       </div>
     </div>
   );
