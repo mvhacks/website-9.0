@@ -74,7 +74,7 @@ export default function Navbar({ onOptionSelect }: any) {
                 alt="mvhackslogo"
                 width="30"  
                 height="30" 
-                style={{ borderRadius: "50%", marginTop: "10px" }}
+                style={{ marginTop: "10px" }}
               />
               <Link
                 overlay
@@ -129,7 +129,6 @@ export default function Navbar({ onOptionSelect }: any) {
                   alt="mvhackslogo"
                   width="40"
                   height="40"
-                  style={{ borderRadius: "50%" }}
                 />
                 <IconButton
                   color="neutral"
@@ -305,7 +304,6 @@ export default function Navbar({ onOptionSelect }: any) {
                 height: "50px",
                 maxWidth: "50px",
                 maxHeight: "50px",
-                borderRadius: "50%",
                 marginTop: "15px",
               }}
             />

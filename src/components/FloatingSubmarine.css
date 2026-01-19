@@ -1,32 +1,40 @@
 .submarine-wrapper {
   position: fixed;
-  top: 80px;
-  right: 24px;
-  width: 110px;
-  z-index: 1000;
+  top: 100px; 
+  width: 12vw; 
+  max-width: 100px; 
+  z-index: 999999 !important; 
   pointer-events: none;
+  will-change: transform;
 }
 
-.floating-submarine {
-  animation: submarine-float 4s ease-in-out infinite;
+.submarine-flipper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.5s ease-in-out; 
 }
 
-.floating-submarine img {
+.floating-bobbing-animation {
+  animation: sub-bob 4s ease-in-out infinite;
+}
+
+.floating-bobbing-animation img {
   width: 100%;
   height: auto;
   user-select: none;
+  display: block;
 }
 
-@keyframes submarine-float {
-  0% { transform: translateY(0); }
-  50% { transform: translateY(-14px); }
-  100% { transform: translateY(0); }
+@keyframes sub-bob {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
 }
 
+/* For mobile, make it even smaller */
 @media (max-width: 768px) {
   .submarine-wrapper {
-    width: 70px;
-    top: 16px;
-    right: 16px;
+    width: 60px;
+    top: 50px;
   }
 }
