@@ -14,15 +14,36 @@ const FloatingSubmarine: React.FC = () => {
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
+  // Settings for the movement
+  const frequency = 0.005; // Lower = wider, slower zig-zags
+  const verticalSpeed = 0.1; // How fast it moves down the page
+  
+  // Calculate horizontal position (-45 to 45% of viewport width)
+  const xPos = Math.sin(scrollY * frequency) * 45;
+  
+  // Calculate direction: if cosine is negative, it's moving left
+  // We flip the image by setting scaleX to -1
+  const direction = Math.cos(scrollY * frequency) >= 0 ? 1 : -1;
+
   return (
     <div
       className="submarine-wrapper"
       style={{
-        transform: `translateY(${scrollY * 0.35}px)`
+        // Using left: 50% and translate -50% to keep it centered as a starting point
+        left: "50%",
+        transform: `translate(calc(-50% + ${xPos}vw), ${scrollY * verticalSpeed}px)`,
       }}
     >
-      <div className="floating-submarine">
-        <img src={submarineImg} alt="Floating submarine" draggable={false} />
+      <div 
+        className="submarine-flipper"
+        style={{ 
+          transform: `scaleX(${direction})`,
+          transition: "transform 0.4s ease-in-out" // Smoothly turns the sub around
+        }}
+      >
+        <div className="floating-bobbing-animation">
+          <img src={submarineImg} alt="Submarine" draggable={false} />
+        </div>
       </div>
     </div>
   );
