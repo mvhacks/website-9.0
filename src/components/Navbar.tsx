@@ -245,7 +245,7 @@ export default function Navbar({ onOptionSelect }: any) {
                     }}
                     level="h4"
                   >
-                    sponsors
+                    sponsor
                   </Typography>
                 </ListItemButton>
                 <ListItemButton
