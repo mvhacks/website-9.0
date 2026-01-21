@@ -42,36 +42,6 @@ h2 {
   padding: auto;
 }
 
-.home {
-  /* height: 600px; */
-  /* background-color:coral; */
-}
-
-.info {
-  /* height: 600px;
-  background-color:#000000; */
-}
-
-.schedule {
-  /* height: 600px; */
-  /* background-color:forestgreen */
-}
-
-.sponsor {
-  /* height: 600px;
-  background-color:cadetblue */
-}
-
-.faqs {
-  /* height: 600px; */
-  /* background-color:firebrick; */
-}
-
-.team {
-  /*height: 600px;*/
-  /*background-color:darkkhaki;*/
-}
-
 .has-bubble-cursor {
   cursor: none !important;
 }
