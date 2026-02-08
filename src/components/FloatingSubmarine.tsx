@@ -15,8 +15,8 @@ const FloatingSubmarine: React.FC = () => {
   }, []);
 
   // Settings for the movement
-  const frequency = 0.005; // Lower = wider, slower zig-zags
-  const verticalSpeed = 0.1; // How fast it moves down the page
+  const frequency = 0.0005; // Lower = wider, slower zig-zags
+  const verticalSpeed = 0.07; // How fast it moves down the page
   
   // Calculate horizontal position (-45 to 45% of viewport width)
   const xPos = Math.sin(scrollY * frequency) * 45;
