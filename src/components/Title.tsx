@@ -89,7 +89,7 @@ export default function Title() {
 
         <Button
           component="a"
-          href="https://forms.gle/Py4DnV1cfSWtQRVm6"
+          href="https://forms.gle/Z52qy5XxEezf1iWa9"
           target="_blank"
           rel="noopener noreferrer"
           sx={{
@@ -122,7 +122,7 @@ export default function Title() {
             }
           }}
         >
-          notify me for march 2026
+          sign up
         </Button>
       </div>
     </Box>
