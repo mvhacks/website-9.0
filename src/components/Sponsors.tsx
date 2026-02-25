@@ -22,50 +22,56 @@ export default function Sponsors() {
       </Typography>
       
       {/* --- Partner Tier Section --- */}
-      <Box sx={{ mb: 6 }}>
+      <Box sx={{ mb: 8 }}>
         <Typography
           level="h4"
           sx={{
             color: "rgb(196, 234, 252)",
             textAlign: "center",
             textTransform: "uppercase",
-            letterSpacing: "0.1rem",
-            mb: 3,
+            letterSpacing: "0.2rem",
+            mb: 4,
           }}
         >
           Partner Sponsors
         </Typography>
-      
-        <Divider sx={{ width: "100px", mx: "auto", mb: 3, bgcolor: "rgba(205, 127, 50, 0.3)" }} />
 
-        {/* Logos Container */}
+        <Divider sx={{ width: "150px", mx: "auto", mb: 5, bgcolor: "rgba(196, 234, 252, 0.5)" }} />
+
         <Box
           sx={{
             display: "flex",
-            flexDirection: "row",
             justifyContent: "center",
             alignItems: "center",
-            gap: { xs: 4, md: 8 }, 
-            flexWrap: "wrap",
           }}
         >
-          <Box sx={{ maxWidth: { xs: "140px", md: "220px" } }}>
+          <Box 
+            sx={{ 
+              maxWidth: { xs: "200px", md: "400px" }, 
+              transition: "transform 0.3s ease",
+              "&:hover": { transform: "scale(1.05)" } 
+            }}
+          >
             <img
               src={google}
               alt="Google"
-              style={{ width: "100%", height: "auto", filter: "grayscale(20%)" }}
+              style={{ 
+                width: "100%", 
+                height: "auto", 
+                filter: "grayscale(0%)",
+                display: "block"
+              }}
             />
           </Box>
         </Box>
       </Box>
-
       
       {/* --- Bronze Tier Section --- */}
       <Box sx={{ mb: 6 }}>
         <Typography
           level="h4"
           sx={{
-            color: "rgb(196, 234, 252)",
+            color: "rgba(196, 234, 252, 0.7)", 
             textAlign: "center",
             textTransform: "uppercase",
             letterSpacing: "0.1rem",
@@ -74,8 +80,8 @@ export default function Sponsors() {
         >
           Bronze Sponsors
         </Typography>
-      
-        <Divider sx={{ width: "100px", mx: "auto", mb: 3, bgcolor: "rgba(205, 127, 50, 0.3)" }} />
+
+        <Divider sx={{ width: "80px", mx: "auto", mb: 4, bgcolor: "rgba(205, 127, 50, 0.2)" }} />
 
         {/* Logos Container */}
         <Box
@@ -84,25 +90,29 @@ export default function Sponsors() {
             flexDirection: "row",
             justifyContent: "center",
             alignItems: "center",
-            gap: { xs: 4, md: 8 }, 
+            gap: { xs: 3, md: 6 },
             flexWrap: "wrap",
           }}
         >
-          <Box sx={{ maxWidth: { xs: "140px", md: "220px" } }}>
-            <img
-              src={yubico}
-              alt="Yubico"
-              style={{ width: "100%", height: "auto", filter: "grayscale(20%)" }}
-            />
-          </Box>
-
-          <Box sx={{ maxWidth: { xs: "140px", md: "220px" } }}>
-            <img
-              src={balsamiq}
-              alt="Balsamiq"
-              style={{ width: "100%", height: "auto", filter: "grayscale(20%)" }}
-            />
-          </Box>
+          {[
+            { src: yubico, alt: "Yubico" },
+            { src: balsamiq, alt: "Balsamiq" }
+          ].map((logo) => (
+            <Box 
+              key={logo.alt}
+              sx={{ 
+                maxWidth: { xs: "100px", md: "160px" }, 
+                transition: "transform 0.3s ease",
+                "&:hover": { transform: "scale(1.05)" } 
+              }}
+            >
+              <img
+                src={logo.src}
+                alt={logo.alt}
+                style={{ width: "100%", height: "auto" }}
+              />
+            </Box>
+          ))}
         </Box>
       </Box>
     </Box>
