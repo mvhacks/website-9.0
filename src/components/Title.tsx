@@ -84,7 +84,11 @@ export default function Title() {
             textAlign: "center"
           }}
         >
-          MVHacks is a student-led hackathon that invites student hackers from across the Bay Area to come together and develop innovative projects, learn from experts, and participate in 12 hours of hacking to win awards. Hackers of all skill levels are welcome to compete, either individually or in groups. The hackathon will take place from 8:30 a.m. to 8:30 p.m. in Mountain View on March 28th.
+          MVHacks is a student-led hackathon that invites student hackers from across the
+          Bay Area to come together and develop innovative projects, learn from experts,
+          and participate in 12 hours of hacking to win awards. Hackers of all skill levels 
+          are welcome to compete, either individually or in groups. The hackathon will take 
+          place from 8:30 a.m. to 8:30 p.m. on March 28th at Google's Mountain View Campus.
         </Typography>
 
         <Button
