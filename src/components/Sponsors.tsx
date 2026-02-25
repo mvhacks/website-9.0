@@ -1,3 +1,4 @@
+import google from "../images/google-logo.png";
 import yubico from "../images/yubico-logo.png";
 import balsamiq from "../images/balsamiq-logo.png";
 import Typography from "@mui/joy/Typography";
@@ -19,7 +20,46 @@ export default function Sponsors() {
       >
         SPONSORS
       </Typography>
+      
+      {/* --- Partner Tier Section --- */}
+      <Box sx={{ mb: 6 }}>
+        <Typography
+          level="h4"
+          sx={{
+            color: "rgb(196, 234, 252)",
+            textAlign: "center",
+            textTransform: "uppercase",
+            letterSpacing: "0.1rem",
+            mb: 3,
+          }}
+        >
+          Partner Sponsors
+        </Typography>
+      
+        <Divider sx={{ width: "100px", mx: "auto", mb: 3, bgcolor: "rgba(205, 127, 50, 0.3)" }} />
 
+        {/* Logos Container */}
+        <Box
+          sx={{
+            display: "flex",
+            flexDirection: "row",
+            justifyContent: "center",
+            alignItems: "center",
+            gap: { xs: 4, md: 8 }, 
+            flexWrap: "wrap",
+          }}
+        >
+          <Box sx={{ maxWidth: { xs: "140px", md: "220px" } }}>
+            <img
+              src={google}
+              alt="Google"
+              style={{ width: "100%", height: "auto", filter: "grayscale(20%)" }}
+            />
+          </Box>
+        </Box>
+      </Box>
+
+      
       {/* --- Bronze Tier Section --- */}
       <Box sx={{ mb: 6 }}>
         <Typography
