@@ -153,7 +153,7 @@ export default function Faqs() {
             </Typography>
           </AccordionSummary>
           <AccordionDetails sx={{ color: "#B0DFFF" }}>
-            Teams of up to 3 are allowed. You may work as an individual, but we
+            Teams of up to 4 are allowed. You may work as an individual, but we
             recommend collaborating. There will be a team mixer at start of the
             hackathon.
           </AccordionDetails>
