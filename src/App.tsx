@@ -2,14 +2,16 @@ import { useRef } from 'react';
 import "./App.css";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
-import Prospectus from "./components/Prospectus"
-import Faqs from "./components/Faqs";
 import Title from "./components/Title";
-import Schedule from "./components/Schedule";
 import InfoPage from './components/InfoPage';
+import PreviousProjects from './components/PreviousProjects';
+import Schedule from "./components/Schedule";
 import Carousel from "./components/Carousel";
-import Team from "./components/Team";
+import Prizes from './components/Prizes';
 import Sponsors from "./components/Sponsors";
+import Prospectus from "./components/Prospectus";
+import Faqs from "./components/Faqs";
+import Team from "./components/Team";
 import BubbleCursor from './components/BubbleCursor';
 import LiquidFilter from './LiquidGlassFilter';
 import FloatingSubmarine from "./components/FloatingSubmarine";
@@ -17,7 +19,9 @@ import FloatingSubmarine from "./components/FloatingSubmarine";
 function App() {
   const home = useRef(null);
   const info = useRef(null);
+  const previousProjects = useRef(null);
   const schedule = useRef(null);
+  const prizes = useRef(null);
   const sponsor = useRef(null);
   const faqs = useRef(null);
   const team = useRef(null);
@@ -35,8 +39,12 @@ function App() {
       scroll(home);
     } else if (option === "info") {
       scroll(info);
+    } else if (option === "previousprojects") {
+      scroll(previousProjects);
     } else if (option === "schedule") {
       scroll(schedule);
+    } else if (option === "prizes") {
+      scroll(prizes);
     } else if (option === "sponsor") {
       scroll(sponsor);
     } else if (option === "faqs") {
@@ -58,32 +66,39 @@ function App() {
           url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
         </style>
         <div ref={home}>
-          <Title></Title>
+          <Title />
         </div>
         <div ref={info}>
-          <InfoPage></InfoPage>
-          <Carousel></Carousel>
+          <InfoPage />
+          <Carousel />
+        </div>
+        <div ref={previousProjects}>
+          <PreviousProjects />
         </div>
         <div ref={schedule}>
-          <Schedule></Schedule>
+          <Schedule />
         </div>
-        <div ref={faqs}>
-          <Faqs></Faqs>
+        <div ref={prizes}>
+          <Prizes />
         </div>
         <div ref={sponsor}>
-            <Prospectus></Prospectus>
+          <Prospectus />
+        </div>
+        <div ref={faqs}>
+          <Faqs />
         </div>
         <div ref={team}>
-          <Team></Team>
+          <Team />
         </div>
         <div ref={sponsors}>
-          <Sponsors></Sponsors>
+          <Sponsors />
         </div>
       </div>
       <br />
       <br />
-      <Footer></Footer>
+      <Footer />
     </div>
   );
 }
+
 export default App;

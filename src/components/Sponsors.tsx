@@ -11,8 +11,10 @@ export default function Sponsors() {
       <Typography
         level="h2"
         sx={{
-          color: "rgba(180, 230, 255, 0.9)",
-          mb: 4,
+          color: "rgba(200, 240, 255, 1)", 
+          marginBottom: "2%",
+          marginRight: "0.7%",
+          marginLeft: "0.7%",
           textAlign: "center",
           textShadow: "0 1px 0 rgba(255, 255, 255, 0.5), 0 3px 8px rgba(0, 50, 100, 0.5)",
           WebkitTextStroke: "1px rgba(255, 255, 255, 0.3)",

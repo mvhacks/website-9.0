@@ -110,7 +110,7 @@ export default function Footer() {
       </Stack>
 
       <Typography sx={{ textAlign: "center", color: "rgba(255,255,255,0.5)", mt: 2 }}>
-        © 2025 MVHACKS. All rights reserved.
+        © 2026 MVHACKS. All rights reserved.
       </Typography>
     </Box>
   );

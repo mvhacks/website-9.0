@@ -17,11 +17,11 @@ export default function Navbar({ onOptionSelect }: any) {
 
   useEffect(() => {
     const handleResize = () => {
-      setIsVisible(window.innerWidth > 1100); // Adjust the breakpoint as needed
+      setIsVisible(window.innerWidth > 1100);
     };
 
     window.addEventListener("resize", handleResize);
-    handleResize(); // Initial check on component mount
+    handleResize();
 
     return () => {
       window.removeEventListener("resize", handleResize);
@@ -37,7 +37,6 @@ export default function Navbar({ onOptionSelect }: any) {
       ) {
         return;
       }
-
       setDrawerOpen(inOpen);
     };
 
@@ -45,6 +44,17 @@ export default function Navbar({ onOptionSelect }: any) {
     setDrawerOpen(false);
     onOptionSelect(option);
   };
+
+  // Single source of truth for nav order
+  const navItems = [
+    { label: "info", key: "info" },
+    { label: "previous projects", key: "previousprojects" },
+    { label: "schedule", key: "schedule" },
+    { label: "prizes", key: "prizes" },
+    { label: "sponsors", key: "sponsor" },
+    { label: "faqs", key: "faqs" },
+    { label: "team", key: "team" },
+  ];
 
   return (
     <div
@@ -72,8 +82,8 @@ export default function Navbar({ onOptionSelect }: any) {
               <img
                 src={logo}
                 alt="mvhackslogo"
-                width="30"  
-                height="30" 
+                width="30"
+                height="30"
                 style={{ marginTop: "10px" }}
               />
               <Link
@@ -93,8 +103,8 @@ export default function Navbar({ onOptionSelect }: any) {
                     color: "white",
                     paddingLeft: "10%",
                     marginRight: "auto",
-                    fontSize: { xs: "6vw", sm: "4vw", md: "3vw" }, 
-                    fontWeight: "bold", 
+                    fontSize: { xs: "6vw", sm: "4vw", md: "3vw" },
+                    fontWeight: "bold",
                   }}
                   level="h1"
                 >
@@ -124,12 +134,7 @@ export default function Navbar({ onOptionSelect }: any) {
                   borderBottom: "1px solid #333",
                 }}
               >
-                <img
-                  src={logo}
-                  alt="mvhackslogo"
-                  width="40"
-                  height="40"
-                />
+                <img src={logo} alt="mvhackslogo" width="40" height="40" />
                 <IconButton
                   color="neutral"
                   onClick={() => setDrawerOpen(false)}
@@ -148,136 +153,38 @@ export default function Navbar({ onOptionSelect }: any) {
                   backgroundColor: "black",
                 }}
               >
-                <ListItemButton
-                  sx={{
-                    fontWeight: "lg",
-                    color: "white",
-                    backgroundColor: "black",
-                    textAlign: "center",
-                    justifyContent: "center",
-                    "&:hover": {
-                      backgroundColor: "black !important",
-                    },
-                  }}
-                  onClick={() => handleDrawerOption("info")}
-                >
-                  <Typography
+                {navItems.map((item) => (
+                  <ListItemButton
+                    key={item.key}
                     sx={{
+                      fontWeight: "lg",
                       color: "white",
+                      backgroundColor: "black",
+                      textAlign: "center",
+                      justifyContent: "center",
                       "&:hover": {
-                        color: "#003caa",
+                        backgroundColor: "black !important",
                       },
                     }}
-                    level="h4"
+                    onClick={() => handleDrawerOption(item.key)}
                   >
-                    info
-                  </Typography>
-                </ListItemButton>
-                <ListItemButton
-                  sx={{
-                    fontWeight: "lg",
-                    color: "white",
-                    backgroundColor: "black",
-                    textAlign: "center",
-                    justifyContent: "center",
-                    "&:hover": {
-                      backgroundColor: "black !important",
-                    },
-                  }}
-                  onClick={() => handleDrawerOption("schedule")}
-                >
-                  <Typography
-                    sx={{
-                      color: "white",
-                      "&:hover": {
-                        color: "#003caa",
-                      },
-                    }}
-                    level="h4"
-                  >
-                    schedule
-                  </Typography>
-                </ListItemButton>
-                <ListItemButton
-                  sx={{
-                    fontWeight: "lg",
-                    color: "white",
-                    backgroundColor: "black",
-                    textAlign: "center",
-                    justifyContent: "center",
-                    "&:hover": {
-                      backgroundColor: "black !important",
-                    },
-                  }}
-                  onClick={() => handleDrawerOption("faqs")}
-                >
-                  <Typography
-                    sx={{
-                      color: "white",
-                      "&:hover": {
-                        color: "#003caa",
-                      },
-                    }}
-                    level="h4"
-                  >
-                    faqs
-                  </Typography>
-                </ListItemButton>
-                <ListItemButton
-                  sx={{
-                    fontWeight: "lg",
-                    color: "white",
-                    backgroundColor: "black",
-                    textAlign: "center",
-                    justifyContent: "center",
-                    "&:hover": {
-                      backgroundColor: "black !important",
-                    },
-                  }}
-                  onClick={() => handleDrawerOption("sponsor")}
-                >
-                  <Typography
-                    sx={{
-                      color: "white",
-                      "&:hover": {
-                        color: "#003caa",
-                      },
-                    }}
-                    level="h4"
-                  >
-                    sponsor
-                  </Typography>
-                </ListItemButton>
-                <ListItemButton
-                  sx={{
-                    fontWeight: "lg",
-                    color: "white",
-                    backgroundColor: "black",
-                    textAlign: "center",
-                    justifyContent: "center",
-                    "&:hover": {
-                      backgroundColor: "black !important",
-                    },
-                  }}
-                  onClick={() => handleDrawerOption("team")}
-                >
-                  <Typography
-                    sx={{
-                      color: "white",
-                      "&:hover": {
-                        color: "#003caa",
-                      },
-                    }}
-                    level="h4"
-                  >
-                    team
-                  </Typography>
-                </ListItemButton>
+                    <Typography
+                      sx={{
+                        color: "white",
+                        "&:hover": { color: "#003caa" },
+                      }}
+                      level="h4"
+                    >
+                      {item.label}
+                    </Typography>
+                  </ListItemButton>
+                ))}
               </List>
             </Drawer>
           </Box>
         )}
       </div>
+
       {isVisible && (
         <Box
           sx={{
@@ -299,7 +206,7 @@ export default function Navbar({ onOptionSelect }: any) {
               alt="mvhackslogo"
               width="50"
               height="50"
-              style={{ 
+              style={{
                 width: "50px",
                 height: "50px",
                 maxWidth: "50px",
@@ -334,6 +241,7 @@ export default function Navbar({ onOptionSelect }: any) {
               </Typography>
             </Box>
           </Box>
+
           <Box
             sx={{
               display: "flex",
@@ -342,136 +250,29 @@ export default function Navbar({ onOptionSelect }: any) {
               marginRight: "25px",
             }}
           >
-            <Link
-              style={{ margin: 10, color: "white", paddingLeft: 10 }}
-              sx={{
-                "&:hover": {
-                  backgroundColor: "transparent",
-                },
-              }}
-              component="button"
-              color="neutral"
-              level="h3"
-              underline="none"
-              variant="plain"
-              onClick={() => onOptionSelect("info")}
-            >
-              <Typography
-                sx={{
-                  color: "white",
-                  "&:hover": {
-                    color: "#003caa",
-                  },
-                }}
+            {navItems.map((item) => (
+              <Link
+                key={item.key}
+                style={{ margin: 10, color: "white", paddingLeft: 10 }}
+                sx={{ "&:hover": { backgroundColor: "transparent" } }}
+                component="button"
+                color="neutral"
                 level="h3"
+                underline="none"
+                variant="plain"
+                onClick={() => onOptionSelect(item.key)}
               >
-                info
-              </Typography>
-            </Link>
-            <Link
-              style={{ margin: 10, color: "white", paddingLeft: 10 }}
-              sx={{
-                "&:hover": {
-                  backgroundColor: "transparent",
-                },
-              }}
-              component="button"
-              color="neutral"
-              level="h3"
-              underline="none"
-              variant="plain"
-              onClick={() => onOptionSelect("schedule")}
-            >
-              <Typography
-                sx={{
-                  color: "white",
-                  "&:hover": {
-                    color: "#003caa",
-                  },
-                }}
-                level="h3"
-              >
-                schedule
-              </Typography>
-            </Link>
-            <Link
-              style={{ margin: 10, color: "white", paddingLeft: 10 }}
-              sx={{
-                "&:hover": {
-                  backgroundColor: "transparent",
-                },
-              }}
-              component="button"
-              color="neutral"
-              level="h3"
-              underline="none"
-              variant="plain"
-              onClick={() => onOptionSelect("faqs")}
-            >
-              <Typography
-                sx={{
-                  color: "white",
-                  "&:hover": {
-                    color: "#003caa",
-                  },
-                }}
-                level="h3"
-              >
-                faqs
-              </Typography>
-            </Link>
-            <Link
-              style={{ margin: 10, color: "white", paddingLeft: 10 }}
-              sx={{
-                "&:hover": {
-                  backgroundColor: "transparent",
-                },
-              }}
-              component="button"
-              color="neutral"
-              level="h3"
-              underline="none"
-              variant="plain"
-              onClick={() => onOptionSelect("sponsor")}
-            >
-              <Typography
-                sx={{
-                  color: "white",
-                  "&:hover": {
-                    color: "#003caa",
-                  },
-                }}
-                level="h3"
-              >
-                sponsors
-              </Typography>
-            </Link>
-            <Link
-              style={{ margin: 10, color: "white", paddingLeft: 10 }}
-              sx={{
-                "&:hover": {
-                  backgroundColor: "transparent",
-                },
-              }}
-              component="button"
-              color="neutral"
-              level="h3"
-              underline="none"
-              variant="plain"
-              onClick={() => onOptionSelect("team")}
-            >
-              <Typography
-                sx={{
-                  color: "white",
-                  "&:hover": {
-                    color: "#003caa",
-                  },
-                }}
-                level="h3"
-              >
-                team
-              </Typography>
-            </Link>
+                <Typography
+                  sx={{
+                    color: "white",
+                    "&:hover": { color: "#003caa" },
+                  }}
+                  level="h3"
+                >
+                  {item.label}
+                </Typography>
+              </Link>
+            ))}
           </Box>
         </Box>
       )}
