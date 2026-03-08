@@ -39,7 +39,7 @@ export default function SeaTimeline() {
           width: "100%",
         }}
       >
-        {/* Jellyfish Illustration with Floating Logic */}
+        {/* Floating Jellyfish Animation */}
         <Box
           sx={{
             flex: { md: "1" },
