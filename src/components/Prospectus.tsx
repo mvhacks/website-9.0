@@ -57,8 +57,8 @@ export default function Prospectus() {
           </p>
           <a
             id="prospectusDownload"
-            href={"MVH9SponsorshipProspectus.pdf"}
-            download
+            href={prospectusImage}
+            download="MVH9Prospectus.png"
             style={{ color: "#b4c6e2" }}
           >
             Download the Sponsorship Prospectus
