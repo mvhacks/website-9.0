@@ -5,15 +5,18 @@ import Box from "@mui/joy/Box";
 import { motion } from "framer-motion"; // Ensure framer-motion is installed
 
 const events = [
-  { time: "8:30AM", event: "Opening Ceremony" },
-  { time: "9:00AM", event: "Start Hacking" },
-  { time: "9:30AM", event: "Capture the Flag" },
-  { time: "11:00AM", event: "Mini Games" },
-  { time: "12:00PM", event: "Lunch" },
-  { time: "3:00PM", event: "Mini Game" },
-  { time: "5:30PM", event: "Guest Speaker" },
-  { time: "7:15PM", event: "Submissions & Dinner" },
-  { time: "8:00PM", event: "Closing Ceremony" }
+  { time: "8:15 AM", event: "Check-In" },
+  { time: "8:30 AM", event: "Opening Ceremony" },
+  { time: "9:15 AM", event: "Google AI Workshop" },
+  { time: "10:15 AM", event: "Work Time" },
+  { time: "12:00 PM", event: "Lunch + Games" },
+  { time: "1:15 PM", event: "Work Time" },
+  { time: "4:15 PM", event: "Guest Speaker" },
+  { time: "4:45 PM", event: "Work Time" },
+  { time: "7:00 PM", event: "Projects/Coding Challenge Submission Deadline" },
+  { time: "7:00 PM - 7:45 PM", event: "Dinner + Hackathon Presentations" },
+  { time: "7:45 PM - 8:00 PM", event: "Game" },
+  { time: "8:00 PM - 8:30 PM", event: "Closing Ceremony" }
 ];
 
 export default function SeaTimeline() {
