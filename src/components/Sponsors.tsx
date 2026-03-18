@@ -1,6 +1,7 @@
 import google from "../images/google-logo.png";
 import yubico from "../images/yubico-logo.png";
 import balsamiq from "../images/balsamiq-logo.png";
+import interviewCake from "../images/cake_logo_white_on_blue.png"
 import Typography from "@mui/joy/Typography";
 import Box from "@mui/joy/Box";
 import Divider from "@mui/joy/Divider"; 
@@ -98,7 +99,8 @@ export default function Sponsors() {
         >
           {[
             { src: yubico, alt: "Yubico" },
-            { src: balsamiq, alt: "Balsamiq" }
+            { src: balsamiq, alt: "Balsamiq" },
+            { src: interviewCake, alt: "Interview Cake" }
           ].map((logo) => (
             <Box 
               key={logo.alt}
