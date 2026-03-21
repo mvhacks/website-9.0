@@ -55,9 +55,6 @@ export default function Prizes() {
               <Typography level="h3" sx={{ color: "#FFF", textAlign: "center", fontSize: "1.5rem" }}>
                 1st Place
               </Typography>
-              <Typography level="body-xs" sx={{ textAlign: "center", color: "rgba(255,255,255,0.8)" }}>
-                (Up to 4 winners)
-              </Typography>
               <Divider sx={{ my: 1.5, bgcolor: "rgba(255,255,255,0.2)" }} />
               <Typography level="title-sm" sx={{ color: "#b4e6ff", mb: 0.5 }}>
                 First Pick from Prize Bank:
@@ -90,9 +87,6 @@ export default function Prizes() {
               <Typography level="h3" sx={{ color: "#FFF", textAlign: "center", fontSize: "1.5rem" }}>
                 2nd Place
               </Typography>
-              <Typography level="body-xs" sx={{ textAlign: "center", color: "rgba(255,255,255,0.8)" }}>
-                (Up to 4 winners)
-              </Typography>
               <Divider sx={{ my: 1.5, bgcolor: "rgba(255,255,255,0.2)" }} />
               <Typography level="title-sm" sx={{ color: "#b4e6ff", mb: 0.5 }}>
                 Second Pick from Prize Bank
@@ -123,9 +117,6 @@ export default function Prizes() {
               <Typography level="h3" sx={{ color: "#FFF", textAlign: "center", fontSize: "1.5rem" }}>
                 3rd Place
               </Typography>
-              <Typography level="body-xs" sx={{ textAlign: "center", color: "rgba(255,255,255,0.8)" }}>
-                (Up to 4 winners)
-              </Typography>
               <Divider sx={{ my: 1.5, bgcolor: "rgba(255,255,255,0.2)" }} />
               <Typography level="title-sm" sx={{ color: "#b4e6ff", mb: 0.5 }}>
                 Third Pick from Prize Bank
@@ -151,7 +142,7 @@ export default function Prizes() {
                 Best Under the Sea Project
               </Typography>
               <Typography level="body-xs" sx={{ color: "rgba(255,255,255,0.7)" }}>
-                Mini-Theme (Up to 4 winners)
+                Mini-Theme
               </Typography>
               <Divider sx={{ my: 1, bgcolor: "rgba(255,255,255,0.1)" }} />
               <Typography level="body-md" fontWeight="bold" sx={{ color: "#9ddaf9" }}>
