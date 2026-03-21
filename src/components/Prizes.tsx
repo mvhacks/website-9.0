@@ -178,7 +178,7 @@ export default function Prizes() {
               </Typography>
               <Divider sx={{ my: 1, bgcolor: "rgba(255,255,255,0.1)" }} />
               <Typography level="body-md" fontWeight="bold" sx={{ color: "#9ddaf9" }}>
-                Arduino Starter Kit & YubiKey 5C NFC
+                ELEGOO UNO Project Super Starter Kit & YubiKey 5C NFC
               </Typography>
             </Card>
           </Grid>
