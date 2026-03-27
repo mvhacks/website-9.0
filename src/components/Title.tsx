@@ -91,7 +91,20 @@ export default function Title() {
           place from 8:30 a.m. to 8:30 p.m. on March 28th at Google's Mountain View Campus.
         </Typography>
 
-        <Button
+        <Typography
+          level="title-lg"
+          sx={{ 
+            fontWeight: "bold", 
+            fontSize: {xs: "4vw", sm: "4vw", md: "3.5vw", lg: "3vw"},
+            marginBottom: "1%",
+            color: "#003caa",
+            textAlign: "center"
+          }}
+        >
+          registration is filled up!
+        </Typography>
+
+        {/* <Button
           component="a"
           href="https://forms.gle/Z52qy5XxEezf1iWa9"
           target="_blank"
@@ -127,7 +140,7 @@ export default function Title() {
           }}
         >
           sign up
-        </Button>
+        </Button> */}
       </div>
     </Box>
   );
