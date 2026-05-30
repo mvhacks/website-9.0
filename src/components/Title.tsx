@@ -101,46 +101,8 @@ export default function Title() {
             textAlign: "center"
           }}
         >
-          registration is filled up!
+          registration for mvhacks 9.0 is now closed!
         </Typography>
-
-        {/* <Button
-          component="a"
-          href="https://forms.gle/Z52qy5XxEezf1iWa9"
-          target="_blank"
-          rel="noopener noreferrer"
-          sx={{
-            // Liquid Glass Styling
-            background: "linear-gradient(135deg, rgba(143, 231, 251, 0.7) 0%, rgba(152, 208, 206, 0.4) 100%)",
-            backdropFilter: "blur(10px)", // Blurs the fish circle background behind the button
-            WebkitBackdropFilter: "blur(10px)",
-            border: "1px solid rgba(255, 255, 255, 0.5)",
-            boxShadow: "0 8px 32px 0 rgba(0, 60, 170, 0.15)",
-            borderRadius: "50px",
-            
-            // Text Styling
-            color: "#003caa",
-            fontWeight: "bold",
-            letterSpacing: "0.5px",
-            fontSize: { xs: "0.8rem", md: "0.9rem" },
-            padding: "12px 35px",
-            marginTop: "20px",
-            transition: "all 0.4s ease-in-out",
-
-            '&:hover': {
-              // "Deep Dive" effect on hover
-              background: "linear-gradient(135deg, rgba(152, 208, 206, 0.5) 0%, rgba(143, 231, 251, 0.8) 100%)",
-              transform: "translateY(-3px)",
-              boxShadow: "0 12px 40px 0 rgba(0, 60, 170, 0.25)",
-              border: "1px solid rgba(0, 60, 170, 0.4)",
-            },
-            '&:active': {
-              transform: "translateY(0px)",
-            }
-          }}
-        >
-          sign up
-        </Button> */}
       </div>
     </Box>
   );
